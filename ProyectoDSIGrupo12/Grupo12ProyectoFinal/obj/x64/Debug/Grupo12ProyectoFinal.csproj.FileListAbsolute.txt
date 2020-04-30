@@ -1,0 +1,13 @@
+C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\P3EstebanSanRoman\obj\x64\Debug\Grupo12ProyectoFinal.csprojAssemblyReference.cache
+C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\P3EstebanSanRoman\obj\x64\Debug\App.g.i.cs
+C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\P3EstebanSanRoman\obj\x64\Debug\App.g.cs
+C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\P3EstebanSanRoman\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\P3EstebanSanRoman\obj\x64\Debug\MainPage.g.cs
+C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\P3EstebanSanRoman\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\P3EstebanSanRoman\obj\x64\Debug\App.xaml
+C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\P3EstebanSanRoman\obj\x64\Debug\MainPage.xaml
+C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\P3EstebanSanRoman\obj\x64\Debug\App.xbf
+C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\P3EstebanSanRoman\obj\x64\Debug\MainPage.xbf
+C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\P3EstebanSanRoman\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\P3EstebanSanRoman\obj\x64\Debug\P3EstebanSanRoman.exe
+C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\P3EstebanSanRoman\obj\x64\Debug\P3EstebanSanRoman.pdb
