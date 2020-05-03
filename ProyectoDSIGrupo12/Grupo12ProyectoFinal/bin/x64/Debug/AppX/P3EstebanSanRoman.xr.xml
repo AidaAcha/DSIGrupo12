@@ -66,7 +66,6 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Stretch" />
-      <RootProperty Name="Margin" />
       <RootEvent Name="PointerPressed" />
       <RootEvent Name="PointerMoved" />
       <RootEvent Name="PointerReleased" />
@@ -122,6 +121,16 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Grupo12ProyectoFinal.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="Click" />
+    </RootType>
     <RootType FullName="Grupo12ProyectoFinal.Options" />
   </Roots.RootTypes>
 </Roots>

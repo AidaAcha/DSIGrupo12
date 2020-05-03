@@ -33,12 +33,42 @@ namespace Grupo12ProyectoFinal
         public Options()
         {
             this.InitializeComponent();
+            KeyboardAccelerator GoBack = new KeyboardAccelerator();
+            GoBack.Key = VirtualKey.Escape;
+            GoBack.Invoked += BackInvoked;
+            this.KeyboardAccelerators.Add(GoBack);
+
         }
 
         private void slider2_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
         {
             string msg = String.Format("Current value: {0}", e.NewValue);
             this.textBlock1.Text = msg;
+        }
+        private void Controles_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
+        private void Volver_Click(object sender, RoutedEventArgs e)
+        {
+            On_BackRequested();
+
+        }
+        
+
+        private bool On_BackRequested()
+        {
+            if (this.Frame.CanGoBack)
+            {
+                this.Frame.GoBack();
+                return true;
+            }
+            return false;
+        }
+        private void BackInvoked(KeyboardAccelerator sender, KeyboardAcceleratorInvokedEventArgs args)
+        {
+            On_BackRequested();
+            args.Handled = true;
         }
     }
     

@@ -19,13 +19,17 @@
             <RowDefinition Height="2*"/>
             <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
-        <!--<StackPanel Width="300" Margin="120">-->
+
+        <Image x:Name="targetImage"
+                Source="Assets\\Samples\\1.jpg"
+                Stretch="Fill" Grid.ColumnSpan="2"  Grid.RowSpan="4"
+        />
         <TextBlock x:Name="textBlock1" 
                    Grid.Row="0"
                    Grid.Column="0"
                    Text=" VOLUMEN GENERAL" 
                    FontSize="50"
-                   Foreground="Black"
+                   Foreground="Coral"
                    Margin="0,0,20,0"
                    VerticalAlignment="Bottom"
                    HorizontalAlignment="Right"  
@@ -46,7 +50,7 @@
                 Grid.Column="0"
                 Text="EFECTOS DE SONIDO:"  
                 FontSize="50"
-                Foreground="Black"
+                Foreground="Coral"
                 Margin="0,0,20,0"
                 VerticalAlignment="Center"
                 HorizontalAlignment="Right"  
@@ -62,11 +66,10 @@
                 HorizontalAlignment="Left"
                 Margin="50,0,0,0"            
         />
-        <Image x:Name="targetImage"
-                       
-                       Source="Assets/Madrid.png"
-                       Stretch="None" Grid.ColumnSpan="2" Margin="0,0,18,18" Grid.RowSpan="4"
-                      />
+
+        <Button x:Name="Controles" Content="CONTROLES"  FontSize="40" Click="Controles_Click" Grid.ColumnSpan="2" HorizontalAlignment="Center" Grid.Row="2" Height="68" Width="300"/>
+        <Button x:Name="Volver" Content="VOLVER"  FontSize="40" Click="Volver_Click" Grid.ColumnSpan="2" HorizontalAlignment="Center" Grid.Row="3" Height="68" Width="300" Margin="0,10,0,0" VerticalAlignment="Top"/>
+
 
 
         <!--</StackPanel>-->
