@@ -373,6 +373,10 @@ namespace Grupo12ProyectoFinal
                     case VirtualKey.GamepadY:
                         Angulo = Angulo + 1;
                         break;
+                    case VirtualKey.Escape:
+                    case VirtualKey.GamepadMenu:
+                        GoPause();
+                        break;
                 }
 
                 ListaDrones[FocInd].X = X;
@@ -382,6 +386,11 @@ namespace Grupo12ProyectoFinal
                 MiCanvas.Children[FocInd].SetValue(Canvas.TopProperty, Y - 25);
                 ListaDrones[FocInd].Rotacion.Angle = Angulo;
             }
+        }
+
+        private void GoPause()
+        {
+            this.Frame.Navigate(typeof(Pausa));
         }
     }
 }
