@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-03T17:25:57.579</Modified>
+      <Modified>2020-05-03T17:30:51.238</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -174,19 +174,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-05-03T17:25:56.964</Modified>
+      <Modified>2020-05-03T17:30:50.765</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-05-03T17:25:56.964</Modified>
+      <Modified>2020-05-03T17:30:50.765</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Options.xbf">
       <PackagePath>Options.xbf</PackagePath>
-      <Modified>2020-05-03T17:25:56.964</Modified>
+      <Modified>2020-05-03T17:30:50.765</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Sel_Dron.xbf">
       <PackagePath>Sel_Dron.xbf</PackagePath>
-      <Modified>2020-05-03T17:25:56.964</Modified>
+      <Modified>2020-05-03T17:30:50.765</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -198,7 +198,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Core\Grupo12ProyectoFinal.exe">
       <PackagePath>Grupo12ProyectoFinal.exe</PackagePath>
-      <Modified>2020-05-03T17:25:57.574</Modified>
+      <Modified>2020-05-03T17:30:51.233</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
