@@ -30,6 +30,8 @@
       <RootProperty Name="TickFrequency" />
       <RootProperty Name="SnapsTo" />
       <RootProperty Name="Header" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Height" />
@@ -44,6 +46,8 @@
       <RootMethod Name="SetColumnSpan" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
@@ -54,12 +58,15 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="HorizontalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Stretch" />
+      <RootProperty Name="Margin" />
       <RootEvent Name="PointerPressed" />
       <RootEvent Name="PointerMoved" />
       <RootEvent Name="PointerReleased" />
@@ -115,5 +122,6 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Grupo12ProyectoFinal.MainPage" />
+    <RootType FullName="Grupo12ProyectoFinal.Options" />
   </Roots.RootTypes>
 </Roots>

@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-30T14:25:52.542</Modified>
+      <Modified>2020-05-03T16:43:23.880</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\P3EstebanSanRoman.exe">
       <PackagePath>entrypoint\P3EstebanSanRoman.exe</PackagePath>
-      <Modified>2020-04-30T14:25:51.301</Modified>
+      <Modified>2020-05-03T16:43:23.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -48,137 +48,141 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Madrid.png">
       <PackagePath>Assets\Madrid.png</PackagePath>
-      <Modified>2020-04-30T14:16:57.667</Modified>
+      <Modified>2020-04-30T14:34:24.229</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-04-30T14:16:57.656</Modified>
+      <Modified>2020-04-30T14:34:24.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-30T14:16:57.736</Modified>
+      <Modified>2020-04-30T14:34:24.296</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-30T14:16:57.737</Modified>
+      <Modified>2020-04-30T14:34:24.296</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-30T14:16:57.737</Modified>
+      <Modified>2020-04-30T14:34:24.297</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-30T14:16:57.738</Modified>
+      <Modified>2020-04-30T14:34:24.297</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-30T14:16:57.738</Modified>
+      <Modified>2020-04-30T14:34:24.298</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-30T14:16:57.739</Modified>
+      <Modified>2020-04-30T14:34:24.299</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\1.jpg">
       <PackagePath>Assets\Samples\1.jpg</PackagePath>
-      <Modified>2020-04-30T14:16:57.675</Modified>
+      <Modified>2020-04-30T14:34:24.239</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\10.jpg">
       <PackagePath>Assets\Samples\10.jpg</PackagePath>
-      <Modified>2020-04-30T14:16:57.678</Modified>
+      <Modified>2020-04-30T14:34:24.242</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\11.jpg">
       <PackagePath>Assets\Samples\11.jpg</PackagePath>
-      <Modified>2020-04-30T14:16:57.681</Modified>
+      <Modified>2020-04-30T14:34:24.244</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\12.jpg">
       <PackagePath>Assets\Samples\12.jpg</PackagePath>
-      <Modified>2020-04-30T14:16:57.684</Modified>
+      <Modified>2020-04-30T14:34:24.247</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\13.jpg">
       <PackagePath>Assets\Samples\13.jpg</PackagePath>
-      <Modified>2020-04-30T14:16:57.688</Modified>
+      <Modified>2020-04-30T14:34:24.251</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\14.jpg">
       <PackagePath>Assets\Samples\14.jpg</PackagePath>
-      <Modified>2020-04-30T14:16:57.691</Modified>
+      <Modified>2020-04-30T14:34:24.253</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\15.jpg">
       <PackagePath>Assets\Samples\15.jpg</PackagePath>
-      <Modified>2020-04-30T14:16:57.694</Modified>
+      <Modified>2020-04-30T14:34:24.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\16.jpg">
       <PackagePath>Assets\Samples\16.jpg</PackagePath>
-      <Modified>2020-04-30T14:16:57.699</Modified>
+      <Modified>2020-04-30T14:34:24.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\17.jpg">
       <PackagePath>Assets\Samples\17.jpg</PackagePath>
-      <Modified>2020-04-30T14:16:57.703</Modified>
+      <Modified>2020-04-30T14:34:24.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\18.jpg">
       <PackagePath>Assets\Samples\18.jpg</PackagePath>
-      <Modified>2020-04-30T14:16:57.706</Modified>
+      <Modified>2020-04-30T14:34:24.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\19.jpg">
       <PackagePath>Assets\Samples\19.jpg</PackagePath>
-      <Modified>2020-04-30T14:16:57.709</Modified>
+      <Modified>2020-04-30T14:34:24.269</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\2.jpg">
       <PackagePath>Assets\Samples\2.jpg</PackagePath>
-      <Modified>2020-04-30T14:16:57.711</Modified>
+      <Modified>2020-04-30T14:34:24.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\20.jpg">
       <PackagePath>Assets\Samples\20.jpg</PackagePath>
-      <Modified>2020-04-30T14:16:57.714</Modified>
+      <Modified>2020-04-30T14:34:24.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\3.jpg">
       <PackagePath>Assets\Samples\3.jpg</PackagePath>
-      <Modified>2020-04-30T14:16:57.718</Modified>
+      <Modified>2020-04-30T14:34:24.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\4.jpg">
       <PackagePath>Assets\Samples\4.jpg</PackagePath>
-      <Modified>2020-04-30T14:16:57.721</Modified>
+      <Modified>2020-04-30T14:34:24.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\5.jpg">
       <PackagePath>Assets\Samples\5.jpg</PackagePath>
-      <Modified>2020-04-30T14:16:57.724</Modified>
+      <Modified>2020-04-30T14:34:24.283</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\6.jpg">
       <PackagePath>Assets\Samples\6.jpg</PackagePath>
-      <Modified>2020-04-30T14:16:57.727</Modified>
+      <Modified>2020-04-30T14:34:24.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\7.jpg">
       <PackagePath>Assets\Samples\7.jpg</PackagePath>
-      <Modified>2020-04-30T14:16:57.730</Modified>
+      <Modified>2020-04-30T14:34:24.289</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\8.jpg">
       <PackagePath>Assets\Samples\8.jpg</PackagePath>
-      <Modified>2020-04-30T14:16:57.732</Modified>
+      <Modified>2020-04-30T14:34:24.292</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\9.jpg">
       <PackagePath>Assets\Samples\9.jpg</PackagePath>
-      <Modified>2020-04-30T14:16:57.735</Modified>
+      <Modified>2020-04-30T14:34:24.295</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-04-30T14:16:57.744</Modified>
+      <Modified>2020-04-30T14:34:24.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\P3EstebanSanRoman.xr.xml">
       <PackagePath>P3EstebanSanRoman.xr.xml</PackagePath>
-      <Modified>2020-04-30T14:25:51.064</Modified>
+      <Modified>2020-05-03T16:43:23.211</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-04-30T14:25:51.090</Modified>
+      <Modified>2020-05-03T16:43:23.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-04-30T14:25:51.091</Modified>
+      <Modified>2020-05-03T16:43:23.220</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Options.xbf">
+      <PackagePath>Options.xbf</PackagePath>
+      <Modified>2020-05-03T16:43:23.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -186,11 +190,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-04-30T14:25:51.679</Modified>
+      <Modified>2020-05-03T16:22:14.259</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Core\P3EstebanSanRoman.exe">
       <PackagePath>P3EstebanSanRoman.exe</PackagePath>
-      <Modified>2020-04-30T14:25:52.516</Modified>
+      <Modified>2020-05-03T16:43:23.875</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
