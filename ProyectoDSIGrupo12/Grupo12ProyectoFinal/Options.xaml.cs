@@ -33,10 +33,7 @@ namespace Grupo12ProyectoFinal
         public Options()
         {
             this.InitializeComponent();
-            KeyboardAccelerator GoBack = new KeyboardAccelerator();
-            GoBack.Key = VirtualKey.Escape;
-            GoBack.Invoked += BackInvoked;
-            this.KeyboardAccelerators.Add(GoBack);
+           
 
         }
 
@@ -65,11 +62,7 @@ namespace Grupo12ProyectoFinal
             }
             return false;
         }
-        private void BackInvoked(KeyboardAccelerator sender, KeyboardAcceleratorInvokedEventArgs args)
-        {
-            On_BackRequested();
-            args.Handled = true;
-        }
+       
     }
     
     /*

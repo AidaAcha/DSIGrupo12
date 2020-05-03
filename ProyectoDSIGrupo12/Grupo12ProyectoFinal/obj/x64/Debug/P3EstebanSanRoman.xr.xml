@@ -132,5 +132,6 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Grupo12ProyectoFinal.Options" />
+    <RootType FullName="Grupo12ProyectoFinal.Sel_Dron" />
   </Roots.RootTypes>
 </Roots>
