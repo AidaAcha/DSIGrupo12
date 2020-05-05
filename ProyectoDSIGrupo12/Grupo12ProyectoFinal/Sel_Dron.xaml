@@ -25,10 +25,40 @@
 
         </DataTemplate>
 
+        <DataTemplate x:Key="ImageGridView_DefaultItemTemplate2"
+                      x:DataType="local:VMDron">
+            <Grid Height="100" Width="100" Margin="8">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="5*"/>
+                    <RowDefinition Height="5*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="{x:Bind Nombre}" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap"/>
+                <Image Source="{x:Bind Imagen}" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"/>
+                <!--<TextBlock Text="{x:Bind Nombre}" FontSize="{Binding Value, ElementName=FontSlider}" Grid.Column="2" VerticalAlignment="Center"/>-->
+
+            </Grid>
+
+        </DataTemplate>
+
     </Page.Resources>
 
     <Grid>
-
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState x:Name="wideState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="641" />
+                    </VisualState.StateTriggers>
+                </VisualState>
+                <VisualState x:Name="narrowState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0" />
+                    </VisualState.StateTriggers>
+                    
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
@@ -67,8 +97,8 @@
                   ScrollViewer.VerticalScrollMode="Disabled"
                   
                   Background="LightGray"
-                  ItemsSource= "{x:Bind ListaPaquetes}"
-                  ItemTemplate="{StaticResource ImageGridView_DefaultItemTemplate}" 
+                  ItemsSource= "{x:Bind ListaDrones}"
+                  ItemTemplate="{StaticResource ImageGridView_DefaultItemTemplate2}" 
                   IsItemClickEnabled="True"  
                   ItemClick="ImageListView_ItemClickDron">
             <ListView.ItemsPanel>
@@ -79,37 +109,53 @@
             </ListView.ItemsPanel>
         </ListView>
 
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock x:Name="TextInfoPaquete"  Width="399" Height="50" VerticalAlignment="Top" Grid.Row="1" Foreground="Black" FontSize="30" Text="Información del paquete" TextWrapping="Wrap" HorizontalAlignment="Left"  />
+            <Image x:Name="SelImaPaquete" Source="Assets\\Samples\\CuadradoAmarillo.jpg " Height="70" Width="70" Grid.Row="1"  />
 
-        <Image x:Name="SelImaPaquete" Source="Assets\\Samples\\CuadradoAmarillo.jpg " Height="70" Width="70" Grid.Row="1" Margin="0,-280,0,0"  />
-        <TextBlock x:Name="TextInfoPaquete"  Width="399" Height="50" VerticalAlignment="Top" Grid.Row="1" Foreground="Black" FontSize="30" Text="Información del Dron" TextWrapping="Wrap" HorizontalAlignment="Left" Margin="214,5,0,0"  />
-        <TextBlock x:Name="TextPaqueteNombre" Grid.Row="1" Foreground="Black" FontSize="30" Text="Sin Seleccionar" TextWrapping="Wrap" Margin="0,161,0,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="TextPaqueteNombre" Grid.Row="1" Foreground="Black" FontSize="30" Text="Sin Seleccionar" TextWrapping="Wrap"  VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock  Grid.Row="1" Foreground="Black" FontSize="30"  Text="Peso" TextWrapping="Wrap"  VerticalAlignment="Center" Margin="0,0,70,0"/>
+                <Image x:Name="ImgPesoPaquete" Source="Assets\\Samples\\Estrella1.jpg " Grid.Row="1" Height="50"  VerticalAlignment="Center"/>
+            </StackPanel>
 
-        <TextBlock  Grid.Row="1" Foreground="Black" FontSize="30"  Text="Peso" TextWrapping="Wrap" Margin="123,241,493,0" VerticalAlignment="Top" />
-        <Image x:Name="ImgPesoPaquete" Source="Assets\\Samples\\Estrella1.jpg " Grid.Row="1" Height="50" Margin="0,100,0,0" />
+            <StackPanel Orientation="Horizontal">
+                <TextBlock  Grid.Row="1" Foreground="Black" FontSize="30" Text="Forma" TextWrapping="Wrap" Margin="0,0,50,0" VerticalAlignment="Center"/>
+                <TextBlock x:Name="TextPaqueteForma" Grid.Row="1" Foreground="Black" FontSize="30" Text="Sin Seleccionar" TextWrapping="Wrap" VerticalAlignment="Center"/>
+            </StackPanel>
 
-        <TextBlock  Grid.Row="1" Foreground="Black" FontSize="30" Text="Forma" TextWrapping="Wrap" Margin="123,311,461,0" VerticalAlignment="Top"/>
-        <TextBlock x:Name="TextPaqueteForma" Grid.Row="1" Foreground="Black" FontSize="30" Text="Sin Seleccionar" TextWrapping="Wrap" Margin="280,311,106,0" VerticalAlignment="Top"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock  Grid.Row="1" Foreground="Black" FontSize="30" Text="Color" TextWrapping="Wrap" Margin="0,0,100,0" VerticalAlignment="Center"/>
+                <Image x:Name="ImgFormaPaquete" Source=" " Grid.Row="1"  Height="50" VerticalAlignment="Center"  />
+            </StackPanel>
 
-
-        <TextBlock  Grid.Row="1" Foreground="Black" FontSize="30" Text="Color" TextWrapping="Wrap" Margin="123,385,451,0" VerticalAlignment="Top"/>
-        <Image x:Name="ImgFromaPaquete" Source=" " Grid.Row="1"  Height="50" Margin="0,250,0,0" />
-
-
-
-
-
-        <Image x:Name="SelImaDron" Source=" "  Height="70" Width="70" Grid.Row="1" Grid.Column="1" Margin="0,-280,0,0"/>
-        <TextBlock x:Name="TextInfoDron" Grid.Column="1" Width="399" Height="50" VerticalAlignment="Top" Grid.Row="1" Foreground="Black" FontSize="30" Text="Información del Dron" TextWrapping="Wrap" HorizontalAlignment="Left" Margin="214,5,0,0"  />
-        <TextBlock x:Name="TextDronNombre" Grid.Column="1" Grid.Row="1" Foreground="Black" FontSize="30" Text="Sin Seleccionar" TextWrapping="Wrap" Margin="0,161,0,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
-
-        <TextBlock  Grid.Row="1" Foreground="Black" Grid.Column="1" FontSize="30" Text="Peso" TextWrapping="Wrap" Margin="123,241,493,0" VerticalAlignment="Top" />
-
-        <TextBlock  Grid.Row="1" Foreground="Black" Grid.Column="1" FontSize="30" Text="Batería" TextWrapping="Wrap" Margin="123,311,461,0" VerticalAlignment="Top"/>
+        </StackPanel>
 
 
-        <TextBlock  Grid.Row="1" Foreground="Black" Grid.Column="1" FontSize="30" Text="Velocidad" TextWrapping="Wrap" Margin="123,385,451,0" VerticalAlignment="Top"/>
+
+        <StackPanel Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock x:Name="TextInfoDron"  Width="399" Height="50" VerticalAlignment="Top" Grid.Row="1" Foreground="Black" FontSize="30" Text="Información del Dron" TextWrapping="Wrap" HorizontalAlignment="Left"  />
+            <Image x:Name="SelImaDron" Source="Assets\\Samples\\CuadradoAmarillo.jpg " Height="70" Width="70" Grid.Row="1"  />
+
+            <TextBlock x:Name="TextDronNombre" Grid.Row="1" Foreground="Black" FontSize="30" Text="Sin Seleccionar" TextWrapping="Wrap"  VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock  Grid.Row="1" Foreground="Black" FontSize="30"  Text="Peso" TextWrapping="Wrap"  VerticalAlignment="Center" Margin="0,0,95,0"/>
+                <Image x:Name="ImgPesoDron" Source="Assets\\Samples\\Estrella1.jpg " Grid.Row="1" Height="50"  VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock  Grid.Row="1" Foreground="Black" FontSize="30" Text="Batería" TextWrapping="Wrap" Margin="0,0,65,0" VerticalAlignment="Center"/>
+                <Image x:Name="ImgBateriaDron" Source="Assets\\Samples\\Estrella1.jpg " Height="50"  VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock  Grid.Row="1" Foreground="Black" FontSize="30" Text="Velocidad" TextWrapping="Wrap"  Margin="0,0,30,0 " VerticalAlignment="Center"/>
+                <Image x:Name="ImgFormaDron" Source="Assets\\Samples\\Estrella1.jpg " Grid.Row="1"  Height="50" VerticalAlignment="Center"  />
+            </StackPanel>
+
+        </StackPanel>
+        
         <Button x:Name="Controles" Content="VOLVER"  FontSize="40" Click="Volver_Click" Grid.ColumnSpan="2" HorizontalAlignment="Center" Grid.Row="2" Height="68" Width="300"/>
-
 
     </Grid>
 </Page>

@@ -32,6 +32,7 @@ namespace Grupo12ProyectoFinal
     {
 
         public ObservableCollection<VMPaquete> ListaPaquetes { get; } = new ObservableCollection<VMPaquete>();
+        public ObservableCollection<VMDron> ListaDrones { get; } = new ObservableCollection<VMDron>();
 
         public Sel_Dron()
         {
@@ -40,12 +41,20 @@ namespace Grupo12ProyectoFinal
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            // Carga la lista de ModelView a partir de la lista de Modelo
+            //// Carga la lista de ModelView a partir de la lista de Modelo
             if (ListaPaquetes != null)
+            {
                 foreach (Paquete dron in ModelPaquete.GetAllPaquetes())
                 {
                     VMPaquete VMitem = new VMPaquete(dron);
                     ListaPaquetes.Add(VMitem);
+                }
+            }
+            if (ListaDrones != null)
+                foreach (Dron dron in Model.GetAllDrones())
+                {
+                    VMDron VMitem = new VMDron(dron);
+                    ListaDrones.Add(VMitem);
                 }
             base.OnNavigatedTo(e);
         }
@@ -53,9 +62,9 @@ namespace Grupo12ProyectoFinal
         private void ImageListView_ItemClickPaquete(object sender, ItemClickEventArgs e)
         {
             VMPaquete d = e.ClickedItem as VMPaquete;
-            SelImaPaquete.Source = d.Img.Source;
+            //SelImaPaquete.Source = d.Img.Source;
             //TextInfoPaquete.Text = d.Explicacion;
-            ImgFromaPaquete.Source = d.Img.Source;
+            ImgFormaPaquete.Source = d.Img.Source;
             TextPaqueteNombre.Text = d.Nombre;
             TextPaqueteForma.Text = d.Forma;
             SelImaPaquete.Source = d.Img.Source;
@@ -66,8 +75,8 @@ namespace Grupo12ProyectoFinal
 
         private void ImageListView_ItemClickDron(object sender, ItemClickEventArgs e)
         {
-            VMPaquete d = e.ClickedItem as VMPaquete;
-            SelImaDron.Source = d.Img.Source;
+            VMDron d = e.ClickedItem as VMDron;
+            //SelImaDron.Source = d.Img.Source;
             TextDronNombre.Text = d.Nombre;
             //TextInfoPaquete.Text = d.Explicacion;
             SelImaDron.Source = d.Img.Source;
