@@ -126,6 +126,7 @@
     <Compile Include="Options.xaml.cs">
       <DependentUpon>Options.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Paquete.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sel_Dron.xaml.cs">
       <DependentUpon>Sel_Dron.xaml</DependentUpon>
@@ -159,6 +160,7 @@
     <Content Include="Assets\Samples\7.jpg" />
     <Content Include="Assets\Samples\8.jpg" />
     <Content Include="Assets\Samples\9.jpg" />
+    <Content Include="Assets\Samples\CuadradoAmarillo.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

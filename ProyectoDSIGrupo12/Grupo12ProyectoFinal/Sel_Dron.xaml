@@ -8,7 +8,86 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+    <Page.Resources>
+        <DataTemplate x:Key="ImageGridView_DefaultItemTemplate"
+                      x:DataType="local:VMPaquete">
+            <Grid Height="100" Width="100" Margin="8">
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="5*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="{x:Bind Nombre}" FontSize="28" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Source="{x:Bind Imagen}" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"/>
+                <!--<TextBlock Text="{x:Bind Nombre}" FontSize="{Binding Value, ElementName=FontSlider}" Grid.Column="2" VerticalAlignment="Center"/>-->
+                
+            </Grid>
+
+        </DataTemplate>
+
+    </Page.Resources>
+
     <Grid>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="TextInfo" Grid.Row="2" Foreground="Black" FontSize="30" Text="Información del Dron" TextWrapping="Wrap"/>
+        <!--<Image x:Name="ImageInfo" Grid.Column="1" Grid.Row="2" Stretch="Fill" Source="Assets//Samples//9.jpg"/>-->
+        <!--<StackPanel Grid.Column="0" Grid.Row="2" Background="LightGray">
+            <TextBlock x:Name="SelDatos" Text="Ninguna selección"/>
+            <TextBlock x:Name="SelExp" Text="" TextWrapping="Wrap"/>
+            <TextBlock x:Name="TimerLog" Text="" />
+            <TextBlock x:Name="GamePadLog" Text="" />
+        </StackPanel>-->
+        <ListView x:Name="itemsPaquete" 
+                  
+                  ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                  ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                  ScrollViewer.HorizontalScrollMode="Enabled"                  
+                  ScrollViewer.VerticalScrollMode="Disabled"
+                  
+                  Background="LightGray"
+                  ItemsSource= "{x:Bind ListaPaquetes}"
+                  ItemTemplate="{StaticResource ImageGridView_DefaultItemTemplate}" 
+                  IsItemClickEnabled="True"  
+                  ItemClick="ImageListView_ItemClick">
+            <ListView.ItemsPanel>
+                
+                <ItemsPanelTemplate>
+                    <StackPanel Background="Transparent" Orientation="Horizontal" />
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+        </ListView>
+
+        <ListView x:Name="itemsDrones" 
+                  Grid.Column="1"
+                  ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                  ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                  ScrollViewer.HorizontalScrollMode="Enabled"                  
+                  ScrollViewer.VerticalScrollMode="Disabled"
+                  
+                  Background="LightGray"
+                  ItemsSource= "{x:Bind ListaPaquetes}"
+                  ItemTemplate="{StaticResource ImageGridView_DefaultItemTemplate}" 
+                  IsItemClickEnabled="True"  
+                  ItemClick="ImageListView_ItemClick">
+            <ListView.ItemsPanel>
+
+                <ItemsPanelTemplate>
+                    <StackPanel Background="Transparent" Orientation="Horizontal" />
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+        </ListView>
+
+        <Image x:Name="SelIma" Source=" " MaxWidth="50" Stretch="Fill" Grid.Row="2" Grid.Column="1"/>
+        
 
     </Grid>
 </Page>
