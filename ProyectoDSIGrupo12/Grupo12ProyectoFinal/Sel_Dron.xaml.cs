@@ -50,15 +50,47 @@ namespace Grupo12ProyectoFinal
             base.OnNavigatedTo(e);
         }
         //solo pone en el mapa el ultimo en haber sido clicado, si tienes todos seleccionados solo pilla el ultimo que hayas pulsado
-        private void ImageListView_ItemClick(object sender, ItemClickEventArgs e)
+        private void ImageListView_ItemClickPaquete(object sender, ItemClickEventArgs e)
         {
             VMPaquete d = e.ClickedItem as VMPaquete;
-            SelIma.Source = d.Img.Source;
-            TextInfo.Text = d.Explicacion;
-            SelIma.Source = d.Img.Source;
-            Canvas.SetLeft(SelIma, d.X);
-            Canvas.SetTop(SelIma, d.Y);
+            SelImaPaquete.Source = d.Img.Source;
+            //TextInfoPaquete.Text = d.Explicacion;
+            ImgFromaPaquete.Source = d.Img.Source;
+            TextPaqueteNombre.Text = d.Nombre;
+            TextPaqueteForma.Text = d.Forma;
+            SelImaPaquete.Source = d.Img.Source;
+            Canvas.SetLeft(SelImaPaquete, d.X);
+            Canvas.SetTop(SelImaPaquete, d.Y);
 
         }
+
+        private void ImageListView_ItemClickDron(object sender, ItemClickEventArgs e)
+        {
+            VMPaquete d = e.ClickedItem as VMPaquete;
+            SelImaDron.Source = d.Img.Source;
+            TextDronNombre.Text = d.Nombre;
+            //TextInfoPaquete.Text = d.Explicacion;
+            SelImaDron.Source = d.Img.Source;
+            Canvas.SetLeft(SelImaDron, d.X);
+            Canvas.SetTop(SelImaDron, d.Y);
+
+        }
+        private void Volver_Click(object sender, RoutedEventArgs e)
+        {
+            On_BackRequested();
+
+        }
+
+
+        private bool On_BackRequested()
+        {
+            if (this.Frame.CanGoBack)
+            {
+                this.Frame.GoBack();
+                return true;
+            }
+            return false;
+        }
+
     }
 }

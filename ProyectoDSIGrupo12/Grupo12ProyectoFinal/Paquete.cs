@@ -12,6 +12,8 @@ namespace Grupo12ProyectoFinal
 
         public int Id { get; set; }
         public string Nombre { get; set; }
+        public string Forma { get; set; }
+
         public string Imagen { get; set; }
         //public Image Img;
         public string Explicacion { get; set; }
@@ -32,8 +34,9 @@ namespace Grupo12ProyectoFinal
             new Paquete()
             {
                 Id = 0,
-                Nombre = "Dron1",
+                Nombre = "Paquete Azul",
                 Imagen = "Assets\\Samples\\CuadradoAmarillo.jpg",
+                Forma="Cuadrado",
                 Explicacion = @"Explicación Dron1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
                 Estado = Paquete.estados.Aterrizado,
                 X = 10,
@@ -44,8 +47,9 @@ namespace Grupo12ProyectoFinal
             new Paquete()
             {
                 Id = 1,
-                Nombre = "Dron2",
+                Nombre = "Paquete Amarillo",
                 Imagen = "Assets\\Samples\\CuadradoAmarillo.jpg",
+                Forma="Cuadrado",
                 Explicacion = @"Explicación Dron2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
                 Estado = Paquete.estados.Aterrizado,
                 X = 50,
@@ -56,8 +60,9 @@ namespace Grupo12ProyectoFinal
             new Paquete()
             {
                 Id = 2,
-                Nombre = "Dron3",
+                Nombre = "Paquete Verde",
                 Imagen = "Assets\\Samples\\CuadradoAmarillo.jpg",
+                Forma="Cuadrado",
                 Explicacion = @"Explicación Dron3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
                 Estado = Paquete.estados.Aterrizado,
                 X = 100,
@@ -68,8 +73,9 @@ namespace Grupo12ProyectoFinal
             new Paquete()
             {
                 Id = 3,
-                Nombre = "Dron4",
+                Nombre = "Paquete Amarillo",
                 Imagen = "Assets\\Samples\\CuadradoAmarillo.jpg",
+                Forma="Cuadrado",
                 Explicacion = @"Explicación Dron4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
                 Estado = Paquete.estados.Aterrizado,
                 X = 150,
@@ -77,7 +83,7 @@ namespace Grupo12ProyectoFinal
                 RX =200,
                 RY =80,
              },
-            new Paquete()
+            /*new Paquete()
             {
                 Id = 4,
                 Nombre = "Dron5",
@@ -101,7 +107,7 @@ namespace Grupo12ProyectoFinal
                 RX =30,
                 RY =50,
              },
-           /* new Paquete()
+            new Paquete()
             {
                 Id = 6,
                 Nombre = "Dron7",

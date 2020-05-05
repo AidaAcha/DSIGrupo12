@@ -161,6 +161,15 @@
     <Content Include="Assets\Samples\8.jpg" />
     <Content Include="Assets\Samples\9.jpg" />
     <Content Include="Assets\Samples\CuadradoAmarillo.jpg" />
+    <Content Include="Assets\Samples\Dron_1.png" />
+    <Content Include="Assets\Samples\Dron_2.png" />
+    <Content Include="Assets\Samples\Dron_3.png" />
+    <Content Include="Assets\Samples\Dron_4.png" />
+    <Content Include="Assets\Samples\Estrella1.jpg" />
+    <Content Include="Assets\Samples\Estrella2.jpg" />
+    <Content Include="Assets\Samples\Estrella3.jpg" />
+    <Content Include="Assets\Samples\Estrella4.jpg" />
+    <Content Include="Assets\Samples\Estrella5.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

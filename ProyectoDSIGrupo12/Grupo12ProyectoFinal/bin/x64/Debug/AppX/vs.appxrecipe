@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-05T12:06:11.072</Modified>
+      <Modified>2020-05-05T14:51:45.183</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Grupo12ProyectoFinal.exe">
       <PackagePath>entrypoint\Grupo12ProyectoFinal.exe</PackagePath>
-      <Modified>2020-05-05T12:06:10.640</Modified>
+      <Modified>2020-05-05T14:51:44.663</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -49,6 +49,22 @@
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Madrid.png">
       <PackagePath>Assets\Madrid.png</PackagePath>
       <Modified>2020-04-30T14:34:24.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Dron_1.png">
+      <PackagePath>Assets\Samples\Dron_1.png</PackagePath>
+      <Modified>2020-05-05T14:11:34.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Dron_2.png">
+      <PackagePath>Assets\Samples\Dron_2.png</PackagePath>
+      <Modified>2020-05-05T14:11:24.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Dron_3.png">
+      <PackagePath>Assets\Samples\Dron_3.png</PackagePath>
+      <Modified>2020-05-05T14:11:50.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Dron_4.png">
+      <PackagePath>Assets\Samples\Dron_4.png</PackagePath>
+      <Modified>2020-05-05T14:11:41.949</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -166,7 +182,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\CuadradoAmarillo.jpg">
       <PackagePath>Assets\Samples\CuadradoAmarillo.jpg</PackagePath>
-      <Modified>2020-05-05T10:45:04.357</Modified>
+      <Modified>2020-05-05T12:09:03.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella1.jpg">
+      <PackagePath>Assets\Samples\Estrella1.jpg</PackagePath>
+      <Modified>2020-05-05T14:38:04.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella2.jpg">
+      <PackagePath>Assets\Samples\Estrella2.jpg</PackagePath>
+      <Modified>2020-05-05T14:48:18.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella3.jpg">
+      <PackagePath>Assets\Samples\Estrella3.jpg</PackagePath>
+      <Modified>2020-05-05T14:48:35.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella4.jpg">
+      <PackagePath>Assets\Samples\Estrella4.jpg</PackagePath>
+      <Modified>2020-05-05T14:48:47.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella5.jpg">
+      <PackagePath>Assets\Samples\Estrella5.jpg</PackagePath>
+      <Modified>2020-05-05T14:49:03.643</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -174,23 +210,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Grupo12ProyectoFinal.xr.xml">
       <PackagePath>Grupo12ProyectoFinal.xr.xml</PackagePath>
-      <Modified>2020-05-05T12:03:53.557</Modified>
+      <Modified>2020-05-05T13:50:24.978</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-05-05T12:06:10.451</Modified>
+      <Modified>2020-05-05T14:51:44.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-05-05T12:06:10.451</Modified>
+      <Modified>2020-05-05T14:51:44.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Options.xbf">
       <PackagePath>Options.xbf</PackagePath>
-      <Modified>2020-05-05T12:06:10.451</Modified>
+      <Modified>2020-05-05T14:51:44.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Sel_Dron.xbf">
       <PackagePath>Sel_Dron.xbf</PackagePath>
-      <Modified>2020-05-05T12:06:10.451</Modified>
+      <Modified>2020-05-05T14:51:44.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -198,11 +234,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-05-05T11:05:59.485</Modified>
+      <Modified>2020-05-05T14:51:44.779</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Core\Grupo12ProyectoFinal.exe">
       <PackagePath>Grupo12ProyectoFinal.exe</PackagePath>
-      <Modified>2020-05-05T12:06:11.067</Modified>
+      <Modified>2020-05-05T14:51:45.178</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
