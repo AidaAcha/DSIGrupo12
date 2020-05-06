@@ -9,6 +9,21 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState x:Name="wideState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="641" />
+                    </VisualState.StateTriggers>
+                </VisualState>
+                <VisualState x:Name="narrowState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0" />
+                    </VisualState.StateTriggers>
+
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
@@ -24,54 +39,51 @@
                 Source="Assets\\Samples\\1.jpg"
                 Stretch="Fill" Grid.ColumnSpan="2"  Grid.RowSpan="4"
         />
-        <TextBlock x:Name="textBlock1" 
-                   Grid.Row="0"
-                   Grid.Column="0"
+        <StackPanel Grid.ColumnSpan="2"  Margin="100,0,0,94" Grid.RowSpan="3">
+            <StackPanel HorizontalAlignment="Center" Margin="0,200,0,100" Orientation="Horizontal">
+                <TextBlock x:Name="textBlock1" 
                    Text=" VOLUMEN GENERAL" 
-                   FontSize="50"
-                   Foreground="Coral"
+                   FontSize="50"               
                    Margin="0,0,20,0"
-                   VerticalAlignment="Bottom"
-                   HorizontalAlignment="Right"  
-        />
-        <Slider x:Name="slider1" 
-                Grid.Row="0"
-                Grid.Column="1"
-                Minimum="0" 
-                Maximum="10"
-                Width="200"
-                Value="3"
-                VerticalAlignment="Bottom"
-                HorizontalAlignment="Left"
-                Margin="50,0,0,0"            
-        />
-        <TextBlock x:Name="textBlock2" 
-                Grid.Row="1" 
-                Grid.Column="0"
-                Text="EFECTOS DE SONIDO:"  
-                FontSize="50"
-                Foreground="Coral"
-                Margin="0,0,20,0"
-                VerticalAlignment="Center"
-                HorizontalAlignment="Right"  
-        />
-        <Slider x:Name="slider2" 
-                Grid.Row="1"
-                Grid.Column="1"
-                Minimum="0" 
-                Maximum="10"
-                Width="200"
-                Value="3"
-                VerticalAlignment="Center"
-                HorizontalAlignment="Left"
-                Margin="50,0,0,0"            
-        />
-
+                   Foreground="Coral"
+                />
+                <Slider x:Name="slider1" 
+                    Minimum="0" 
+                    Maximum="10"
+                    Width="200"
+                    Value="3"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    Margin="50,0,0,0"          
+                />
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                <TextBlock x:Name="textBlock2" 
+                    Grid.Row="1" 
+                    Grid.Column="0"
+                    Text="EFECTOS DE SONIDO"  
+                    FontSize="50"
+                    Foreground="Coral"
+                    Margin="0,0,20,0"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Right"  
+                />
+                <Slider x:Name="slider2" 
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Minimum="0" 
+                    Maximum="10"
+                    Width="200"
+                    Value="3"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    Margin="50,0,0,0"            
+                />
+            </StackPanel>
+        </StackPanel>
+       
         <Button x:Name="Controles" Content="CONTROLES"  FontSize="40" Click="Controles_Click" Grid.ColumnSpan="2" HorizontalAlignment="Center" Grid.Row="2" Height="68" Width="300"/>
         <Button x:Name="Volver" Content="VOLVER"  FontSize="40" Click="Volver_Click" Grid.ColumnSpan="2" HorizontalAlignment="Center" Grid.Row="3" Height="68" Width="300" Margin="0,10,0,0" VerticalAlignment="Top"/>
 
-
-
-        <!--</StackPanel>-->
     </Grid>
 </Page>
