@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+   Background="Black">
 
     <Page.Resources>
         <DataTemplate x:Key="ImageGridView_DefaultItemTemplate"
@@ -23,105 +23,17 @@
             </Grid>
 
         </DataTemplate>
-
-        <Flyout x:Key="zoomFlyout">
-            <StackPanel>
-                <Slider x:Name="ImageSlider"
-                        Width="100"
-                        Minimum="20"
-                        Maximum="80"
-                        Value="40"
-                        Margin="0,5,0,0"
-                        TickFrequency="1"
-                        SnapsTo="Ticks"
-                        Header="Tamaño Imagen" 
-                        
-                        />
-                <Slider x:Name="FontSlider"
-                        Width="100"
-                        Minimum="20"
-                        Maximum="40"
-                        Value="30"
-                        Margin="0,5,0,0"
-                        TickFrequency="1"
-                        SnapsTo="Ticks"
-                        Header="Tamaño Fuente" 
-                        />
-            </StackPanel>
-        </Flyout>
     </Page.Resources>
 
 
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="3*"/>
-            <ColumnDefinition Width="1*"/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="40"/>
-            <RowDefinition Height="3*"/>
-            <RowDefinition Height="1*"/>
-        </Grid.RowDefinitions>
-        <CommandBar Grid.ColumnSpan="2">
-            <AppBarButton Icon="SelectAll" Label="Todos" Click="Button_SelectAll"/>
-            <AppBarButton Icon="ClearSelection" Label="Ninguno" Click="Button_ClearSelection"/>
-            <AppBarButton Icon="Zoom" Label="Zoom" Flyout="{StaticResource zoomFlyout}"/>
-            <CommandBar.Content>
-                <TextBlock Text="Mapa de Madrid" Margin="20,0,0,0" FontSize="30"  VerticalAlignment="Center"/>
-            </CommandBar.Content>
-        </CommandBar>
-        <ScrollViewer x:Name="MainImageScroller"
-                      Grid.Row="1"
-                      ZoomMode="Enabled"
-                      HorizontalScrollMode="Auto"
-                      HorizontalScrollBarVisibility="Auto"
-                      HorizontalAlignment="Stretch"
-                      VerticalAlignment="Stretch">
-            <Grid>
-                <Image x:Name="targetImage"
-                       Grid.Row="1"
-                       Source="Assets/Madrid.png"
-                       Stretch="None"
-                       PointerPressed="Mapa_PointerPressed"
-                       PointerMoved="Mapa_PointerMoved"
-                       PointerReleased="Mapa_PointerReleased"/>
-                <Canvas x:Name="MiCanvas"
-                        Grid.Row="1"
-                        PointerPressed="Mapa_PointerPressed"
-                        PointerMoved="Mapa_PointerMoved"
-                        PointerReleased="Mapa_PointerReleased"
-                        XYFocusKeyboardNavigation="Enabled"
-                        XYFocusDownNavigationStrategy="RectilinearDistance"
-                        XYFocusUpNavigationStrategy="RectilinearDistance"
-                        XYFocusLeftNavigationStrategy="RectilinearDistance"
-                        XYFocusRightNavigationStrategy="RectilinearDistance"
-                        TabFocusNavigation="Once"
-                        AllowFocusOnInteraction="True"
-                        KeyDown="MiCanvas_KeyDown">
-                </Canvas>
-            </Grid>
-        </ScrollViewer>
-        
-        <Image x:Name="SelIma" Source=" " Stretch="Fill" Grid.Row="2" Grid.Column="1"/>
-
-        <StackPanel Grid.Column="0" Grid.Row="2" Background="LightGray">
-            <TextBlock x:Name="SelDatos" Text="Ninguna selección"/>
-            <TextBlock x:Name="SelExp" Text="" TextWrapping="Wrap"/>
-            <TextBlock x:Name="TimerLog" Text="" />
-            <TextBlock x:Name="GamePadLog" Text="" />
+        <StackPanel>
+            <Image Source="Assets/Dronmazon_icon.png" Stretch="None" Height="400"></Image>
+            <Button Content="Iniciar Partida" Background="Orange" Height="85" Width="600" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" Margin="0,80,0,0" Click="Iniciar_Click"/>
+            <Button Content="Opciones" Background="Orange" Height="85" Width="600" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,50,0,0" FontSize="40" Click="Opciones_Click"/>
+            <Button Content="Salir" Background="Orange" Height="85" Width="600" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,50,0,0" FontSize="40" Click="End_Click"/>
         </StackPanel>
-        <ListView x:Name="itemListView" 
-                  Grid.Row="1" Grid.Column="1" 
-                  Background="LightGray"
-                  ItemsSource= "{x:Bind ListaDrones}"
-                  ItemTemplate="{StaticResource ImageGridView_DefaultItemTemplate}" 
-                  IsItemClickEnabled="True"
-                  SelectionMode="Multiple"
-                  IsFocusEngagementEnabled="True"
-                  VerticalAlignment="Stretch"
-                  ItemClick="ImageGridView_ItemClick"
-                  SelectionChanged="itemListView_SelectionChanged">
-        </ListView>
-        
+
+
     </Grid>
 </Page>
