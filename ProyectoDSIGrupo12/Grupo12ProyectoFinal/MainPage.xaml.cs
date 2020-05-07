@@ -36,16 +36,20 @@ namespace Grupo12ProyectoFinal
 
         private void Iniciar_Click(object sender, RoutedEventArgs e)
         {
-
+           // NavInfoText.Text = "Vuelvo al juego";
+            //Va al juego cuando esté completa la pagina
+            this.Frame.Navigate(typeof(HUD));
         }
 
         private void Opciones_Click(object sender, RoutedEventArgs e)
         {
+            this.Frame.Navigate(typeof(Options));
 
         }
 
         private void End_Click(object sender, RoutedEventArgs e)
         {
+            this.Frame.Navigate(typeof(FinJuego));
 
         }
     }

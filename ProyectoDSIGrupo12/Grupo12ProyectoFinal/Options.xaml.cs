@@ -44,7 +44,7 @@ namespace Grupo12ProyectoFinal
         }
         private void Controles_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(MainPage));
+            this.Frame.Navigate(typeof(Controls));
         }
         private void Volver_Click(object sender, RoutedEventArgs e)
         {

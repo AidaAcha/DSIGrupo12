@@ -87,13 +87,13 @@ namespace Grupo12ProyectoFinal
 
         private void PlayButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(MainPage));  //HUD
+            this.Frame.Navigate(typeof(HUD));  //HUD
         }
 
         private void VolverButton_Click(object sender, RoutedEventArgs e)
         {
             /*ir al menu principal, ahora pausa para probar*/
-            this.Frame.Navigate(typeof(Pausa));
+            this.Frame.Navigate(typeof(MainPage));
 
         }
 

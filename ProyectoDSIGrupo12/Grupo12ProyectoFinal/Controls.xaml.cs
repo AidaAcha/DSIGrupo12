@@ -40,7 +40,19 @@ namespace Grupo12ProyectoFinal
 
         private void volverButton_Click(object sender, RoutedEventArgs e)
         {
+            On_BackRequested();
 
+        }
+
+
+        private bool On_BackRequested()
+        {
+            if (this.Frame.CanGoBack)
+            {
+                this.Frame.GoBack();
+                return true;
+            }
+            return false;
         }
 
         private void Mando_Click(object sender, RoutedEventArgs e)
