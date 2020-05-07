@@ -20,6 +20,7 @@ namespace Grupo12ProyectoFinal
             Id = dron.Id;
             Nombre = dron.Nombre;
             Imagen = dron.Imagen;
+            
             Explicacion = dron.Explicacion;
             Estado = dron.Estado;
             X = dron.X;
@@ -51,5 +52,47 @@ namespace Grupo12ProyectoFinal
     }
 
 
-   
+    public class VMPaquete : Paquete
+    {
+        public Image Img;
+        public ContentControl CCImg;
+        public int Zoom;
+        public RotateTransform Rotacion;
+        public int Angulo;
+        public VMPaquete(Paquete paquete)
+        {
+            Id = paquete.Id;
+            Nombre = paquete.Nombre;
+            Imagen = paquete.Imagen;
+            Explicacion = paquete.Explicacion;
+            Estado = paquete.Estado;
+            Forma = paquete.Forma;
+            X = paquete.X;
+            Y = paquete.Y;
+            RX = paquete.RX;
+            RY = paquete.RY;
+            //Creo la Rotación
+            Angulo = 0;
+            Rotacion = new RotateTransform();
+            Rotacion.Angle = Angulo;
+            Rotacion.CenterX = 25;
+            Rotacion.CenterY = 25;
+            //Creo la imagen
+            Img = new Image();
+            string s = System.IO.Directory.GetCurrentDirectory() + "\\" + paquete.Imagen;
+            Img.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(s));
+            Img.Width = 50;
+            Img.Height = 50;
+            //Creo el ContentControl
+            CCImg = new ContentControl();
+            CCImg.RenderTransform = Rotacion;
+            CCImg.Content = Img;
+            CCImg.UseSystemFocusVisuals = true;
+            CCImg.Visibility = Windows.UI.Xaml.Visibility.Visible;//.Collapsed;
+            //Mapa.Children.Add(CCImg);
+            //Mapa.Children.Last().SetValue(Canvas.LeftProperty, X - 25);
+            //Mapa.Children.Last().SetValue(Canvas.TopProperty, Y - 25);
+        }
+    }
+
 }
