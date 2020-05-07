@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-2R9QS7D</Machine>
-    <WindowsUser>user</WindowsUser>
+    <Machine>DESKTOP-017FP57</Machine>
+    <WindowsUser>Aida</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>e9285022-f076-426b-88d9-712c2be773ea</PackageIdentityName>
     <PackageIdentityPublisher>CN=segu222</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>CBFBEFF9251DD7F07E0B7643CDC8263B9A79961BA636D9EB9756F10F9E4A9EC2</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>9A2D242F301BE9F1F99F7FF6DD7EB8E1FD54E0C91334E5EF1202D15123496711</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>e9285022-f076-426b-88d9-712c2be773ea_1.0.0.0_x64__f86y4dzhkna0m</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>e9285022-f076-426b-88d9-712c2be773ea_f86y4dzhkna0m!App</RegisteredUserModeAppID>
     <RegisteredPackageID>e9285022-f076-426b-88d9-712c2be773ea</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-06T16:59:37.402</Modified>
+      <Modified>2020-05-07T12:08:51.313</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\P3EstebanSanRoman.exe">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\P3EstebanSanRoman.exe">
       <PackagePath>entrypoint\P3EstebanSanRoman.exe</PackagePath>
-      <Modified>2020-05-06T16:59:36.949</Modified>
+      <Modified>2020-05-07T12:08:50.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,167 +46,163 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Madrid.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\carga-movil .png">
+      <PackagePath>Assets\carga-movil .png</PackagePath>
+      <Modified>2020-04-25T17:52:26.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Madrid.png">
       <PackagePath>Assets\Madrid.png</PackagePath>
-      <Modified>2020-05-06T13:56:49.003</Modified>
+      <Modified>2020-05-06T16:50:10.706</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Dronmazon_icon.png">
-      <PackagePath>Assets\Dronmazon_icon.png</PackagePath>
-      <Modified>2020-05-06T14:27:24.055</Modified>
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\reloj.png">
+      <PackagePath>Assets\reloj.png</PackagePath>
+      <Modified>2020-05-07T10:08:08.623</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Mando.png">
-      <PackagePath>Assets\Mando.png</PackagePath>
-      <Modified>2020-05-06T16:29:49.934</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-05-06T13:56:48.994</Modified>
+      <Modified>2020-05-06T16:50:10.699</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-06T13:56:49.061</Modified>
+      <Modified>2020-05-06T16:50:10.755</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-06T13:56:49.062</Modified>
+      <Modified>2020-05-06T16:50:10.755</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-06T13:56:49.063</Modified>
+      <Modified>2020-05-06T16:50:10.755</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-06T13:56:49.063</Modified>
+      <Modified>2020-05-06T16:50:10.756</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-06T13:56:49.063</Modified>
+      <Modified>2020-05-06T16:50:10.756</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-06T13:56:49.064</Modified>
+      <Modified>2020-05-06T16:50:10.756</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\T.png">
-      <PackagePath>Assets\T.png</PackagePath>
-      <Modified>2020-05-06T16:29:49.938</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\1.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\1.jpg">
       <PackagePath>Assets\Samples\1.jpg</PackagePath>
-      <Modified>2020-05-06T13:56:49.011</Modified>
+      <Modified>2020-05-06T16:50:10.713</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\10.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\10.jpg">
       <PackagePath>Assets\Samples\10.jpg</PackagePath>
-      <Modified>2020-05-06T13:56:49.013</Modified>
+      <Modified>2020-05-06T16:50:10.716</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\11.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\11.jpg">
       <PackagePath>Assets\Samples\11.jpg</PackagePath>
-      <Modified>2020-05-06T13:56:49.015</Modified>
+      <Modified>2020-05-06T16:50:10.718</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\12.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\12.jpg">
       <PackagePath>Assets\Samples\12.jpg</PackagePath>
-      <Modified>2020-05-06T13:56:49.017</Modified>
+      <Modified>2020-05-06T16:50:10.720</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\13.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\13.jpg">
       <PackagePath>Assets\Samples\13.jpg</PackagePath>
-      <Modified>2020-05-06T13:56:49.020</Modified>
+      <Modified>2020-05-06T16:50:10.722</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\14.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\14.jpg">
       <PackagePath>Assets\Samples\14.jpg</PackagePath>
-      <Modified>2020-05-06T13:56:49.022</Modified>
+      <Modified>2020-05-06T16:50:10.724</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\15.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\15.jpg">
       <PackagePath>Assets\Samples\15.jpg</PackagePath>
-      <Modified>2020-05-06T13:56:49.026</Modified>
+      <Modified>2020-05-06T16:50:10.727</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\16.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\16.jpg">
       <PackagePath>Assets\Samples\16.jpg</PackagePath>
-      <Modified>2020-05-06T13:56:49.032</Modified>
+      <Modified>2020-05-06T16:50:10.730</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\17.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\17.jpg">
       <PackagePath>Assets\Samples\17.jpg</PackagePath>
-      <Modified>2020-05-06T13:56:49.035</Modified>
+      <Modified>2020-05-06T16:50:10.732</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\18.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\18.jpg">
       <PackagePath>Assets\Samples\18.jpg</PackagePath>
-      <Modified>2020-05-06T13:56:49.037</Modified>
+      <Modified>2020-05-06T16:50:10.734</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\19.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\19.jpg">
       <PackagePath>Assets\Samples\19.jpg</PackagePath>
-      <Modified>2020-05-06T13:56:49.039</Modified>
+      <Modified>2020-05-06T16:50:10.736</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\2.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\2.jpg">
       <PackagePath>Assets\Samples\2.jpg</PackagePath>
-      <Modified>2020-05-06T13:56:49.042</Modified>
+      <Modified>2020-05-06T16:50:10.738</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\20.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\20.jpg">
       <PackagePath>Assets\Samples\20.jpg</PackagePath>
-      <Modified>2020-05-06T13:56:49.045</Modified>
+      <Modified>2020-05-06T16:50:10.741</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\3.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\3.jpg">
       <PackagePath>Assets\Samples\3.jpg</PackagePath>
-      <Modified>2020-05-06T13:56:49.047</Modified>
+      <Modified>2020-05-06T16:50:10.743</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\4.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\4.jpg">
       <PackagePath>Assets\Samples\4.jpg</PackagePath>
-      <Modified>2020-05-06T13:56:49.049</Modified>
+      <Modified>2020-05-06T16:50:10.745</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\5.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\5.jpg">
       <PackagePath>Assets\Samples\5.jpg</PackagePath>
-      <Modified>2020-05-06T13:56:49.051</Modified>
+      <Modified>2020-05-06T16:50:10.747</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\6.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\6.jpg">
       <PackagePath>Assets\Samples\6.jpg</PackagePath>
-      <Modified>2020-05-06T13:56:49.053</Modified>
+      <Modified>2020-05-06T16:50:10.749</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\7.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\7.jpg">
       <PackagePath>Assets\Samples\7.jpg</PackagePath>
-      <Modified>2020-05-06T13:56:49.055</Modified>
+      <Modified>2020-05-06T16:50:10.751</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\8.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\8.jpg">
       <PackagePath>Assets\Samples\8.jpg</PackagePath>
-      <Modified>2020-05-06T13:56:49.057</Modified>
+      <Modified>2020-05-06T16:50:10.752</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\9.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\9.jpg">
       <PackagePath>Assets\Samples\9.jpg</PackagePath>
-      <Modified>2020-05-06T13:56:49.061</Modified>
+      <Modified>2020-05-06T16:50:10.754</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-05-06T13:56:49.066</Modified>
+      <Modified>2020-05-06T16:50:10.760</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\P3EstebanSanRoman.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\P3EstebanSanRoman.xr.xml">
       <PackagePath>P3EstebanSanRoman.xr.xml</PackagePath>
-      <Modified>2020-05-06T16:55:44.120</Modified>
+      <Modified>2020-05-07T11:56:59.564</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-05-06T16:59:36.808</Modified>
+      <Modified>2020-05-07T11:56:59.572</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Controls.xbf">
-      <PackagePath>Controls.xbf</PackagePath>
-      <Modified>2020-05-06T16:59:36.808</Modified>
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\HUD.xbf">
+      <PackagePath>HUD.xbf</PackagePath>
+      <Modified>2020-05-07T12:08:50.432</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-05-06T16:59:36.809</Modified>
+      <Modified>2020-05-07T11:56:59.573</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-05-06T16:30:11.563</Modified>
+      <Modified>2020-05-07T10:10:41.508</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Core\P3EstebanSanRoman.exe">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Core\P3EstebanSanRoman.exe">
       <PackagePath>P3EstebanSanRoman.exe</PackagePath>
-      <Modified>2020-05-06T16:59:37.398</Modified>
+      <Modified>2020-05-07T12:08:51.303</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

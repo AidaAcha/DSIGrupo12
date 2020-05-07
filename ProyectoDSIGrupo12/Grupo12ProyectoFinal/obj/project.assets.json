@@ -8151,18 +8151,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\Aida\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cosas agus\\universidad\\UCM\\Segundo\\DSI\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\Grupo12ProyectoFinal.csproj",
+      "projectUniqueName": "C:\\Users\\Aida\\Documents\\Desarrollo de videojuegos\\2º año\\DSI\\PROYECTO\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\Grupo12ProyectoFinal.csproj",
       "projectName": "Grupo12ProyectoFinal",
-      "projectPath": "D:\\cosas agus\\universidad\\UCM\\Segundo\\DSI\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\Grupo12ProyectoFinal.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\cosas agus\\universidad\\UCM\\Segundo\\DSI\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\obj\\",
+      "projectPath": "C:\\Users\\Aida\\Documents\\Desarrollo de videojuegos\\2º año\\DSI\\PROYECTO\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\Grupo12ProyectoFinal.csproj",
+      "packagesPath": "C:\\Users\\Aida\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aida\\Documents\\Desarrollo de videojuegos\\2º año\\DSI\\PROYECTO\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8170,9 +8169,8 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Aida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "uap10.0.18362"
