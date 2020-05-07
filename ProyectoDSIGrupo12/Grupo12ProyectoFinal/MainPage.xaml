@@ -79,7 +79,6 @@
                       VerticalAlignment="Stretch">
             <Grid>
                 <Image x:Name="targetImage"
-                       Grid.Row="1"
                        Source="Assets/Madrid.png"
                        Stretch="None"
                        PointerPressed="Mapa_PointerPressed"
@@ -101,7 +100,7 @@
                 </Canvas>
             </Grid>
         </ScrollViewer>
-        
+
         <Image x:Name="SelIma" Source=" " Stretch="Fill" Grid.Row="2" Grid.Column="1"/>
 
         <StackPanel Grid.Column="0" Grid.Row="2" Background="LightGray">
@@ -122,6 +121,6 @@
                   ItemClick="ImageGridView_ItemClick"
                   SelectionChanged="itemListView_SelectionChanged">
         </ListView>
-        
+
     </Grid>
 </Page>

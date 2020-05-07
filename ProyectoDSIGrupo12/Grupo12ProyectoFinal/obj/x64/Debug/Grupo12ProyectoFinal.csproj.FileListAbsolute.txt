@@ -55,3 +55,8 @@ C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo
 C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\obj\x64\Debug\ProjectArchitectures.txt
 C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\obj\x64\Debug\HUD.g.i.cs
+C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\obj\x64\Debug\HUD.g.cs
+C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\obj\x64\Debug\HUD.xaml
+C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\obj\x64\Debug\HUD.xbf
+C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\HUD.xbf
