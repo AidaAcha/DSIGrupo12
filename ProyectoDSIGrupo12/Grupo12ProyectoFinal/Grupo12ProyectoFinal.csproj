@@ -125,6 +125,9 @@
     <Compile Include="Pausa.xaml.cs">
       <DependentUpon>Pausa.xaml</DependentUpon>
     </Compile>
+    <Compile Include="HUD.xaml.cs">
+      <DependentUpon>HUD.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Controls.xaml.cs">
       <DependentUpon>Controls.xaml</DependentUpon>
     </Compile>
@@ -153,7 +156,9 @@
     <Content Include="Assets\Dron_2.png" />
     <Content Include="Assets\Dron_3.png" />
     <Content Include="Assets\Dron_4.png" />
+    <Content Include="Assets\carga-movil .png" />
     <Content Include="Assets\Madrid.png" />
+    <Content Include="Assets\reloj.png" />
     <Content Include="Assets\Samples\1.jpg" />
     <Content Include="Assets\Samples\10.jpg" />
     <Content Include="Assets\Samples\11.jpg" />
@@ -208,6 +213,10 @@
     <Page Include="Pausa.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="HUD.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Controls.xaml">
       <SubType>Designer</SubType>

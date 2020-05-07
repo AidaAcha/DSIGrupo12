@@ -1,0 +1,72 @@
+﻿<Page
+    x:Class="Grupo12ProyectoFinal.HUD"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Grupo12ProyectoFinal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <DataTemplate x:Key="ImageGridView_DefaultItemTemplate">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="4*"/>
+                    <RowDefinition Height="3*"/>
+                </Grid.RowDefinitions>
+
+            </Grid>
+        </DataTemplate>
+        <Style x:Name="PanelStyle"
+               TargetType="StackPanel">
+            <Setter Property="Background" Value="LightGray"></Setter>
+            <Setter Property = "BorderThickness" Value="2" ></Setter>
+            <Setter Property = "CornerRadius" Value="50" ></Setter>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+
+        <Image x:Name="fondoImage"
+                       Source="Assets/Madrid.png"
+                       Stretch="UniformToFill"
+                       Margin="-23,0,0,6" Grid.ColumnSpan="4" Grid.RowSpan="3"/>
+
+        <Image x:Name="bateria" Source="Assets/carga-movil .png" Stretch="Fill"/>
+        <Image x:Name="tiempo" Source="Assets/reloj.png" Stretch="Uniform"  Grid.Column="2" Margin="154,-69,-97,431" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <TextBlock x:Name="minTiempo" Text=" " HorizontalAlignment="Left"/>
+        <TextBlock x:Name="segTiempo" Text=" " HorizontalAlignment="Right"/>
+        <Image x:Name="paquete" Source=" " Grid.Row="1"/>
+
+        <StackPanel x:Name="panelAlt" Grid.Column="3" Grid.Row="2" Style="{StaticResource PanelStyle}">
+            <Slider x:Name="sliderAlt" FontStretch="Expanded" Grid.Column="3" ValueChanged="sliderAlt_ValueChanged" Height="424"   RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Grid.Row="1" Margin="201,0,-352,18" Width="301" >
+                <Slider.RenderTransform>
+                    <CompositeTransform Rotation="270.52" SkewY="-0.065" TranslateX="0.096" TranslateY="0.001" ScaleX="1" ScaleY="1" SkewX="0"/>
+                </Slider.RenderTransform>
+            </Slider>
+            <TextBlock x:Name="velViento" Text="654" FontStretch="Normal" 
+                      FontSize="70" HorizontalAlignment="Left" Margin="20, -250, 0, 0" Height="84" Width="165"/>
+
+            <Image x:Name="dirViento" Stretch="Fill" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        </StackPanel>
+    </Grid>
+</Page>
