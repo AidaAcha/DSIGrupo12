@@ -119,6 +119,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FinJuego.xaml.cs">
+      <DependentUpon>FinJuego.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pausa.xaml.cs">
       <DependentUpon>Pausa.xaml</DependentUpon>
     </Compile>
@@ -175,6 +178,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="FinJuego.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Pausa.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
