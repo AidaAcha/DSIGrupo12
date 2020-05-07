@@ -8151,25 +8151,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pablo\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pablo\\2º\\2ºCuatri\\DSI\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\Grupo12ProyectoFinal.csproj",
+      "projectUniqueName": "D:\\cosas agus\\universidad\\UCM\\Segundo\\DSI\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\Grupo12ProyectoFinal.csproj",
       "projectName": "Grupo12ProyectoFinal",
-      "projectPath": "D:\\Pablo\\2º\\2ºCuatri\\DSI\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\Grupo12ProyectoFinal.csproj",
-      "packagesPath": "C:\\Users\\pablo\\.nuget\\packages\\",
-      "outputPath": "D:\\Pablo\\2º\\2ºCuatri\\DSI\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\obj\\",
+      "projectPath": "D:\\cosas agus\\universidad\\UCM\\Segundo\\DSI\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\Grupo12ProyectoFinal.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "D:\\cosas agus\\universidad\\UCM\\Segundo\\DSI\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\pablo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "uap10.0.18362"
