@@ -30,27 +30,11 @@ namespace Grupo12ProyectoFinal
     public sealed partial class Pausa : Page
     {
 
-        public ObservableCollection<VMDron> ListaDrones { get; } = new ObservableCollection<VMDron>();
-       
-        //Dictionary<uint, Windows.UI.Xaml.Input.Pointer> pointers;
-
-        //Para mostrar información
-        private int SelMos = -1;
-        //Para mostrar con Ratón
-        private int SelInd = -1;
-        //Click con botón Derecho
-        private bool RotBotDer = false;
-        //Puntero anterior
-        PointerPoint ptrPtAnt;
-        CoreCursor CursorHand = null;
-        CoreCursor CursorPin = null;
-        CoreCursor cursorBeforePointerEntered = null;
-
         //Para manejar los mandos
         private readonly object myLock = new object();
         private List<Gamepad> myGamepads = new List<Gamepad>();
         private Gamepad mainGamepad = null;
-        private GamepadReading reading, prereading;
+        //private GamepadReading reading, prereading;
 
         //Manejar el Timer
         //Timer de la Vista y Controlador
@@ -59,8 +43,7 @@ namespace Grupo12ProyectoFinal
         public Pausa()
         {
             this.InitializeComponent();
-            CursorHand = new CoreCursor(CoreCursorType.Hand, 0);
-            CursorPin = new CoreCursor(CoreCursorType.Pin, 0);
+        
             Gamepad.GamepadAdded += (object sender, Gamepad e) =>
             {
                 lock (myLock)
@@ -104,36 +87,6 @@ namespace Grupo12ProyectoFinal
             GameTimer.Start();
         }
 
-
-        private bool ZMMando()
-        {
-            bool cambio = false;
-            if (reading.RightThumbstickX < -0.1)
-            {
-                reading.RightThumbstickX += 0.1;
-                cambio = true;
-            }
-            else if (reading.RightThumbstickX > 0.1)
-            {
-                reading.RightThumbstickX -= 0.1;
-                cambio = true;
-            }
-            else
-                reading.RightThumbstickX = 0;
-
-            if (reading.RightThumbstickY < -0.1)
-            {
-                reading.RightThumbstickY += 0.1;
-            }
-            else if (reading.RightThumbstickY > 0.1)
-            {
-                reading.RightThumbstickY -= 0.1;
-                cambio = true;
-            }
-            else
-                reading.RightThumbstickY = 0;
-            return cambio;
-        }
 
         private void Opciones_Click(object sender, RoutedEventArgs e)
         {

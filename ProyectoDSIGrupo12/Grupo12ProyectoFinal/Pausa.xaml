@@ -9,21 +9,6 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Page.Resources>
-        <DataTemplate x:Key="ImageGridView_DefaultItemTemplate"
-                      x:DataType="local:VMDron">
-            <Grid Height="40" Width="300" Margin="8">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="20"/>
-                    <ColumnDefinition Width="60"/>
-                    <ColumnDefinition Width="Auto"/>
-                </Grid.ColumnDefinitions>
-                <TextBlock Text="{x:Bind Id}" FontSize="{Binding Value, ElementName=FontSlider}" VerticalAlignment="Center"/>
-                <Image Source="{x:Bind Imagen}" Grid.Column="1" VerticalAlignment="Center" Width="{Binding Value, ElementName=ImageSlider}"/>
-                <TextBlock Text="{x:Bind Nombre}" FontSize="{Binding Value, ElementName=FontSlider}" Grid.Column="2" VerticalAlignment="Center"/>
-            </Grid>
-
-        </DataTemplate>
-
         <Style x:Name="ButtonStyle"
                TargetType="Button">
             <Setter Property="Width" Value="315"></Setter>
