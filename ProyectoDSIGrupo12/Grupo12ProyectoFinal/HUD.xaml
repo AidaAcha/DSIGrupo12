@@ -17,25 +17,29 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
-            <RowDefinition Height="6*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="3*"/>
         </Grid.RowDefinitions>
 
         <Image x:Name="fondoImage"
                        Source="Assets/Madrid.png"
                        Stretch="UniformToFill"
-                       Margin="-23,0,-7,-4" Grid.ColumnSpan="4" Grid.RowSpan="2"/>
+                       Margin="-23,0,-7,2" Grid.ColumnSpan="4" Grid.RowSpan="3"/>
 
         <Image x:Name="bateria" Source="Assets/carga-movil .png" Stretch="Fill"/>
-        <Image x:Name="tiempo" Source="Assets/reloj.png" Stretch="Uniform"  Grid.Column="2" Margin="208,-56,-48,800" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <Image x:Name="tiempo" Source="Assets/reloj.png" Stretch="Uniform"  Grid.Column="2" Margin="205,-11,-45,5" Grid.ColumnSpan="2"/>
         <Image x:Name="viento" Source=" " Grid.Column="2" Grid.Row="1"/>
         <Image x:Name="altitud" Source=" " Grid.Column="3" Grid.Row="1"/>
         <Image x:Name="paquete" Source=" " Grid.Row="1"/>
 
-        <Slider x:Name="sliderAlt" FontStretch="Expanded" Grid.Column="3" ValueChanged="sliderAlt_ValueChanged" Height="424" VerticalAlignment="Bottom"   RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Grid.Row="1" Margin="201,0,-352,18" >
-            <Slider.RenderTransform>
-                <CompositeTransform Rotation="270.52" SkewY="-0.065" TranslateX="0.096" TranslateY="0.001" ScaleX="1" ScaleY="1" SkewX="0"/>
-            </Slider.RenderTransform>
-        </Slider>
+        <StackPanel x:Name="panelAlt" Grid.Column="3" Grid.Row="2">
+            <Slider x:Name="sliderAlt" FontStretch="Expanded" Grid.Column="3" ValueChanged="sliderAlt_ValueChanged" Height="424"   RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Grid.Row="1" Margin="201,0,-352,18" Width="301" >
+                <Slider.RenderTransform>
+                    <CompositeTransform Rotation="270.52" SkewY="-0.065" TranslateX="0.096" TranslateY="0.001" ScaleX="1" ScaleY="1" SkewX="0"/>
+                </Slider.RenderTransform>
+            </Slider>
+        </StackPanel>
+
 
 
     </Grid>
