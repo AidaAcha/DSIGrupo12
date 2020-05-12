@@ -23,7 +23,7 @@
         </Style>
         <Style x:Name="PanelStyle"
                TargetType="StackPanel">
-            <Setter Property="Background" Value="LightGray"></Setter>
+            <Setter Property="Background" Value="Black"></Setter>
             <Setter Property = "BorderThickness" Value="2" ></Setter>
             <Setter Property = "CornerRadius" Value="50" ></Setter>
         </Style>
@@ -117,22 +117,22 @@
         <!--<StackPanel x:Name="LeftPanel" Width="365" Height="705"  Style="{StaticResource PanelStyle}">-->
 
         <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{StaticResource PanelStyle}" Height="364" Width="507">
-            <TextBlock x:Name="TextInfoPaquete"  Width="399" Height="50" VerticalAlignment="Top" Grid.Row="1" Foreground="Black" FontSize="30" Text="Información del paquete" TextWrapping="Wrap" HorizontalAlignment="Center"  />
+            <TextBlock x:Name="TextInfoPaquete"  Width="399" Height="50" VerticalAlignment="Top" Grid.Row="1" Foreground="White" FontSize="30" Text="Información del paquete" TextWrapping="Wrap" HorizontalAlignment="Center"  />
             <Image x:Name="SelImaPaquete" Source="Assets\\Samples\\CuadradoAmarillo.jpg " Height="70" Width="70" Grid.Row="1"  />
 
-            <TextBlock x:Name="TextPaqueteNombre" Grid.Row="1" Foreground="Black" FontSize="30" Text="Sin Seleccionar" TextWrapping="Wrap"  VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="TextPaqueteNombre" Grid.Row="1" Foreground="White" FontSize="30" Text="Sin Seleccionar" TextWrapping="Wrap"  VerticalAlignment="Top" HorizontalAlignment="Center"/>
             <StackPanel Orientation="Horizontal">
-                <TextBlock  Grid.Row="1" Foreground="Black" FontSize="30"  Text="Peso" TextWrapping="Wrap"  VerticalAlignment="Center" Margin="20,0,70,0"/>
-                <Image x:Name="ImgPesoPaquete" Source="Assets\\Samples\\Estrella1.jpg " Grid.Row="1" Height="50"   VerticalAlignment="Center"/>
+                <TextBlock  Grid.Row="1" Foreground="White" FontSize="30"  Text="Peso" TextWrapping="Wrap"  VerticalAlignment="Center" Margin="20,0,70,0"/>
+                <Image x:Name="ImgPesoPaquete" Source="Assets\\Samples\\Estrella1.png " Grid.Row="1" Height="50"   VerticalAlignment="Center"/>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal">
-                <TextBlock  Grid.Row="1" Foreground="Black" FontSize="30" Text="Forma" TextWrapping="Wrap" Margin="20,0,50,0" VerticalAlignment="Center"/>
-                <TextBlock x:Name="TextPaqueteForma" Grid.Row="1" Foreground="Black" FontSize="30" Text="Sin Seleccionar" TextWrapping="Wrap" VerticalAlignment="Center"/>
+                <TextBlock  Grid.Row="1" Foreground="White" FontSize="30" Text="Forma" TextWrapping="Wrap" Margin="20,0,50,0" VerticalAlignment="Center"/>
+                <TextBlock x:Name="TextPaqueteForma" Grid.Row="1" Foreground="White" FontSize="30" Text="Sin Seleccionar" TextWrapping="Wrap" VerticalAlignment="Center"/>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal">
-                <TextBlock  Grid.Row="1" Foreground="Black" FontSize="30" Text="Color" TextWrapping="Wrap" Margin="20,0,100,0" VerticalAlignment="Center"/>
+                <TextBlock  Grid.Row="1" Foreground="White" FontSize="30" Text="Color" TextWrapping="Wrap" Margin="20,0,100,0" VerticalAlignment="Center"/>
                 <Image x:Name="ImgFormaPaquete" Source=" " Grid.Row="1"  Height="50" VerticalAlignment="Center"  />
             </StackPanel>
 
@@ -141,28 +141,28 @@
 
 
         <StackPanel Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{StaticResource PanelStyle}" Height="364" Width="495">
-            <TextBlock x:Name="TextInfoDron" HorizontalAlignment="Center" Width="399" Height="50" VerticalAlignment="Top" Grid.Row="1" Foreground="Black" FontSize="30" Text="Información del Dron" TextWrapping="Wrap"   />
+            <TextBlock x:Name="TextInfoDron" HorizontalAlignment="Right" Width="399" Height="50" VerticalAlignment="Top"  Grid.Row="1" Foreground="White" FontSize="30" Text="Información del Dron" TextWrapping="Wrap"   />
             <Image x:Name="SelImaDron" Source="Assets\\Samples\\CuadradoAmarillo.jpg " Height="70" Width="70" Grid.Row="1"  />
 
-            <TextBlock x:Name="TextDronNombre" Grid.Row="1" Foreground="Black" FontSize="30" Text="Sin Seleccionar" TextWrapping="Wrap"  VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="TextDronNombre" Grid.Row="1" Foreground="White" FontSize="30" Text="Sin Seleccionar" TextWrapping="Wrap"  VerticalAlignment="Top" HorizontalAlignment="Center"/>
             <StackPanel Orientation="Horizontal">
-                <TextBlock  Grid.Row="1" Foreground="Black" FontSize="30"  Text="Peso" TextWrapping="Wrap"  VerticalAlignment="Center" Margin="20,0,95,0"/>
-                <Image x:Name="ImgPesoDron" Source="Assets\\Samples\\Estrella1.jpg " Grid.Row="1" Height="50"  VerticalAlignment="Center"/>
+                <TextBlock  Grid.Row="1" Foreground="White" FontSize="30"  Text="Peso" TextWrapping="Wrap"  VerticalAlignment="Center" Margin="20,0,95,0"/>
+                <Image x:Name="ImgPesoDron" Source="Assets\\Samples\\Estrella1.png " Grid.Row="1" Height="50"  VerticalAlignment="Center"/>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal">
-                <TextBlock  Grid.Row="1" Foreground="Black" FontSize="30" Text="Batería" TextWrapping="Wrap" Margin="20,0,65,0" VerticalAlignment="Center"/>
-                <Image x:Name="ImgBateriaDron" Source="Assets\\Samples\\Estrella1.jpg " Height="50"  VerticalAlignment="Center"/>
+                <TextBlock  Grid.Row="1" Foreground="White" FontSize="30" Text="Batería" TextWrapping="Wrap" Margin="20,0,65,0" VerticalAlignment="Center"/>
+                <Image x:Name="ImgBateriaDron" Source="Assets\\Samples\\Estrella1.png " Height="50"  VerticalAlignment="Center"/>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal">
-                <TextBlock  Grid.Row="1" Foreground="Black" FontSize="30" Text="Velocidad" TextWrapping="Wrap"  Margin="20,0,30,0 " VerticalAlignment="Center"/>
-                <Image x:Name="ImgFormaDron" Source="Assets\\Samples\\Estrella1.jpg " Grid.Row="1"  Height="50" VerticalAlignment="Center"  />
+                <TextBlock  Grid.Row="1" Foreground="White" FontSize="30" Text="Velocidad" TextWrapping="Wrap"  Margin="20,0,30,0 " VerticalAlignment="Center"/>
+                <Image x:Name="ImgFormaDron" Source="Assets\\Samples\\Estrella1.png " Grid.Row="1"  Height="50" VerticalAlignment="Center"  />
             </StackPanel>
 
         </StackPanel>
 
-        <Button x:Name="Controles" Content="ACEPTAR"  FontSize="40" Click="Iniciar_Click" Grid.ColumnSpan="2" HorizontalAlignment="Center" Grid.Row="2" Height="68" Width="300"/>
+        <Button x:Name="Controles" Background="#ff6600" Content="ACEPTAR"  FontSize="40" Click="Iniciar_Click" Grid.ColumnSpan="2" HorizontalAlignment="Center" Grid.Row="2" Height="68" Width="300"/>
 
     </Grid>
 </Page>
