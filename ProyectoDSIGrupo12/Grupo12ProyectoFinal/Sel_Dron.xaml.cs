@@ -68,6 +68,7 @@ namespace Grupo12ProyectoFinal
             TextPaqueteNombre.Text = d.Nombre;
             TextPaqueteForma.Text = d.Forma;
             SelImaPaquete.Source = d.Img.Source;
+            ImgPesoPaquete.Source = d.ImgPeso.Source;
             Canvas.SetLeft(SelImaPaquete, d.X);
             Canvas.SetTop(SelImaPaquete, d.Y);
 
@@ -80,6 +81,9 @@ namespace Grupo12ProyectoFinal
             TextDronNombre.Text = d.Nombre;
             //TextInfoPaquete.Text = d.Explicacion;
             SelImaDron.Source = d.Img.Source;
+            ImgPesoDron.Source = d.ImgPeso.Source;
+            ImgVelDron.Source = d.ImgVel.Source;
+            ImgBateriaDron.Source = d.ImgBateria.Source;
             Canvas.SetLeft(SelImaDron, d.X);
             Canvas.SetTop(SelImaDron, d.Y);
 

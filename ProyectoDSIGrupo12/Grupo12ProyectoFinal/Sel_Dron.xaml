@@ -29,14 +29,14 @@
         </Style>
         <DataTemplate x:Key="ImageGridView_DefaultItemTemplate"
                       x:DataType="local:VMPaquete">
-            <Grid Height="100" Width="100" Margin="8">
+            <Grid Height="100" Width="100" Margin="4">
 
                 <Grid.RowDefinitions>
                     <RowDefinition Height="5*"/>
                     <RowDefinition Height="5*"/>
                 </Grid.RowDefinitions>
                 <TextBlock Text="{x:Bind Nombre}" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap"/>
-                <Image Source="{x:Bind Imagen}" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"/>
+                <Image Source="{x:Bind Imagen}" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" />
                 <!--<TextBlock Text="{x:Bind Nombre}" FontSize="{Binding Value, ElementName=FontSlider}" Grid.Column="2" VerticalAlignment="Center"/>-->
 
             </Grid>
@@ -45,12 +45,13 @@
 
         <DataTemplate x:Key="ImageGridView_DefaultItemTemplate2"
                       x:DataType="local:VMDron">
-            <Grid Height="100" Width="100" Margin="8">
+            <Grid Height="100" Width="100" Margin="8" >
 
                 <Grid.RowDefinitions>
                     <RowDefinition Height="5*"/>
                     <RowDefinition Height="5*"/>
                 </Grid.RowDefinitions>
+                
                 <TextBlock Text="{x:Bind Nombre}" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap"/>
                 <Image Source="{x:Bind Imagen}" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"/>
                 <!--<TextBlock Text="{x:Bind Nombre}" FontSize="{Binding Value, ElementName=FontSlider}" Grid.Column="2" VerticalAlignment="Center"/>-->
@@ -72,6 +73,15 @@
             <RowDefinition Height="3*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
+        <Image Source="Assets\\Samples\\FondoNaranja.png" Stretch="Fill" Grid.ColumnSpan="2" Margin="15.812,36.325,-36.03,232.501" Grid.RowSpan="3" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Grid.Row="1">
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="-25.77"/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="targetImage"
+                Source="Assets\\Samples\\MarcoDSI.png"
+                Stretch="Fill" Grid.ColumnSpan="2"  Grid.RowSpan="4"
+        />
 
         <ListView x:Name="itemsPaquete" 
                   HorizontalAlignment="Center"
@@ -79,8 +89,7 @@
                   ScrollViewer.HorizontalScrollBarVisibility="Auto"
                   ScrollViewer.HorizontalScrollMode="Enabled"                  
                   ScrollViewer.VerticalScrollMode="Disabled"
-                  
-                  Background="LightGray"
+                  Margin="80,30,0,0"
                   ItemsSource= "{x:Bind ListaPaquetes}"
                   ItemTemplate="{StaticResource ImageGridView_DefaultItemTemplate}" 
                   IsItemClickEnabled="True"  
@@ -92,7 +101,6 @@
                 </ItemsPanelTemplate>
             </ListView.ItemsPanel>
         </ListView>
-
         <ListView x:Name="itemsDrones" 
                   HorizontalAlignment="Center"
 
@@ -102,7 +110,6 @@
                   ScrollViewer.HorizontalScrollMode="Enabled"                  
                   ScrollViewer.VerticalScrollMode="Disabled"
                   
-                  Background="LightGray"
                   ItemsSource= "{x:Bind ListaDrones}"
                   ItemTemplate="{StaticResource ImageGridView_DefaultItemTemplate2}" 
                   IsItemClickEnabled="True"  
@@ -116,9 +123,9 @@
         </ListView>
         <!--<StackPanel x:Name="LeftPanel" Width="365" Height="705"  Style="{StaticResource PanelStyle}">-->
 
-        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{StaticResource PanelStyle}" Height="364" Width="507">
+        <StackPanel  Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{StaticResource PanelStyle}" Height="364" Width="507">
             <TextBlock x:Name="TextInfoPaquete"  Width="399" Height="50" VerticalAlignment="Top" Grid.Row="1" Foreground="White" FontSize="30" Text="Información del paquete" TextWrapping="Wrap" HorizontalAlignment="Center"  />
-            <Image x:Name="SelImaPaquete" Source="Assets\\Samples\\CuadradoAmarillo.jpg " Height="70" Width="70" Grid.Row="1"  />
+            <Image x:Name="SelImaPaquete" Source="Assets\\Samples\\CuadradoAmarillo.jpg " HorizontalAlignment="Center" Height="70" Width="70" Grid.Row="1"  />
 
             <TextBlock x:Name="TextPaqueteNombre" Grid.Row="1" Foreground="White" FontSize="30" Text="Sin Seleccionar" TextWrapping="Wrap"  VerticalAlignment="Top" HorizontalAlignment="Center"/>
             <StackPanel Orientation="Horizontal">
@@ -132,8 +139,8 @@
             </StackPanel>
 
             <StackPanel Orientation="Horizontal">
-                <TextBlock  Grid.Row="1" Foreground="White" FontSize="30" Text="Color" TextWrapping="Wrap" Margin="20,0,100,0" VerticalAlignment="Center"/>
-                <Image x:Name="ImgFormaPaquete" Source=" " Grid.Row="1"  Height="50" VerticalAlignment="Center"  />
+                <TextBlock  Grid.Row="1" Foreground="White" FontSize="30" Text="Color" TextWrapping="Wrap" Margin="20,0,80,0" VerticalAlignment="Center"/>
+                <Image x:Name="ImgFormaPaquete" Source=" " Stretch="Fill" Grid.Row="1"  Height="40" Width="150" VerticalAlignment="Center"  />
             </StackPanel>
 
         </StackPanel>
@@ -157,7 +164,7 @@
 
             <StackPanel Orientation="Horizontal">
                 <TextBlock  Grid.Row="1" Foreground="White" FontSize="30" Text="Velocidad" TextWrapping="Wrap"  Margin="20,0,30,0 " VerticalAlignment="Center"/>
-                <Image x:Name="ImgFormaDron" Source="Assets\\Samples\\Estrella1.png " Grid.Row="1"  Height="50" VerticalAlignment="Center"  />
+                <Image x:Name="ImgVelDron" Source="Assets\\Samples\\Estrella1.png " Grid.Row="1"  Height="50" VerticalAlignment="Center"  />
             </StackPanel>
 
         </StackPanel>
