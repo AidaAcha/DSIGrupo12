@@ -162,7 +162,7 @@
 
         </StackPanel>
 
-        <Button x:Name="Controles" Content="VOLVER"  FontSize="40" Click="Volver_Click" Grid.ColumnSpan="2" HorizontalAlignment="Center" Grid.Row="2" Height="68" Width="300"/>
+        <Button x:Name="Controles" Content="ACEPTAR"  FontSize="40" Click="Iniciar_Click" Grid.ColumnSpan="2" HorizontalAlignment="Center" Grid.Row="2" Height="68" Width="300"/>
 
     </Grid>
 </Page>

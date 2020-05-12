@@ -84,22 +84,16 @@ namespace Grupo12ProyectoFinal
             Canvas.SetTop(SelImaDron, d.Y);
 
         }
-        private void Volver_Click(object sender, RoutedEventArgs e)
-        {
-            On_BackRequested();
+        
 
+        private void Iniciar_Click(object sender, RoutedEventArgs e)
+        {
+            // NavInfoText.Text = "Vuelvo al juego";
+            //Va al juego cuando esté completa la pagina
+            this.Frame.Navigate(typeof(HUD));
         }
 
-
-        private bool On_BackRequested()
-        {
-            if (this.Frame.CanGoBack)
-            {
-                this.Frame.GoBack();
-                return true;
-            }
-            return false;
-        }
+        
 
     }
 }

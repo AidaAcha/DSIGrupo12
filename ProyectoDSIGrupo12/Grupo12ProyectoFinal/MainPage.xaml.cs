@@ -38,7 +38,7 @@ namespace Grupo12ProyectoFinal
         {
            // NavInfoText.Text = "Vuelvo al juego";
             //Va al juego cuando esté completa la pagina
-            this.Frame.Navigate(typeof(HUD));
+            this.Frame.Navigate(typeof(Sel_Dron));
         }
 
         private void Opciones_Click(object sender, RoutedEventArgs e)
