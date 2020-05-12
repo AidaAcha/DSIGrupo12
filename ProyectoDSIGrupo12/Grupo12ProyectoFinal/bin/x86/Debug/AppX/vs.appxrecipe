@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-GU3F8LE</Machine>
+    <WindowsUser>andre</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>e9285022-f076-426b-88d9-712c2be773ea</PackageIdentityName>
+    <PackageIdentityPublisher>CN=segu222</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>A2013C0A69E4F00A439E87BDFFD35DD73F1CAC362446B0460411FB7151412CB6</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>e9285022-f076-426b-88d9-712c2be773ea_1.0.0.0_x86__f86y4dzhkna0m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>e9285022-f076-426b-88d9-712c2be773ea_f86y4dzhkna0m!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>e9285022-f076-426b-88d9-712c2be773ea</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=segu222</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-12T12:12:09.273</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x86\Debug\Grupo12ProyectoFinal.exe">
+      <PackagePath>entrypoint\Grupo12ProyectoFinal.exe</PackagePath>
+      <Modified>2020-05-12T12:12:08.833</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2019-07-22T12:01:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-03-18T16:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\drones.png">
+      <PackagePath>Assets\drones.png</PackagePath>
+      <Modified>2020-05-07T14:18:36.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Dron_1.png">
+      <PackagePath>Assets\Dron_1.png</PackagePath>
+      <Modified>2020-05-07T14:18:36.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Dron_2.png">
+      <PackagePath>Assets\Dron_2.png</PackagePath>
+      <Modified>2020-05-07T14:18:36.165</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Dron_3.png">
+      <PackagePath>Assets\Dron_3.png</PackagePath>
+      <Modified>2020-05-07T14:18:36.166</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Dron_4.png">
+      <PackagePath>Assets\Dron_4.png</PackagePath>
+      <Modified>2020-05-07T14:18:36.168</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\carga-movil .png">
+      <PackagePath>Assets\carga-movil .png</PackagePath>
+      <Modified>2020-05-07T14:24:59.223</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Madrid.png">
+      <PackagePath>Assets\Madrid.png</PackagePath>
+      <Modified>2020-04-30T14:34:24.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\reloj.png">
+      <PackagePath>Assets\reloj.png</PackagePath>
+      <Modified>2020-05-07T14:24:59.226</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Dron_1.png">
+      <PackagePath>Assets\Samples\Dron_1.png</PackagePath>
+      <Modified>2020-05-07T14:18:36.197</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Dron_2.png">
+      <PackagePath>Assets\Samples\Dron_2.png</PackagePath>
+      <Modified>2020-05-07T14:18:36.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Dron_3.png">
+      <PackagePath>Assets\Samples\Dron_3.png</PackagePath>
+      <Modified>2020-05-07T14:18:36.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Dron_4.png">
+      <PackagePath>Assets\Samples\Dron_4.png</PackagePath>
+      <Modified>2020-05-07T14:18:36.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella1.png">
+      <PackagePath>Assets\Samples\Estrella1.png</PackagePath>
+      <Modified>2020-05-12T10:39:28.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella2.png">
+      <PackagePath>Assets\Samples\Estrella2.png</PackagePath>
+      <Modified>2020-05-12T10:42:21.821</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella3.png">
+      <PackagePath>Assets\Samples\Estrella3.png</PackagePath>
+      <Modified>2020-05-12T10:42:40.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella4.png">
+      <PackagePath>Assets\Samples\Estrella4.png</PackagePath>
+      <Modified>2020-05-12T10:43:00.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Dronmazon_icon.png">
+      <PackagePath>Assets\Dronmazon_icon.png</PackagePath>
+      <Modified>2020-05-07T14:18:36.178</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Mando.png">
+      <PackagePath>Assets\Mando.png</PackagePath>
+      <Modified>2020-05-07T14:18:36.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella5.png">
+      <PackagePath>Assets\Samples\Estrella5.png</PackagePath>
+      <Modified>2020-05-12T10:43:35.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\FondoNaranja.png">
+      <PackagePath>Assets\Samples\FondoNaranja.png</PackagePath>
+      <Modified>2020-05-12T11:53:00.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\MarcoDSI.png">
+      <PackagePath>Assets\Samples\MarcoDSI.png</PackagePath>
+      <Modified>2020-05-12T11:48:59.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2020-04-30T14:34:24.218</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-30T14:34:24.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-30T14:34:24.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-30T14:34:24.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-30T14:34:24.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-30T14:34:24.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-30T14:34:24.299</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\T.png">
+      <PackagePath>Assets\T.png</PackagePath>
+      <Modified>2020-05-07T14:18:36.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\1.jpg">
+      <PackagePath>Assets\Samples\1.jpg</PackagePath>
+      <Modified>2020-04-30T14:34:24.239</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\10.jpg">
+      <PackagePath>Assets\Samples\10.jpg</PackagePath>
+      <Modified>2020-04-30T14:34:24.242</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\11.jpg">
+      <PackagePath>Assets\Samples\11.jpg</PackagePath>
+      <Modified>2020-04-30T14:34:24.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\12.jpg">
+      <PackagePath>Assets\Samples\12.jpg</PackagePath>
+      <Modified>2020-04-30T14:34:24.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\13.jpg">
+      <PackagePath>Assets\Samples\13.jpg</PackagePath>
+      <Modified>2020-04-30T14:34:24.251</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\14.jpg">
+      <PackagePath>Assets\Samples\14.jpg</PackagePath>
+      <Modified>2020-04-30T14:34:24.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\15.jpg">
+      <PackagePath>Assets\Samples\15.jpg</PackagePath>
+      <Modified>2020-04-30T14:34:24.256</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\16.jpg">
+      <PackagePath>Assets\Samples\16.jpg</PackagePath>
+      <Modified>2020-04-30T14:34:24.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\17.jpg">
+      <PackagePath>Assets\Samples\17.jpg</PackagePath>
+      <Modified>2020-04-30T14:34:24.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\18.jpg">
+      <PackagePath>Assets\Samples\18.jpg</PackagePath>
+      <Modified>2020-04-30T14:34:24.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\19.jpg">
+      <PackagePath>Assets\Samples\19.jpg</PackagePath>
+      <Modified>2020-04-30T14:34:24.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\2.jpg">
+      <PackagePath>Assets\Samples\2.jpg</PackagePath>
+      <Modified>2020-04-30T14:34:24.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\20.jpg">
+      <PackagePath>Assets\Samples\20.jpg</PackagePath>
+      <Modified>2020-04-30T14:34:24.274</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\3.jpg">
+      <PackagePath>Assets\Samples\3.jpg</PackagePath>
+      <Modified>2020-04-30T14:34:24.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\4.jpg">
+      <PackagePath>Assets\Samples\4.jpg</PackagePath>
+      <Modified>2020-04-30T14:34:24.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\5.jpg">
+      <PackagePath>Assets\Samples\5.jpg</PackagePath>
+      <Modified>2020-04-30T14:34:24.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\6.jpg">
+      <PackagePath>Assets\Samples\6.jpg</PackagePath>
+      <Modified>2020-04-30T14:34:24.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\7.jpg">
+      <PackagePath>Assets\Samples\7.jpg</PackagePath>
+      <Modified>2020-04-30T14:34:24.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\8.jpg">
+      <PackagePath>Assets\Samples\8.jpg</PackagePath>
+      <Modified>2020-04-30T14:34:24.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\9.jpg">
+      <PackagePath>Assets\Samples\9.jpg</PackagePath>
+      <Modified>2020-04-30T14:34:24.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\CuadradoAmarillo.jpg">
+      <PackagePath>Assets\Samples\CuadradoAmarillo.jpg</PackagePath>
+      <Modified>2020-05-07T14:18:36.196</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella1.jpg">
+      <PackagePath>Assets\Samples\Estrella1.jpg</PackagePath>
+      <Modified>2020-05-12T10:37:44.761</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2020-04-30T14:34:24.305</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x86\Debug\Grupo12ProyectoFinal.xr.xml">
+      <PackagePath>Grupo12ProyectoFinal.xr.xml</PackagePath>
+      <Modified>2020-05-12T12:10:28.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2020-05-12T12:12:08.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x86\Debug\FinJuego.xbf">
+      <PackagePath>FinJuego.xbf</PackagePath>
+      <Modified>2020-05-12T12:12:08.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x86\Debug\Pausa.xbf">
+      <PackagePath>Pausa.xbf</PackagePath>
+      <Modified>2020-05-12T12:12:08.639</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x86\Debug\HUD.xbf">
+      <PackagePath>HUD.xbf</PackagePath>
+      <Modified>2020-05-12T12:12:08.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x86\Debug\Controls.xbf">
+      <PackagePath>Controls.xbf</PackagePath>
+      <Modified>2020-05-12T12:12:08.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2020-05-12T12:12:08.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x86\Debug\Options.xbf">
+      <PackagePath>Options.xbf</PackagePath>
+      <Modified>2020-05-12T12:12:08.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x86\Debug\Sel_Dron.xbf">
+      <PackagePath>Sel_Dron.xbf</PackagePath>
+      <Modified>2020-05-12T12:12:08.654</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T15:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-05-12T11:56:24.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\UCM\DSI\Poyecto\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x86\Debug\Core\Grupo12ProyectoFinal.exe">
+      <PackagePath>Grupo12ProyectoFinal.exe</PackagePath>
+      <Modified>2020-05-12T12:12:09.268</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\andre\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\andre\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\andre\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\andre\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\andre\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\andre\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\andre\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\andre\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\andre\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\andre\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\andre\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\andre\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
