@@ -13,6 +13,10 @@ namespace Grupo12ProyectoFinal
         public int Id { get; set; }
         public string Nombre { get; set; }
         public string Imagen { get; set; }
+        public string ImagenPeso { get; set; }
+        public string ImagenBateria { get; set; }
+        public string ImagenVelocidad { get; set; }
+
         //public Image Img;
         public string Explicacion { get; set; }
         public estados Estado { get; set; }
@@ -36,6 +40,9 @@ namespace Grupo12ProyectoFinal
                 Imagen = "Assets\\Samples\\Dron_1.png",
                 Explicacion = @"Explicación Dron1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
                 Estado = Dron.estados.Aterrizado,
+                ImagenPeso="Assets\\Samples\\Estrellas2.png",
+                ImagenBateria="Assets\\Samples\\Estrellas3.png",
+                ImagenVelocidad="Assets\\Samples\\Estrellas5.png",
                 X = 10,
                 Y = 10,
                 RX =100,
@@ -48,6 +55,9 @@ namespace Grupo12ProyectoFinal
                 Imagen = "Assets\\Samples\\Dron_2.png",
                 Explicacion = @"Explicación Dron2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
                 Estado = Dron.estados.Aterrizado,
+                ImagenPeso="Assets\\Samples\\Estrellas3.png",
+                ImagenBateria="Assets\\Samples\\Estrellas4.png",
+                ImagenVelocidad="Assets\\Samples\\Estrellas3.png",
                 X = 50,
                 Y = 50,
                 RX =150,
@@ -58,6 +68,9 @@ namespace Grupo12ProyectoFinal
                 Id = 2,
                 Nombre = "Dron3",
                 Imagen = "Assets\\Samples\\Dron_3.png",
+                ImagenPeso="Assets\\Samples\\Estrellas5.png",
+                ImagenBateria="Assets\\Samples\\Estrellas4.png",
+                ImagenVelocidad="Assets\\Samples\\Estrellas2.png",
                 Explicacion = @"Explicación Dron3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
                 Estado = Dron.estados.Aterrizado,
                 X = 100,
@@ -70,6 +83,9 @@ namespace Grupo12ProyectoFinal
                 Id = 3,
                 Nombre = "Dron4",
                 Imagen = "Assets\\Samples\\Dron_4.png",
+                ImagenPeso="Assets\\Samples\\Estrellas3.png",
+                ImagenBateria="Assets\\Samples\\Estrellas2.png",
+                ImagenVelocidad="Assets\\Samples\\Estrellas5.png",
                 Explicacion = @"Explicación Dron4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
                 Estado = Dron.estados.Aterrizado,
                 X = 150,
