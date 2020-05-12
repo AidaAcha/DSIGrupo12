@@ -107,5 +107,9 @@ namespace Grupo12ProyectoFinal
 
         }
 
+        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
