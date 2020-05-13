@@ -31,6 +31,7 @@ namespace Grupo12ProyectoFinal
     {
         public MainPage()
         {
+            ElementSoundPlayer.State = ElementSoundPlayerState.On;
             this.InitializeComponent();
         }
 
@@ -38,19 +39,20 @@ namespace Grupo12ProyectoFinal
         {
            // NavInfoText.Text = "Vuelvo al juego";
             //Va al juego cuando esté completa la pagina
-            this.Frame.Navigate(typeof(HUD));
+            this.Frame.Navigate(typeof(Sel_Dron));
+            ElementSoundPlayer.Play(ElementSoundKind.Invoke);
         }
 
         private void Opciones_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(Options));
-
+            ElementSoundPlayer.Play(ElementSoundKind.Invoke);
         }
 
         private void End_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(FinJuego));
-
+            ElementSoundPlayer.Play(ElementSoundKind.Invoke);
         }
     }
 }
