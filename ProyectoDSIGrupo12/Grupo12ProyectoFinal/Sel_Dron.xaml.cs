@@ -101,10 +101,7 @@ namespace Grupo12ProyectoFinal
             mWrapper.Dron.ImgPeso.Source = currDron.ImgPeso.Source;
             mWrapper.Dron.ImgVel.Source = currDron.ImgVel.Source;
             mWrapper.Dron.ImgBateria.Source = currDron.ImgBateria.Source;
-            this.Frame.Navigate(typeof(Pausa), mWrapper);
+            this.Frame.Navigate(typeof(HUD), mWrapper);
         }
-
-        
-
     }
 }

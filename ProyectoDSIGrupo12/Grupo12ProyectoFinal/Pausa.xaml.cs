@@ -72,6 +72,7 @@ namespace Grupo12ProyectoFinal
                  }
              };
         }
+
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
 

@@ -15,7 +15,6 @@
                     <ColumnDefinition Width="1*"/>
                     <ColumnDefinition Width="3*"/>
                     <ColumnDefinition Width="1*"/>
-                    <ColumnDefinition Width="1*"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="1*"/>
@@ -38,7 +37,6 @@
             <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="3*"/>
             <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
@@ -51,8 +49,12 @@
                        Stretch="UniformToFill"
                        Margin="-23,0,0,6" Grid.ColumnSpan="4" Grid.RowSpan="3"/>
 
-        <Image x:Name="bateria" Source="Assets/carga-movil .png" Stretch="Fill"/>
-        <Image x:Name="tiempo" Source="Assets/reloj.png" Stretch="Uniform"  Grid.Column="2" Margin="154,-69,-97,431" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <Image x:Name="bateria" Source="Assets/carga-movil .png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="179.796"/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="tiempo" Source="Assets/reloj.png" Stretch="Uniform"  Grid.Column="2" Margin="29,-69,28,431" Grid.RowSpan="2"/>
         <TextBlock x:Name="minTiempo" Text=" " HorizontalAlignment="Left"/>
         <TextBlock x:Name="segTiempo" Text=" " HorizontalAlignment="Right"/>
         <Image x:Name="paquete" Source=" " Grid.Row="1"/>
@@ -68,5 +70,11 @@
 
             <Image x:Name="dirViento" Stretch="Fill" VerticalAlignment="Top" HorizontalAlignment="Left"/>
         </StackPanel>
+        <Canvas x:Name="canvas" Grid.Column="0" XYFocusKeyboardNavigation="Enabled" 
+                XYFocusDownNavigationStrategy="RectilinearDistance" XYFocusUpNavigationStrategy="RectilinearDistance" 
+                XYFocusLeftNavigationStrategy="RectilinearDistance" XYFocusRightNavigationStrategy="RectilinearDistance" 
+                TabFocusNavigation="Once" AllowFocusOnInteraction="True" KeyDown="CanvasKeyDown" Grid.ColumnSpan="3" Grid.RowSpan="3"/>
+        <Image x:Name="dronImagen" Source="Assets/Dron_1.png" Grid.Column="1" Grid.Row="1" Margin="372,192,372,191" RenderTransformOrigin="0.531,0.291" />
+        <Image x:Name="paqueteSel" Source=" " Grid.Row="2"/>
     </Grid>
 </Page>

@@ -12,6 +12,20 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.Threading.Tasks;
+using Windows.ApplicationModel;
+using Windows.Storage;
+using Windows.Storage.Streams;
+using Windows.System.Profile;
+using Windows.UI.Core;
+using Windows.UI.ViewManagement;
+using Windows.UI.Xaml.Media.Animation;
+using Windows.UI.Xaml.Media.Imaging;
+using Windows.UI.Input;
+using Windows.System;
+
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -22,14 +36,65 @@ namespace Grupo12ProyectoFinal
     /// </summary>
     public sealed partial class HUD : Page
     {
+        public int objetivos = 0;
+        VMDron dron;
+        public ObservableCollection<VMDron> ListaDrones { get; } = new ObservableCollection<VMDron>();
         public HUD()
         {
             this.InitializeComponent();
         }
 
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            VMWrapper mWrapper = e.Parameter as VMWrapper;
+            if (mWrapper != null)
+            { 
+                dronImagen.Source = mWrapper.Dron.Img.Source;
+                paqueteSel.Source = mWrapper.Paquete.Img.Source;
+            }
+
+            VMDron VMItem = new VMDron(mWrapper.Dron);
+            ListaDrones.Add(VMItem);
+            canvas.Children.Add(VMItem.CCImg);
+            canvas.Children.Last().SetValue(Canvas.LeftProperty, VMItem.X - 25);
+            canvas.Children.Last().SetValue(Canvas.TopProperty, VMItem.Y - 25);
+            base.OnNavigatedFrom(e);
+        }
+
         private void sliderAlt_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
         {
 
+        }
+
+        private void CanvasKeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            int ind = -1;
+            ContentControl cC = e.OriginalSource as ContentControl;
+            if (cC.GetType() == e.OriginalSource.GetType())
+            {
+                ind = canvas.Children.IndexOf(cC);
+            }
+            if (ind > -1)
+            {
+
+                switch (e.Key)
+                {
+                    case VirtualKey.A:
+                        ListaDrones[0].X -= 10;
+                        break;
+                    case VirtualKey.W:
+                        ListaDrones[0].Y -= 10;
+                        break;
+                    case VirtualKey.S:
+                        ListaDrones[0].Y += 10;
+                        break;
+                    case VirtualKey.D:
+                        ListaDrones[0].X += 10;
+                        break;
+                }
+                canvas.Children[ind].SetValue(Canvas.LeftProperty, ListaDrones[ind].X);
+                canvas.Children[ind].SetValue(Canvas.TopProperty, ListaDrones[ind].Y);
+            }
         }
     }
 }
