@@ -6,11 +6,12 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="Black"
+    Background="#FFB253"
     NavigationCacheMode="Enabled">
 
     <Grid>
-        <StackPanel>
+        <Image  Source="Assets\\Samples\\MarcoDSI.png" Stretch="Fill"></Image>
+            <StackPanel>
         <StackPanel Orientation="Horizontal"  VerticalAlignment="Top"  HorizontalAlignment="Center" Margin="0,30,0,0">
                 <Button Content="Teclado" x:Name="tecladoButton"  VerticalAlignment="Top" HorizontalAlignment="Center"  Width="300" FontSize="40" Click="Teclado_Click" Style="{StaticResource ButtonStyle}"/>
                 <Button Content="Mando" x:Name="mandoButton"  VerticalAlignment="Top"  HorizontalAlignment="Center" Width="300" FontSize="40" Click="Mando_Click" Style="{StaticResource ButtonStyle}"/>
