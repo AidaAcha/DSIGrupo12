@@ -90,14 +90,18 @@ namespace Grupo12ProyectoFinal
             Canvas.SetTop(SelImaDron, d.Y);
             currDron = d;
         }
-        
+
 
         private void Iniciar_Click(object sender, RoutedEventArgs e)
         {
             // NavInfoText.Text = "Vuelvo al juego";
             //Va al juego cuando esté completa la pagina
+
             VMWrapper mWrapper = new VMWrapper(currDron, currPaquete, 20, 3, 5);
-            this.Frame.Navigate(typeof(FinJuego), mWrapper);
+            mWrapper.Dron.ImgPeso.Source = currDron.ImgPeso.Source;
+            mWrapper.Dron.ImgVel.Source = currDron.ImgVel.Source;
+            mWrapper.Dron.ImgBateria.Source = currDron.ImgBateria.Source;
+            this.Frame.Navigate(typeof(Pausa), mWrapper);
         }
 
         
