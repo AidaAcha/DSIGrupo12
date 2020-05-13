@@ -48,13 +48,14 @@
                        Source="Assets/Madrid.png"
                        Stretch="UniformToFill"
                        Margin="-23,0,0,6" Grid.ColumnSpan="4" Grid.RowSpan="3"/>
-
+        <Image x:Name="vida" Source="Assets/Samples/PaqueteVerdel.png" Stretch="Fill" Margin="10,10,117,28"/>
         <Image x:Name="bateria" Source="Assets/carga-movil .png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
-                <CompositeTransform Rotation="179.796"/>
+                <CompositeTransform Rotation="180"/>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="tiempo" Source="Assets/reloj.png" Stretch="Uniform"  Grid.Column="2" Margin="29,-69,28,431" Grid.RowSpan="2"/>
+        <Ellipse Grid.Column="2"  Height="100" Margin="0,9,0,0" Stroke="Black"  Width="244" Opacity="500" Fill="BlueViolet" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="numTiempo" Text="60" Foreground="White" FontSize="70" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <TextBlock x:Name="minTiempo" Text=" " HorizontalAlignment="Left"/>
         <TextBlock x:Name="segTiempo" Text=" " HorizontalAlignment="Right"/>
         <Image x:Name="paquete" Source=" " Grid.Row="1"/>
@@ -74,7 +75,13 @@
                 XYFocusDownNavigationStrategy="RectilinearDistance" XYFocusUpNavigationStrategy="RectilinearDistance" 
                 XYFocusLeftNavigationStrategy="RectilinearDistance" XYFocusRightNavigationStrategy="RectilinearDistance" 
                 TabFocusNavigation="Once" AllowFocusOnInteraction="True" KeyDown="CanvasKeyDown" Grid.ColumnSpan="3" Grid.RowSpan="3"/>
-        <Image x:Name="dronImagen" Source="Assets/Dron_1.png" Grid.Column="1" Grid.Row="1" Margin="372,192,372,191" RenderTransformOrigin="0.531,0.291" />
+        <Image x:Name="dronImagen" Source="Assets/Dron_1.png" Grid.Column="1" Grid.Row="2" Margin="666,407,78,-149" RenderTransformOrigin="0.531,0.291" />
         <Image x:Name="paqueteSel" Source=" " Grid.Row="2"/>
+        <Image x:Name="recargar" Source="Assets/450_1000.png" Grid.ColumnSpan="2" Margin="96,154,804,221" Grid.Row="1"/>
+        <Image x:Name="marcador" Source="Assets/marcador.png" Grid.Column="1" Margin="584,0,178,439" Grid.Row="1"/>
+        <Image x:Name="simboloViento" Source="Assets/viento.jpg" Grid.Column="1" Margin="849,125,51,125" Grid.Row="2" Grid.ColumnSpan="2"/>
+
+
+
     </Grid>
 </Page>

@@ -36,10 +36,11 @@ namespace Grupo12ProyectoFinal
     /// </summary>
     public sealed partial class HUD : Page
     {
+        public int time = 100;
         public int objetivos = 0;
-        VMDron dron;
         public VMWrapper mWrapper_;
         public ObservableCollection<VMDron> ListaDrones { get; } = new ObservableCollection<VMDron>();
+        public ObservableCollection<VMPaquete> ListaDestinos { get; } = new ObservableCollection<VMPaquete>();
         public HUD()
         {
             this.InitializeComponent();
@@ -56,7 +57,9 @@ namespace Grupo12ProyectoFinal
             }
 
             VMDron VMItem = new VMDron(mWrapper.Dron);
+            VMPaquete VMDest = new VMPaquete(mWrapper.Paquete);
             ListaDrones.Add(mWrapper.Dron);
+            ListaDestinos.Add(mWrapper.Paquete);
             canvas.Children.Add(VMItem.CCImg);
             canvas.Children.Last().SetValue(Canvas.LeftProperty, VMItem.X );
             canvas.Children.Last().SetValue(Canvas.TopProperty, VMItem.Y );
@@ -112,7 +115,7 @@ namespace Grupo12ProyectoFinal
                 canvas.Children[ind].SetValue(Canvas.LeftProperty, ListaDrones[ind].X);
                 canvas.Children[ind].SetValue(Canvas.TopProperty, ListaDrones[ind].Y);
 
-                if(ListaDrones[0].Y > 100 && ListaDrones[0].Y < 200 && ListaDrones[0].X < 200 && ListaDrones[0].X > 100)
+                if(ListaDrones[0].Y > 300 && ListaDrones[0].Y < 400 && ListaDrones[0].X < 400 && ListaDrones[0].X > 300)
                 {
                     this.Frame.Navigate(typeof(Sel_Dron));
                 }
