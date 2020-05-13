@@ -73,6 +73,20 @@ namespace Grupo12ProyectoFinal
         }
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            VMWrapper mWrapper = e.Parameter as VMWrapper;
+            //leer records desde un archivo?
+            if(mWrapper != null)
+            {
+                if(mWrapper.Objectives == mWrapper.TotalObjectives)
+                {
+                    NavInfoText.Text = "¡Has cumplido todos los objetivos!";
+                }
+                else
+                {
+                    NavInfoText.Text = "¡Se acabó el tiempo!";
+                }
+                NewPoints.Text = mWrapper.Time.ToString() + "  " + mWrapper.Objectives.ToString() + " / " + mWrapper.TotalObjectives.ToString();
+            }
             base.OnNavigatedTo(e);
             GameTimerSetup();
         }
@@ -105,6 +119,12 @@ namespace Grupo12ProyectoFinal
                 savedRecord = true;
                 /* cambiar el nuevo record en el modelo de datos*/
             }
+        }
+
+        private void NewNameBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            savedRecord = false;
+            SavedRecord_Image.Visibility = Visibility.Collapsed;
         }
     }
 }

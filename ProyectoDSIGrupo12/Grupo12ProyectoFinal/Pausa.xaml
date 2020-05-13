@@ -147,7 +147,7 @@
             <TextBlock Text="Características del Dron" Style="{StaticResource HeaderPanelTextStyle}" FontSize="19" ></TextBlock>
             <Image x:Name="PanelDronImage" Source="Assets/StoreLogo.png" Height="116" Width="158"  />
             <StackPanel x:Name="InnerPanelDronName"  Background="White" BorderBrush="DarkGray" BorderThickness="2" CornerRadius="10" Width="198">
-                <TextBlock Text="Nombre del Dron" Style="{StaticResource BodyPanelTextStyle}" Foreground="Black" HorizontalAlignment="Center"></TextBlock>
+                <TextBlock  x:Name="InnerPanelDronName_text" Text="Nombre del Dron" Style="{StaticResource BodyPanelTextStyle}" Foreground="Black" HorizontalAlignment="Center"></TextBlock>
             </StackPanel>
 
             <StackPanel x:Name="LefttPanelInfo" Padding="0,0" Spacing="0">
@@ -181,13 +181,13 @@
             <StackPanel x:Name="RightPanelInfo" Padding="0,50" Spacing="15">
                 <StackPanel x:Name="TimeStack" Style="{StaticResource InfoPanelStyle}">
                     <TextBlock Text="Tiempo:" Style="{StaticResource BodyPanelTextStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" ></TextBlock>
-                    <TextBlock Text="01:36" Style="{StaticResource BodyPanelTextStyle}" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="2,0,0,0"></TextBlock>
+                    <TextBlock x:Name="TimeStack_time" Text="01:36" Style="{StaticResource BodyPanelTextStyle}" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="2,0,0,0"></TextBlock>
                 </StackPanel>
                 <StackPanel x:Name="ObjectiveStack" Style="{StaticResource InfoPanelStyle}">
                     <TextBlock Text="Objetivos:" Style="{StaticResource BodyPanelTextStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" ></TextBlock>
-                    <Image x:Name="ObjectiveItem_0" Source="Assets/StoreLogo.png" ></Image>
-                    <Image x:Name="ObjectiveItem_1" Source="Assets/StoreLogo.png" ></Image>
-                    <Image x:Name="ObjectiveItem_2" Source="Assets/StoreLogo.png" ></Image>
+                    
+                    <TextBlock x:Name="ObjectiveItem" Text="01:36" Style="{StaticResource BodyPanelTextStyle}" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="2,0,0,0"></TextBlock>
+
 
                 </StackPanel>
                 <StackPanel x:Name="PackageStack" Style="{StaticResource InfoPanelStyle}">

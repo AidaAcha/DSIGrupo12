@@ -74,6 +74,19 @@ namespace Grupo12ProyectoFinal
         }
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+
+            VMWrapper mWrapper = e.Parameter as VMWrapper;
+            if(mWrapper != null)
+            {
+                PanelDronImage.Source = mWrapper.Dron.Img.Source;
+                InnerPanelDronName_text.Text = mWrapper.Dron.Nombre;
+                WeightItem_0.Source = mWrapper.Dron.ImgPeso.Source;
+                BatteryItem_0.Source = mWrapper.Dron.ImgBateria.Source;
+                SpeedItem_0.Source = mWrapper.Dron.ImgVel.Source;
+                TimeStack_time.Text = mWrapper.Time.ToString();
+                ObjectiveItem.Text = mWrapper.Objectives.ToString() + " / " + mWrapper.TotalObjectives.ToString();
+                PackageItem.Source = mWrapper.Paquete.Img.Source;
+            }
             base.OnNavigatedTo(e);
             GameTimerSetup();
         }

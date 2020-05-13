@@ -148,9 +148,9 @@
 
         <StackPanel x:Name="NewScoreStack" Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="40"  Margin="100,0,140,0" >
             <TextBlock x:Name="NewScore" Text="TU PUNTUACIÓN:" Style="{StaticResource EndGameText}" VerticalAlignment="Center"/>
-            <TextBox x:Name="NewNameBox" PlaceholderText="Introduce tu nombre" FontSize="30" FontWeight="Medium" LostFocus="NewNameBox_LostFocus" />
+            <TextBox x:Name="NewNameBox" PlaceholderText="Introduce tu nombre" FontSize="30" FontWeight="Medium" LostFocus="NewNameBox_LostFocus" GotFocus="NewNameBox_GotFocus" />
             <TextBlock x:Name="NewPoints" Text="289846" Style="{StaticResource EndGameText}" VerticalAlignment="Center"/>
-            <Image x:Name="SavedRecord_Image" Source="Assets/StoreLogo.png" Visibility="Collapsed" Height="54" Width="54" ></Image>
+            <Image x:Name="SavedRecord_Image" Source="Assets\Samples\\green_tick.png" Visibility="Collapsed" Height="54" Width="54" ></Image>
         </StackPanel>
 
         <StackPanel x:Name="BottomButtons" Grid.Row="2" Padding="0,10" Spacing="20" Margin="0,0,0,42" >

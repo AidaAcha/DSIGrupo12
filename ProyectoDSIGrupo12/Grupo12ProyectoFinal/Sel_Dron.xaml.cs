@@ -33,7 +33,9 @@ namespace Grupo12ProyectoFinal
 
         public ObservableCollection<VMPaquete> ListaPaquetes { get; } = new ObservableCollection<VMPaquete>();
         public ObservableCollection<VMDron> ListaDrones { get; } = new ObservableCollection<VMDron>();
-
+        //esto sería del HUD
+        public VMDron currDron;
+        public VMPaquete currPaquete;
         public Sel_Dron()
         {
             this.InitializeComponent();
@@ -71,7 +73,7 @@ namespace Grupo12ProyectoFinal
             ImgPesoPaquete.Source = d.ImgPeso.Source;
             Canvas.SetLeft(SelImaPaquete, d.X);
             Canvas.SetTop(SelImaPaquete, d.Y);
-
+            currPaquete = d;
         }
 
         private void ImageListView_ItemClickDron(object sender, ItemClickEventArgs e)
@@ -86,7 +88,7 @@ namespace Grupo12ProyectoFinal
             ImgBateriaDron.Source = d.ImgBateria.Source;
             Canvas.SetLeft(SelImaDron, d.X);
             Canvas.SetTop(SelImaDron, d.Y);
-
+            currDron = d;
         }
         
 
@@ -94,7 +96,8 @@ namespace Grupo12ProyectoFinal
         {
             // NavInfoText.Text = "Vuelvo al juego";
             //Va al juego cuando esté completa la pagina
-            this.Frame.Navigate(typeof(HUD));
+            VMWrapper mWrapper = new VMWrapper(currDron, currPaquete, 20, 3, 5);
+            this.Frame.Navigate(typeof(FinJuego), mWrapper);
         }
 
         

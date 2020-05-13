@@ -126,4 +126,21 @@ namespace Grupo12ProyectoFinal
         }
     }
 
+    public class VMWrapper
+    {
+        public VMDron Dron;
+        public VMPaquete Paquete;
+        public int Time;
+        public int Objectives;
+        public int TotalObjectives;
+
+        public VMWrapper(Dron d, Paquete p, int t, int obj, int totalObj)
+        {
+            Dron = new VMDron(d);
+            Paquete = new VMPaquete(p);
+            Time = t;
+            Objectives = obj;
+            TotalObjectives = totalObj;
+        }
+    }
 }
