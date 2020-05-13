@@ -74,7 +74,6 @@ namespace Grupo12ProyectoFinal
         }
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            NavInfoText.Text = "Estoy en Pausa";
             base.OnNavigatedTo(e);
             GameTimerSetup();
         }
@@ -90,26 +89,26 @@ namespace Grupo12ProyectoFinal
 
         private void Opciones_Click(object sender, RoutedEventArgs e)
         {
-            NavInfoText.Text = "Voy a opciones";
-            //Va a opciones cuando esté completa la pagina
+            this.Frame.Navigate(typeof(Options));
+
         }
         private void Renaudar_Click(object sender, RoutedEventArgs e)
         {
-            NavInfoText.Text = "Vuelvo al juego";
-            //Va al juego cuando esté completa la pagina
-            this.Frame.Navigate(typeof(MainPage));
+            On_BackRequested();
         }
         private void Menu_Click(object sender, RoutedEventArgs e)
         {
-            NavInfoText.Text = "Voy al menu principal";
-            //Va al menú cuando esté completa la pagina, ahora va a fin del juego para probar
-            this.Frame.Navigate(typeof(FinJuego));
-
+            this.Frame.Navigate(typeof(MainPage));
         }
 
-        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        private bool On_BackRequested()
         {
-
+            if (this.Frame.CanGoBack)
+            {
+                this.Frame.GoBack();
+                return true;
+            }
+            return false;
         }
     }
 }
