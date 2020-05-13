@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="#FFB253">
 
     <Page.Resources>
         <Style x:Name="ButtonStyle"
@@ -73,11 +73,6 @@
             <RowDefinition Height="3*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
-        <Image Source="Assets\\Samples\\FondoNaranja.png" Stretch="Fill" Grid.ColumnSpan="2" Margin="15.812,36.325,-36.03,232.501" Grid.RowSpan="3" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Grid.Row="1">
-            <Image.RenderTransform>
-                <CompositeTransform Rotation="-25.77"/>
-            </Image.RenderTransform>
-        </Image>
         <Image x:Name="targetImage"
                 Source="Assets\\Samples\\MarcoDSI.png"
                 Stretch="Fill" Grid.ColumnSpan="2"  Grid.RowSpan="4"
@@ -169,7 +164,7 @@
 
         </StackPanel>
 
-        <Button x:Name="Controles" Background="#ff6600" Content="ACEPTAR"  FontSize="40" Click="Iniciar_Click" Grid.ColumnSpan="2" HorizontalAlignment="Center" Grid.Row="2" Height="68" Width="300"/>
+        <Button x:Name="Controles" Background="#ff6600" Content="ACEPTAR"  FontSize="40" Click="Iniciar_Click" Grid.ColumnSpan="2" HorizontalAlignment="Center" Grid.Row="2" Height="68" Width="300" Style="{StaticResource ButtonStyle}" />
 
     </Grid>
 </Page>

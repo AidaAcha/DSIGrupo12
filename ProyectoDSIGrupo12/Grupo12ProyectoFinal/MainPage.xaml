@@ -6,9 +6,11 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-   Background="Black">
+    Background="White"
+    NavigationCacheMode="Enabled">
 
     <Page.Resources>
+
         <DataTemplate x:Key="ImageGridView_DefaultItemTemplate"
                       x:DataType="local:VMDron">
             <Grid Height="40" Width="300" Margin="8">
@@ -25,13 +27,13 @@
         </DataTemplate>
     </Page.Resources>
 
-
     <Grid>
+        <Image Source="Fondo.jpg" Stretch="UniformToFill"></Image>
         <StackPanel>
             <Image Source="Assets/Dronmazon_icon.png" Stretch="None" Height="400"></Image>
-            <Button Content="Iniciar Partida" Background="Orange" Height="85" Width="600" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" Margin="0,80,0,0" Click="Iniciar_Click"/>
-            <Button Content="Opciones" Background="Orange" Height="85" Width="600" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,50,0,0" FontSize="40" Click="Opciones_Click"/>
-            <Button Content="Salir" Background="Orange" Height="85" Width="600" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,50,0,0" FontSize="40" Click="End_Click"/>
+            <Button Content="IniciarPartida"  HorizontalAlignment="Center" FontSize="40" Margin="0,80,0,0" Click="Iniciar_Click" Style="{StaticResource ButtonStyle}" Width="595"/>
+            <Button Content="Opciones"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,50,0,0" FontSize="40" Click="Opciones_Click"  Style="{StaticResource ButtonStyle}" Width="595"/>
+            <Button Content="Salir" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,50,0,0" FontSize="40" Click="End_Click"  Style="{StaticResource ButtonStyle}" Width="595"/>
         </StackPanel>
 
 
