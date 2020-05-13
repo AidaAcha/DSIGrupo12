@@ -11,6 +11,9 @@ namespace Grupo12ProyectoFinal
     public class VMDron : Dron
     {
         public Image Img;
+        public Image ImgPeso;
+        public Image ImgVel;
+        public Image ImgBateria;
         public ContentControl CCImg;
         public int Zoom;
         public RotateTransform Rotacion;
@@ -39,6 +42,25 @@ namespace Grupo12ProyectoFinal
             Img.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(s));
             Img.Width = 50;
             Img.Height = 50;
+
+            ImgPeso = new Image();
+            string s1 = System.IO.Directory.GetCurrentDirectory() + "\\" + dron.ImagenPeso;
+            ImgPeso.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(s1));
+            ImgPeso.Width = 50;
+            ImgPeso.Height = 50;
+
+            ImgVel = new Image();
+            string s2 = System.IO.Directory.GetCurrentDirectory() + "\\" + dron.ImagenVelocidad;
+            ImgVel.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(s2));
+            ImgVel.Width = 50;
+            ImgVel.Height = 50;
+
+            ImgBateria = new Image();
+            string s3 = System.IO.Directory.GetCurrentDirectory() + "\\" + dron.ImagenBateria;
+            ImgBateria.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(s3));
+            ImgBateria.Width = 50;
+            ImgBateria.Height = 50;
+
             //Creo el ContentControl
             CCImg = new ContentControl();
             CCImg.RenderTransform = Rotacion;
@@ -55,6 +77,7 @@ namespace Grupo12ProyectoFinal
     public class VMPaquete : Paquete
     {
         public Image Img;
+        public Image ImgPeso;
         public ContentControl CCImg;
         public int Zoom;
         public RotateTransform Rotacion;
@@ -81,8 +104,16 @@ namespace Grupo12ProyectoFinal
             Img = new Image();
             string s = System.IO.Directory.GetCurrentDirectory() + "\\" + paquete.Imagen;
             Img.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(s));
-            Img.Width = 50;
-            Img.Height = 50;
+           // Img.Width = 50;
+            //Img.Height = 50;
+
+            ImgPeso = new Image();
+            string s1 = System.IO.Directory.GetCurrentDirectory() + "\\" + paquete.ImagenPeso;
+            ImgPeso.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(s1));
+            //ImgPeso.Width = 50;
+            //ImgPeso.Height = 50;
+
+
             //Creo el ContentControl
             CCImg = new ContentControl();
             CCImg.RenderTransform = Rotacion;
@@ -95,4 +126,21 @@ namespace Grupo12ProyectoFinal
         }
     }
 
+    public class VMWrapper
+    {
+        public VMDron Dron;
+        public VMPaquete Paquete;
+        public int Time;
+        public int Objectives;
+        public int TotalObjectives;
+
+        public VMWrapper(Dron d, Paquete p, int t, int obj, int totalObj)
+        {
+            Dron = new VMDron(d);
+            Paquete = new VMPaquete(p);
+            Time = t;
+            Objectives = obj;
+            TotalObjectives = totalObj;
+        }
+    }
 }

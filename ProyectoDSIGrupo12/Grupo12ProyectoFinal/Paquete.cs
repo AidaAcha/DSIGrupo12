@@ -8,7 +8,7 @@ namespace Grupo12ProyectoFinal
 {
     public class Paquete
     {
-        public enum estados { Aterrizado, Autonomo, Manual };
+        public enum forma { Cuadrado, Circulo, Triangulo };
 
         public int Id { get; set; }
         public string Nombre { get; set; }
@@ -17,7 +17,10 @@ namespace Grupo12ProyectoFinal
         public string Imagen { get; set; }
         //public Image Img;
         public string Explicacion { get; set; }
-        public estados Estado { get; set; }
+        public string ImagenPeso { get; set; }
+        public string Color { get; set; }
+
+        public forma Estado { get; set; }
         public int X { get; set; }
         public int Y { get; set; }
         public int RX;
@@ -38,7 +41,9 @@ namespace Grupo12ProyectoFinal
                 Imagen = "Assets\\Samples\\CuadradoAmarillo.jpg",
                 Forma="Cuadrado",
                 Explicacion = @"Explicación Dron1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
-                Estado = Paquete.estados.Aterrizado,
+                Estado = Paquete.forma.Cuadrado,
+                ImagenPeso="Assets\\Samples\\Estrella4.png",
+                Color="Azul",
                 X = 10,
                 Y = 10,
                 RX =100,
@@ -51,7 +56,9 @@ namespace Grupo12ProyectoFinal
                 Imagen = "Assets\\Samples\\CuadradoAmarillo.jpg",
                 Forma="Cuadrado",
                 Explicacion = @"Explicación Dron2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
-                Estado = Paquete.estados.Aterrizado,
+                Estado = Paquete.forma.Cuadrado,
+                ImagenPeso="Assets\\Samples\\Estrella3.png",
+                Color="Amarillo",
                 X = 50,
                 Y = 50,
                 RX =150,
@@ -64,7 +71,9 @@ namespace Grupo12ProyectoFinal
                 Imagen = "Assets\\Samples\\CuadradoAmarillo.jpg",
                 Forma="Cuadrado",
                 Explicacion = @"Explicación Dron3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
-                Estado = Paquete.estados.Aterrizado,
+                Estado = Paquete.forma.Cuadrado,
+                ImagenPeso="Assets\\Samples\\Estrella2.png",
+                Color="Verde",
                 X = 100,
                 Y = 100,
                 RX =50,
@@ -73,11 +82,13 @@ namespace Grupo12ProyectoFinal
             new Paquete()
             {
                 Id = 3,
-                Nombre = "Paquete Amarillo",
+                Nombre = "Paquete Rojo",
                 Imagen = "Assets\\Samples\\CuadradoAmarillo.jpg",
                 Forma="Cuadrado",
                 Explicacion = @"Explicación Dron4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
-                Estado = Paquete.estados.Aterrizado,
+                Estado = Paquete.forma.Cuadrado,
+                ImagenPeso="Assets\\Samples\\Estrella5.png",
+                Color="Rojo",
                 X = 150,
                 Y = 150,
                 RX =200,

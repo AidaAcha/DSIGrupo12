@@ -33,7 +33,9 @@ namespace Grupo12ProyectoFinal
 
         public ObservableCollection<VMPaquete> ListaPaquetes { get; } = new ObservableCollection<VMPaquete>();
         public ObservableCollection<VMDron> ListaDrones { get; } = new ObservableCollection<VMDron>();
-
+        //esto sería del HUD
+        public VMDron currDron;
+        public VMPaquete currPaquete;
         public Sel_Dron()
         {
             this.InitializeComponent();
@@ -68,9 +70,10 @@ namespace Grupo12ProyectoFinal
             TextPaqueteNombre.Text = d.Nombre;
             TextPaqueteForma.Text = d.Forma;
             SelImaPaquete.Source = d.Img.Source;
+            ImgPesoPaquete.Source = d.ImgPeso.Source;
             Canvas.SetLeft(SelImaPaquete, d.X);
             Canvas.SetTop(SelImaPaquete, d.Y);
-
+            currPaquete = d;
         }
 
         private void ImageListView_ItemClickDron(object sender, ItemClickEventArgs e)
@@ -80,26 +83,28 @@ namespace Grupo12ProyectoFinal
             TextDronNombre.Text = d.Nombre;
             //TextInfoPaquete.Text = d.Explicacion;
             SelImaDron.Source = d.Img.Source;
+            ImgPesoDron.Source = d.ImgPeso.Source;
+            ImgVelDron.Source = d.ImgVel.Source;
+            ImgBateriaDron.Source = d.ImgBateria.Source;
             Canvas.SetLeft(SelImaDron, d.X);
             Canvas.SetTop(SelImaDron, d.Y);
-
+            currDron = d;
         }
-        private void Volver_Click(object sender, RoutedEventArgs e)
+
+
+        private void Iniciar_Click(object sender, RoutedEventArgs e)
         {
-            On_BackRequested();
+            // NavInfoText.Text = "Vuelvo al juego";
+            //Va al juego cuando esté completa la pagina
 
+            VMWrapper mWrapper = new VMWrapper(currDron, currPaquete, 20, 3, 5);
+            mWrapper.Dron.ImgPeso.Source = currDron.ImgPeso.Source;
+            mWrapper.Dron.ImgVel.Source = currDron.ImgVel.Source;
+            mWrapper.Dron.ImgBateria.Source = currDron.ImgBateria.Source;
+            this.Frame.Navigate(typeof(Pausa), mWrapper);
         }
 
-
-        private bool On_BackRequested()
-        {
-            if (this.Frame.CanGoBack)
-            {
-                this.Frame.GoBack();
-                return true;
-            }
-            return false;
-        }
+        
 
     }
 }

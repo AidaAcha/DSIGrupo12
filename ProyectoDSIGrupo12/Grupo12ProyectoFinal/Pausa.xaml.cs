@@ -74,7 +74,19 @@ namespace Grupo12ProyectoFinal
         }
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            NavInfoText.Text = "Estoy en Pausa";
+
+            VMWrapper mWrapper = e.Parameter as VMWrapper;
+            if(mWrapper != null)
+            {
+                PanelDronImage.Source = mWrapper.Dron.Img.Source;
+                InnerPanelDronName_text.Text = mWrapper.Dron.Nombre;
+                WeightItem_0.Source = mWrapper.Dron.ImgPeso.Source;
+                BatteryItem_0.Source = mWrapper.Dron.ImgBateria.Source;
+                SpeedItem_0.Source = mWrapper.Dron.ImgVel.Source;
+                TimeStack_time.Text = mWrapper.Time.ToString();
+                ObjectiveItem.Text = mWrapper.Objectives.ToString() + " / " + mWrapper.TotalObjectives.ToString();
+                PackageItem.Source = mWrapper.Paquete.Img.Source;
+            }
             base.OnNavigatedTo(e);
             GameTimerSetup();
         }
@@ -90,22 +102,26 @@ namespace Grupo12ProyectoFinal
 
         private void Opciones_Click(object sender, RoutedEventArgs e)
         {
-            NavInfoText.Text = "Voy a opciones";
-            //Va a opciones cuando esté completa la pagina
+            this.Frame.Navigate(typeof(Options));
+
         }
         private void Renaudar_Click(object sender, RoutedEventArgs e)
         {
-            NavInfoText.Text = "Vuelvo al juego";
-            //Va al juego cuando esté completa la pagina
-            this.Frame.Navigate(typeof(MainPage));
+            On_BackRequested();
         }
         private void Menu_Click(object sender, RoutedEventArgs e)
         {
-            NavInfoText.Text = "Voy al menu principal";
-            //Va al menú cuando esté completa la pagina, ahora va a fin del juego para probar
-            this.Frame.Navigate(typeof(FinJuego));
-
+            this.Frame.Navigate(typeof(MainPage));
         }
 
+        private bool On_BackRequested()
+        {
+            if (this.Frame.CanGoBack)
+            {
+                this.Frame.GoBack();
+                return true;
+            }
+            return false;
+        }
     }
 }
