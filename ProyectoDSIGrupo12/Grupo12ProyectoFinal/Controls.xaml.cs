@@ -28,7 +28,6 @@ namespace Grupo12ProyectoFinal
             this.InitializeComponent();
             mandoButton.Background = c1;
             tecladoButton.Background = c2;
-            volverButton.Background = c1;
         }
 
         private void Teclado_Click(object sender, RoutedEventArgs e)
