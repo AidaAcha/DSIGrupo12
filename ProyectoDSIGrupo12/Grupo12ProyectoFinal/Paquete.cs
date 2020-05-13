@@ -38,7 +38,7 @@ namespace Grupo12ProyectoFinal
             {
                 Id = 0,
                 Nombre = "Paquete Azul",
-                Imagen = "Assets\\Samples\\CuadradoAmarillo.jpg",
+                Imagen = "Assets\\Samples\\PaqueteAzul.png",
                 Forma="Cuadrado",
                 Explicacion = @"Explicación Dron1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
                 Estado = Paquete.forma.Cuadrado,
@@ -53,7 +53,7 @@ namespace Grupo12ProyectoFinal
             {
                 Id = 1,
                 Nombre = "Paquete Amarillo",
-                Imagen = "Assets\\Samples\\CuadradoAmarillo.jpg",
+                Imagen = "Assets\\Samples\\PaqueteAmarillo.png",
                 Forma="Cuadrado",
                 Explicacion = @"Explicación Dron2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
                 Estado = Paquete.forma.Cuadrado,
@@ -68,7 +68,7 @@ namespace Grupo12ProyectoFinal
             {
                 Id = 2,
                 Nombre = "Paquete Verde",
-                Imagen = "Assets\\Samples\\CuadradoAmarillo.jpg",
+                Imagen = "Assets\\Samples\\PaqueteVerdel.png",
                 Forma="Cuadrado",
                 Explicacion = @"Explicación Dron3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
                 Estado = Paquete.forma.Cuadrado,
@@ -83,7 +83,7 @@ namespace Grupo12ProyectoFinal
             {
                 Id = 3,
                 Nombre = "Paquete Rojo",
-                Imagen = "Assets\\Samples\\CuadradoAmarillo.jpg",
+                Imagen = "Assets\\Samples\\PaqueteRojo.png",
                 Forma="Cuadrado",
                 Explicacion = @"Explicación Dron4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
                 Estado = Paquete.forma.Cuadrado,
