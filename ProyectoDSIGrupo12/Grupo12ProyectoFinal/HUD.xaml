@@ -70,7 +70,7 @@
 
             <Image x:Name="dirViento" Stretch="Fill" VerticalAlignment="Top" HorizontalAlignment="Left"/>
         </StackPanel>
-        <Canvas x:Name="canvas" Grid.Column="0" XYFocusKeyboardNavigation="Enabled" 
+        <Canvas x:Name="canvas"  XYFocusKeyboardNavigation="Enabled" 
                 XYFocusDownNavigationStrategy="RectilinearDistance" XYFocusUpNavigationStrategy="RectilinearDistance" 
                 XYFocusLeftNavigationStrategy="RectilinearDistance" XYFocusRightNavigationStrategy="RectilinearDistance" 
                 TabFocusNavigation="Once" AllowFocusOnInteraction="True" KeyDown="CanvasKeyDown" Grid.ColumnSpan="3" Grid.RowSpan="3"/>

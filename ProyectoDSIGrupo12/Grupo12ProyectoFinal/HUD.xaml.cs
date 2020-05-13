@@ -38,6 +38,7 @@ namespace Grupo12ProyectoFinal
     {
         public int objetivos = 0;
         VMDron dron;
+        public VMWrapper mWrapper_;
         public ObservableCollection<VMDron> ListaDrones { get; } = new ObservableCollection<VMDron>();
         public HUD()
         {
@@ -47,6 +48,7 @@ namespace Grupo12ProyectoFinal
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             VMWrapper mWrapper = e.Parameter as VMWrapper;
+            mWrapper_ = mWrapper;
             if (mWrapper != null)
             { 
                 dronImagen.Source = mWrapper.Dron.Img.Source;
@@ -54,10 +56,17 @@ namespace Grupo12ProyectoFinal
             }
 
             VMDron VMItem = new VMDron(mWrapper.Dron);
-            ListaDrones.Add(VMItem);
+            ListaDrones.Add(mWrapper.Dron);
             canvas.Children.Add(VMItem.CCImg);
-            canvas.Children.Last().SetValue(Canvas.LeftProperty, VMItem.X - 25);
-            canvas.Children.Last().SetValue(Canvas.TopProperty, VMItem.Y - 25);
+            canvas.Children.Last().SetValue(Canvas.LeftProperty, VMItem.X );
+            canvas.Children.Last().SetValue(Canvas.TopProperty, VMItem.Y );
+
+            /*
+             * ListaDrones.Add(mWrapper.Dron);
+            canvas.Children.Add(mWrapper.Dron.CCImg);
+            canvas.Children.Last().SetValue(Canvas.LeftProperty, mWrapper.Dron.X - 25);
+            canvas.Children.Last().SetValue(Canvas.TopProperty, mWrapper.Dron.Y - 25);
+             */
             base.OnNavigatedFrom(e);
         }
 
@@ -91,10 +100,25 @@ namespace Grupo12ProyectoFinal
                     case VirtualKey.D:
                         ListaDrones[0].X += 10;
                         break;
+                    case VirtualKey.Escape:
+                        {
+
+                            mWrapper_.x_ = ListaDrones[0].X;
+                            mWrapper_.y_ = ListaDrones[0].Y;
+                            this.Frame.Navigate(typeof(Pausa), mWrapper_);
+                        }
+                        break;
                 }
                 canvas.Children[ind].SetValue(Canvas.LeftProperty, ListaDrones[ind].X);
                 canvas.Children[ind].SetValue(Canvas.TopProperty, ListaDrones[ind].Y);
+
+                if(ListaDrones[0].Y > 100 && ListaDrones[0].Y < 200 && ListaDrones[0].X < 200 && ListaDrones[0].X > 100)
+                {
+                    this.Frame.Navigate(typeof(Sel_Dron));
+                }
             }
         }
+
+      
     }
 }

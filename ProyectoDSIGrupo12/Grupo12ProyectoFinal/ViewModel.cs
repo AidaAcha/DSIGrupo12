@@ -133,14 +133,17 @@ namespace Grupo12ProyectoFinal
         public int Time;
         public int Objectives;
         public int TotalObjectives;
+        public double x_, y_;
 
-        public VMWrapper(Dron d, Paquete p, int t, int obj, int totalObj)
+        public VMWrapper(Dron d, Paquete p, int t, int obj, int totalObj, double x, double y)
         {
             Dron = new VMDron(d);
             Paquete = new VMPaquete(p);
             Time = t;
             Objectives = obj;
             TotalObjectives = totalObj;
+            x_ = x;
+            y_ = y;
         }
     }
 }

@@ -58,6 +58,8 @@ namespace Grupo12ProyectoFinal
                     VMDron VMitem = new VMDron(dron);
                     ListaDrones.Add(VMitem);
                 }
+            currDron = ListaDrones[0];
+            currPaquete = ListaPaquetes[0];
             base.OnNavigatedTo(e);
         }
         //solo pone en el mapa el ultimo en haber sido clicado, si tienes todos seleccionados solo pilla el ultimo que hayas pulsado
@@ -97,7 +99,7 @@ namespace Grupo12ProyectoFinal
             // NavInfoText.Text = "Vuelvo al juego";
             //Va al juego cuando esté completa la pagina
 
-            VMWrapper mWrapper = new VMWrapper(currDron, currPaquete, 20, 3, 5);
+            VMWrapper mWrapper = new VMWrapper(currDron, currPaquete, 20, 3, 5,0,0);
             mWrapper.Dron.ImgPeso.Source = currDron.ImgPeso.Source;
             mWrapper.Dron.ImgVel.Source = currDron.ImgVel.Source;
             mWrapper.Dron.ImgBateria.Source = currDron.ImgBateria.Source;
