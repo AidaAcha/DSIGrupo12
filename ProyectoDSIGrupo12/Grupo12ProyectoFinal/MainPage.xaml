@@ -28,12 +28,16 @@
     </Page.Resources>
 
     <Grid>
-        <Image Source="Fondo.jpg" Stretch="UniformToFill"></Image>
-        <Image Source="Assets/titulodsi.png" Margin="0,-105,0,168"   />
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Image Source="Fondo.jpg" Grid.RowSpan="2" Stretch="Fill" Margin="0,0,0,10"/>
+        <Image Source="Assets/titulodsi.png" Grid.RowSpan="2" Margin="0,-84,0,84"   />
+        <Image Source="Assets/Dronmazon_icon.png" Stretch="None" Height="400" Margin="0,-10,0,110"/>
 
-        <StackPanel>
+        <StackPanel Grid.Row="1">
 
-            <Image Source="Assets/Dronmazon_icon.png" Stretch="None" Height="400"/>
 
             <Button Content="Iniciar Partida"  HorizontalAlignment="Center" FontSize="40" Margin="0,40,0,0" Click="Iniciar_Click" Style="{StaticResource ButtonStyle}" Width="595"/>
             <Button Content="Opciones"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,50,0,0" FontSize="40" Click="Opciones_Click"  Style="{StaticResource ButtonStyle}" Width="595"/>
