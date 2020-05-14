@@ -36,10 +36,11 @@ namespace Grupo12ProyectoFinal
     /// </summary>
     public sealed partial class HUD : Page
     {
+        public int time = 100;
         public int objetivos = 0;
-        VMDron dron;
         public VMWrapper mWrapper_;
         public ObservableCollection<VMDron> ListaDrones { get; } = new ObservableCollection<VMDron>();
+        public ObservableCollection<VMPaquete> ListaDestinos { get; } = new ObservableCollection<VMPaquete>();
         public HUD()
         {
             this.InitializeComponent();
@@ -55,11 +56,29 @@ namespace Grupo12ProyectoFinal
                 paqueteSel.Source = mWrapper.Paquete.Img.Source;
             }
 
+            
+
             VMDron VMItem = new VMDron(mWrapper.Dron);
+            VMPaquete VMDest = new VMPaquete(mWrapper.Paquete);
             ListaDrones.Add(mWrapper.Dron);
+            ListaDestinos.Add(mWrapper.Paquete);
             canvas.Children.Add(VMItem.CCImg);
+            canvas.Children.Add(VMDest.CCImg);
             canvas.Children.Last().SetValue(Canvas.LeftProperty, VMItem.X );
             canvas.Children.Last().SetValue(Canvas.TopProperty, VMItem.Y );
+            canvas.Children.Last().SetValue(Canvas.LeftProperty, VMDest.X -100);
+            canvas.Children.Last().SetValue(Canvas.TopProperty, VMDest.Y -100);
+
+            if (ListaDestinos != null)
+                foreach (Paquete paquete in ModelPaquete.GetAllPaquetes())
+                {
+                    VMPaquete VMDestino = new VMPaquete(paquete);
+                    ListaDestinos.Add(VMDestino);
+                    VMDestino.CCImg.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                    canvas.Children.Add(VMDestino.CCImg);
+                    canvas.Children.Last().SetValue(Canvas.LeftProperty, VMDestino.X - 25);
+                    canvas.Children.Last().SetValue(Canvas.TopProperty, VMDestino.Y - 25);
+                }
 
             /*
              * ListaDrones.Add(mWrapper.Dron);
@@ -102,7 +121,6 @@ namespace Grupo12ProyectoFinal
                         break;
                     case VirtualKey.Escape:
                         {
-
                             mWrapper_.x_ = ListaDrones[0].X;
                             mWrapper_.y_ = ListaDrones[0].Y;
                             this.Frame.Navigate(typeof(Pausa), mWrapper_);
@@ -112,7 +130,7 @@ namespace Grupo12ProyectoFinal
                 canvas.Children[ind].SetValue(Canvas.LeftProperty, ListaDrones[ind].X);
                 canvas.Children[ind].SetValue(Canvas.TopProperty, ListaDrones[ind].Y);
 
-                if(ListaDrones[0].Y > 100 && ListaDrones[0].Y < 200 && ListaDrones[0].X < 200 && ListaDrones[0].X > 100)
+                if(ListaDrones[0].Y > 300 && ListaDrones[0].Y < 400 && ListaDrones[0].X < 400 && ListaDrones[0].X > 300)
                 {
                     this.Frame.Navigate(typeof(Sel_Dron));
                 }
