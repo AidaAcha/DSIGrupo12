@@ -34,7 +34,7 @@ namespace Grupo12ProyectoFinal
         {
             mandoButton.Background = c1;
             tecladoButton.Background = c2;
-            imagen.ImageSource = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\" + "T.png"));
+            imagen.ImageSource = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\" + "Assets/T.png"));
         }
 
         private void volverButton_Click(object sender, RoutedEventArgs e)
@@ -58,7 +58,7 @@ namespace Grupo12ProyectoFinal
         {
             tecladoButton.Background = c1;
             mandoButton.Background = c2;
-            imagen.ImageSource = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\" + "Mando.png"));
+            imagen.ImageSource = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\" + "Assets/Mando.png"));
         }
     }
 }
