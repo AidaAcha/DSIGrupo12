@@ -51,8 +51,9 @@ namespace Grupo12ProyectoFinal
 
         private void End_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(FinJuego));
+           
             ElementSoundPlayer.Play(ElementSoundKind.Invoke);
+            Application.Current.Exit();
         }
     }
 }
