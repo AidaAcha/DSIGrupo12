@@ -138,18 +138,13 @@ namespace Grupo12ProyectoFinal
                 }
                 canvas.Children[0].SetValue(Canvas.LeftProperty, ListaDrones[0].X);
                 canvas.Children[0].SetValue(Canvas.TopProperty, ListaDrones[0].Y);
-                int x = ListaDrones[0].X;//230----360
-                int y = ListaDrones[0].Y;//280-----380
-                if (ListaDrones[0].Y >250 && ListaDrones[0].Y < 400 && ListaDrones[0].X > 230 && ListaDrones[0].X < 360)
+                int x = ListaDrones[0].X;
+                int y = ListaDrones[0].Y;
+                if (ListaDrones[0].Y >230 && ListaDrones[0].Y < 400 && ListaDrones[0].X >0 && ListaDrones[0].X < 250)
                 {
                     this.Frame.Navigate(typeof(Sel_Dron));
                 }
             }
-        }
-
-        private void Canvas_GettingFocus(UIElement sender, GettingFocusEventArgs args)
-        {
-
         }
     }
 }
