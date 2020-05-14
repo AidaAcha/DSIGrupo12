@@ -106,18 +106,23 @@ namespace Grupo12ProyectoFinal
 
                 switch (e.Key)
                 {
+                    case VirtualKey.GamepadRightThumbstickLeft:
                     case VirtualKey.A:
                         ListaDrones[0].X -= 10;
                         break;
+                    case VirtualKey.GamepadRightThumbstickUp:
                     case VirtualKey.W:
                         ListaDrones[0].Y -= 10;
                         break;
+                    case VirtualKey.GamepadRightThumbstickDown:
                     case VirtualKey.S:
                         ListaDrones[0].Y += 10;
                         break;
+                    case VirtualKey.GamepadRightThumbstickRight:
                     case VirtualKey.D:
                         ListaDrones[0].X += 10;
                         break;
+                    case VirtualKey.GamepadMenu:
                     case VirtualKey.Escape:
                         {
                             mWrapper_.x_ = ListaDrones[0].X;
