@@ -130,11 +130,16 @@ namespace Grupo12ProyectoFinal
                             this.Frame.Navigate(typeof(Pausa), mWrapper_);
                         }
                         break;
+                        //prueba
+                    case VirtualKey.O:
+                        Console.WriteLine("X: " + ListaDrones [0].X);
+                        Console.WriteLine("Y: " + ListaDrones[0].Y);
+                        break;
                 }
                 canvas.Children[0].SetValue(Canvas.LeftProperty, ListaDrones[0].X);
                 canvas.Children[0].SetValue(Canvas.TopProperty, ListaDrones[0].Y);
 
-                if(ListaDrones[0].Y > 300 && ListaDrones[0].Y < 400 && ListaDrones[0].X < 300 && ListaDrones[0].X > 200)
+                if(ListaDrones[0].Y > 400 && ListaDrones[0].Y < 600 && ListaDrones[0].X < 400 && ListaDrones[0].X > 600)
                 {
                     this.Frame.Navigate(typeof(Sel_Dron));
                 }
