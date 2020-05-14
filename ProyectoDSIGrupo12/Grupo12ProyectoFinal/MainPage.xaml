@@ -29,10 +29,12 @@
 
     <Grid>
         <Image Source="Fondo.jpg" Stretch="UniformToFill"></Image>
-        <StackPanel>
-            <Image Source="Assets/Dronmazon_icon.png" Stretch="None" Height="400"></Image>
+        <Image Source="Assets/titulodsi.png" Margin="0,-105,0,168"   />
 
-            <Image Source="Assets/titulodsi.png" Stretch="UniformToFill" Height="623" Margin="0,-430,0,0" Width="1514" />
+        <StackPanel>
+
+            <Image Source="Assets/Dronmazon_icon.png" Stretch="None" Height="400"/>
+
             <Button Content="Iniciar Partida"  HorizontalAlignment="Center" FontSize="40" Margin="0,40,0,0" Click="Iniciar_Click" Style="{StaticResource ButtonStyle}" Width="595"/>
             <Button Content="Opciones"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,50,0,0" FontSize="40" Click="Opciones_Click"  Style="{StaticResource ButtonStyle}" Width="595"/>
             <Button Content="Salir" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,50,0,0" FontSize="40" Click="End_Click"  Style="{StaticResource ButtonStyle}" Width="595"/>

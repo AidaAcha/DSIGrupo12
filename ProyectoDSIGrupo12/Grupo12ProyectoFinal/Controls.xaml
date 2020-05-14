@@ -11,18 +11,20 @@
 
     <Grid>
         <Image  Source="Assets\\Samples\\MarcoDSI.png" Stretch="Fill"></Image>
-            <StackPanel>
-        <StackPanel Orientation="Horizontal"  VerticalAlignment="Top"  HorizontalAlignment="Center" Margin="0,30,0,0">
-                <Button Content="Teclado" x:Name="tecladoButton"  VerticalAlignment="Top" HorizontalAlignment="Center"  Width="300" FontSize="40" Click="Teclado_Click" Style="{StaticResource ButtonStyle}"/>
-                <Button Content="Mando" x:Name="mandoButton"  VerticalAlignment="Top"  HorizontalAlignment="Center" Width="300" FontSize="40" Click="Mando_Click" Style="{StaticResource ButtonStyle}"/>
+        <StackPanel Orientation="Horizontal"  VerticalAlignment="Top"  HorizontalAlignment="Center" Margin="0,100,0,0">
+            <Button Content="Teclado" x:Name="tecladoButton"  VerticalAlignment="Top"  Width="300" FontSize="40" Click="Teclado_Click" Style="{StaticResource ButtonStyle}"/>
+            <Button Content="Mando" x:Name="mandoButton"  VerticalAlignment="Top" Width="300" FontSize="40" Click="Mando_Click" Style="{StaticResource ButtonStyle}"/>
         </StackPanel>
+        <StackPanel>
 
-        <Rectangle HorizontalAlignment="Center" Height="700" Stroke="Black" VerticalAlignment="Center" Width="800" Margin="0,50,0,0">
+
+            <Rectangle HorizontalAlignment="Center" Height="700" Stroke="Black" VerticalAlignment="Center" Width="800" Margin="0,100,0,0">
                 <Rectangle.Fill>
                     <ImageBrush x:Name="imagen" Stretch="Fill" ImageSource="Assets/T.png"></ImageBrush>
                 </Rectangle.Fill>
             </Rectangle>
-            <Button Content="Volver" x:Name="volverButton" Margin="0,40,0,0" VerticalAlignment="Top"  HorizontalAlignment="Center" Width="300" FontSize="40" Click="volverButton_Click" Style="{StaticResource ButtonStyle}"/>
         </StackPanel>
+        <Button Content="Volver" x:Name="volverButton" Margin="0,736,0,0" VerticalAlignment="Top" Width="300" FontSize="40" Click="volverButton_Click" Style="{StaticResource ButtonStyle}"/>
+
     </Grid>
 </Page>
