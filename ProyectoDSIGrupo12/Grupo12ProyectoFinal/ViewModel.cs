@@ -104,8 +104,8 @@ namespace Grupo12ProyectoFinal
             Img = new Image();
             string s = System.IO.Directory.GetCurrentDirectory() + "\\" + paquete.Imagen;
             Img.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(s));
-           // Img.Width = 50;
-            //Img.Height = 50;
+            Img.Width = 50;
+            Img.Height = 50;
 
             ImgPeso = new Image();
             string s1 = System.IO.Directory.GetCurrentDirectory() + "\\" + paquete.ImagenPeso;

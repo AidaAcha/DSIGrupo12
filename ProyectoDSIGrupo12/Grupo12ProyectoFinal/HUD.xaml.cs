@@ -56,13 +56,29 @@ namespace Grupo12ProyectoFinal
                 paqueteSel.Source = mWrapper.Paquete.Img.Source;
             }
 
+            
+
             VMDron VMItem = new VMDron(mWrapper.Dron);
             VMPaquete VMDest = new VMPaquete(mWrapper.Paquete);
             ListaDrones.Add(mWrapper.Dron);
             ListaDestinos.Add(mWrapper.Paquete);
             canvas.Children.Add(VMItem.CCImg);
+            canvas.Children.Add(VMDest.CCImg);
             canvas.Children.Last().SetValue(Canvas.LeftProperty, VMItem.X );
             canvas.Children.Last().SetValue(Canvas.TopProperty, VMItem.Y );
+            canvas.Children.Last().SetValue(Canvas.LeftProperty, VMDest.X -100);
+            canvas.Children.Last().SetValue(Canvas.TopProperty, VMDest.Y -100);
+
+            if (ListaDestinos != null)
+                foreach (Paquete paquete in ModelPaquete.GetAllPaquetes())
+                {
+                    VMPaquete VMDestino = new VMPaquete(paquete);
+                    ListaDestinos.Add(VMDestino);
+                    VMDestino.CCImg.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                    canvas.Children.Add(VMDestino.CCImg);
+                    canvas.Children.Last().SetValue(Canvas.LeftProperty, VMDestino.X - 25);
+                    canvas.Children.Last().SetValue(Canvas.TopProperty, VMDestino.Y - 25);
+                }
 
             /*
              * ListaDrones.Add(mWrapper.Dron);
@@ -105,7 +121,6 @@ namespace Grupo12ProyectoFinal
                         break;
                     case VirtualKey.Escape:
                         {
-
                             mWrapper_.x_ = ListaDrones[0].X;
                             mWrapper_.y_ = ListaDrones[0].Y;
                             this.Frame.Navigate(typeof(Pausa), mWrapper_);
