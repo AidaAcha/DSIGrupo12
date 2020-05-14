@@ -47,7 +47,7 @@
         <Image x:Name="fondoImage"
                        Source="Assets\mapa2.png"
                        Stretch="UniformToFill"
-                       Margin="-23,0,0,6" Grid.ColumnSpan="4" Grid.RowSpan="3"/>
+                       Margin="-23,0,0,6" Grid.ColumnSpan="4" Grid.RowSpan="3" Opacity="50"/>
         
         
         <Ellipse Grid.Column="2"  Height="100" Margin="0,9,0,0" Stroke="Black"  Width="244" Opacity="500" Fill="BlueViolet" HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -55,7 +55,6 @@
         <TextBlock x:Name="minTiempo" Text=" " HorizontalAlignment="Left"/>
         <TextBlock x:Name="segTiempo" Text=" " HorizontalAlignment="Right"/>
         <!--<Image x:Name="paquete" Source=" " Grid.Row="1"/>-->
-        <Image x:Name="paqueteSel" Source=" " Grid.Row="2"/>
 
 
         <Canvas x:Name="canvas"  XYFocusKeyboardNavigation="Enabled" 
