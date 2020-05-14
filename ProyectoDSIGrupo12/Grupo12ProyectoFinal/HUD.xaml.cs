@@ -136,6 +136,11 @@ namespace Grupo12ProyectoFinal
                         Console.WriteLine("Y: " + ListaDrones[0].Y);
                         break;
                 }
+                //limites
+                if (ListaDrones[0].X < 0) ListaDrones[0].X = 0;
+                else if (ListaDrones[0].X > 1400) ListaDrones[0].X = 1400;
+                if (ListaDrones[0].Y < 0) ListaDrones[0].Y = 0;
+                else if (ListaDrones[0].Y > 950) ListaDrones[0].Y = 950;
                 canvas.Children[0].SetValue(Canvas.LeftProperty, ListaDrones[0].X);
                 canvas.Children[0].SetValue(Canvas.TopProperty, ListaDrones[0].Y);
                 int x = ListaDrones[0].X;
