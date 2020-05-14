@@ -104,8 +104,8 @@ namespace Grupo12ProyectoFinal
             Img = new Image();
             string s = System.IO.Directory.GetCurrentDirectory() + "\\" + paquete.Imagen;
             Img.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(s));
-           // Img.Width = 50;
-            //Img.Height = 50;
+            Img.Width = 50;
+            Img.Height = 50;
 
             ImgPeso = new Image();
             string s1 = System.IO.Directory.GetCurrentDirectory() + "\\" + paquete.ImagenPeso;
@@ -133,14 +133,17 @@ namespace Grupo12ProyectoFinal
         public int Time;
         public int Objectives;
         public int TotalObjectives;
+        public double x_, y_;
 
-        public VMWrapper(Dron d, Paquete p, int t, int obj, int totalObj)
+        public VMWrapper(Dron d, Paquete p, int t, int obj, int totalObj, double x, double y)
         {
             Dron = new VMDron(d);
             Paquete = new VMPaquete(p);
             Time = t;
             Objectives = obj;
             TotalObjectives = totalObj;
+            x_ = x;
+            y_ = y;
         }
     }
 }

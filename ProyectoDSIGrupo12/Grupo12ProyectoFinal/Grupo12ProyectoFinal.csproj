@@ -151,6 +151,7 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\450_1000.png" />
     <Content Include="Assets\drones.png" />
     <Content Include="Assets\Dron_1.png" />
     <Content Include="Assets\Dron_2.png" />
@@ -158,6 +159,9 @@
     <Content Include="Assets\Dron_4.png" />
     <Content Include="Assets\carga-movil .png" />
     <Content Include="Assets\Madrid.png" />
+    <Content Include="Assets\mapa1.jpg" />
+    <Content Include="Assets\mapa2.png" />
+    <Content Include="Assets\marcador.png" />
     <Content Include="Assets\reloj.png" />
     <Content Include="Assets\Samples\1.jpg" />
     <Content Include="Assets\Samples\10.jpg" />
@@ -195,6 +199,11 @@
     <Content Include="Assets\Samples\FondoNaranja.png" />
     <Content Include="Assets\Samples\MarcoDSI.png" />
     <Content Include="Assets\Samples\green_tick.png" />
+    <Content Include="Assets\Samples\PaqueteAmarillo.png" />
+    <Content Include="Assets\Samples\PaqueteAzul.png" />
+    <Content Include="Assets\Samples\PaqueteRojo.png" />
+    <Content Include="Assets\Samples\PaqueteVerdel.png" />
+    <Content Include="Assets\viento.jpg" />
     <Content Include="Fondo.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />

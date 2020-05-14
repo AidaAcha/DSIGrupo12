@@ -101,7 +101,7 @@ namespace Grupo12ProyectoFinal
 
         private void PlayButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(HUD));  //HUD
+            this.Frame.Navigate(typeof(Sel_Dron));  //HUD
         }
 
         private void VolverButton_Click(object sender, RoutedEventArgs e)

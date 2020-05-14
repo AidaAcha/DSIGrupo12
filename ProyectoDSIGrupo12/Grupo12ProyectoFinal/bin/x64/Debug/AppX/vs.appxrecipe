@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-2R9QS7D</Machine>
-    <WindowsUser>user</WindowsUser>
+    <Machine>PORTATILAIDA</Machine>
+    <WindowsUser>Aida</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>e9285022-f076-426b-88d9-712c2be773ea</PackageIdentityName>
     <PackageIdentityPublisher>CN=segu222</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>20A8309C53D550D47BFD09E9C685F68D84E4FD09F4ABACECCD5BB5A2C0316676</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>14BDBB6B57D7DD043A57226771EDB93482A0C601A87649F8BDF7388A4FAF514A</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>e9285022-f076-426b-88d9-712c2be773ea_1.0.0.0_x64__f86y4dzhkna0m</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>e9285022-f076-426b-88d9-712c2be773ea_f86y4dzhkna0m!App</RegisteredUserModeAppID>
     <RegisteredPackageID>e9285022-f076-426b-88d9-712c2be773ea</RegisteredPackageID>
@@ -27,148 +27,176 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-14T02:15:18.944</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Grupo12ProyectoFinal.exe">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Grupo12ProyectoFinal.exe">
       <PackagePath>entrypoint\Grupo12ProyectoFinal.exe</PackagePath>
       <Modified>2020-05-14T02:15:16.162</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2019-07-22T13:01:12.000</Modified>
+      <Modified>2019-07-22T12:01:12.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-03-18T17:36:56.000</Modified>
+      <Modified>2019-03-18T16:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\drones.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\450_1000.png">
+      <PackagePath>Assets\450_1000.png</PackagePath>
+      <Modified>2020-05-14T09:49:17.273</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\drones.png">
       <PackagePath>Assets\drones.png</PackagePath>
-      <Modified>2020-05-07T13:50:47.918</Modified>
+      <Modified>2020-05-12T09:30:01.484</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Dron_1.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Dron_1.png">
       <PackagePath>Assets\Dron_1.png</PackagePath>
-      <Modified>2020-05-07T13:50:47.912</Modified>
+      <Modified>2020-05-12T09:30:01.386</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Dron_2.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Dron_2.png">
       <PackagePath>Assets\Dron_2.png</PackagePath>
-      <Modified>2020-05-07T13:50:47.912</Modified>
+      <Modified>2020-05-12T09:30:01.386</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Dron_3.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Dron_3.png">
       <PackagePath>Assets\Dron_3.png</PackagePath>
-      <Modified>2020-05-07T13:50:47.912</Modified>
+      <Modified>2020-05-12T09:30:01.387</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Dron_4.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Dron_4.png">
       <PackagePath>Assets\Dron_4.png</PackagePath>
-      <Modified>2020-05-07T13:50:47.912</Modified>
+      <Modified>2020-05-12T09:30:01.388</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\carga-movil .png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\carga-movil .png">
       <PackagePath>Assets\carga-movil .png</PackagePath>
-      <Modified>2020-05-11T10:10:31.723</Modified>
+      <Modified>2020-05-12T09:30:01.482</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Madrid.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Madrid.png">
       <PackagePath>Assets\Madrid.png</PackagePath>
-      <Modified>2020-05-07T13:44:57.943</Modified>
+      <Modified>2020-05-12T09:30:01.400</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\reloj.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\mapa2.png">
+      <PackagePath>Assets\mapa2.png</PackagePath>
+      <Modified>2020-05-14T09:49:17.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\marcador.png">
+      <PackagePath>Assets\marcador.png</PackagePath>
+      <Modified>2020-05-14T09:49:17.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\reloj.png">
       <PackagePath>Assets\reloj.png</PackagePath>
-      <Modified>2020-05-11T10:10:31.723</Modified>
+      <Modified>2020-05-12T09:30:01.484</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Dron_1.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Dron_1.png">
       <PackagePath>Assets\Samples\Dron_1.png</PackagePath>
-      <Modified>2020-05-07T13:50:47.913</Modified>
+      <Modified>2020-05-12T09:30:01.469</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Dron_2.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Dron_2.png">
       <PackagePath>Assets\Samples\Dron_2.png</PackagePath>
-      <Modified>2020-05-07T13:50:47.914</Modified>
+      <Modified>2020-05-12T09:30:01.470</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Dron_3.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Dron_3.png">
       <PackagePath>Assets\Samples\Dron_3.png</PackagePath>
-      <Modified>2020-05-07T13:50:47.915</Modified>
+      <Modified>2020-05-12T09:30:01.471</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Dron_4.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Dron_4.png">
       <PackagePath>Assets\Samples\Dron_4.png</PackagePath>
-      <Modified>2020-05-07T13:50:47.918</Modified>
+      <Modified>2020-05-12T09:30:01.472</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella1.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella1.png">
       <PackagePath>Assets\Samples\Estrella1.png</PackagePath>
-      <Modified>2020-05-13T15:11:54.655</Modified>
+      <Modified>2020-05-12T16:28:55.117</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella2.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella2.png">
       <PackagePath>Assets\Samples\Estrella2.png</PackagePath>
-      <Modified>2020-05-13T15:11:54.655</Modified>
+      <Modified>2020-05-12T16:28:55.117</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella3.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella3.png">
       <PackagePath>Assets\Samples\Estrella3.png</PackagePath>
-      <Modified>2020-05-13T15:11:54.654</Modified>
+      <Modified>2020-05-12T16:28:55.117</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella4.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella4.png">
       <PackagePath>Assets\Samples\Estrella4.png</PackagePath>
-      <Modified>2020-05-13T15:11:54.654</Modified>
+      <Modified>2020-05-12T16:28:55.117</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Dronmazon_icon.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Dronmazon_icon.png">
       <PackagePath>Assets\Dronmazon_icon.png</PackagePath>
-      <Modified>2020-05-07T13:58:45.202</Modified>
+      <Modified>2020-05-12T09:30:01.389</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Mando.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Mando.png">
       <PackagePath>Assets\Mando.png</PackagePath>
       <Modified>2020-05-13T21:05:19.890</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella5.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella5.png">
       <PackagePath>Assets\Samples\Estrella5.png</PackagePath>
-      <Modified>2020-05-13T15:11:54.655</Modified>
+      <Modified>2020-05-12T16:28:55.117</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\FondoNaranja.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\FondoNaranja.png">
       <PackagePath>Assets\Samples\FondoNaranja.png</PackagePath>
-      <Modified>2020-05-13T15:11:54.655</Modified>
+      <Modified>2020-05-12T16:28:55.117</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\MarcoDSI.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\MarcoDSI.png">
       <PackagePath>Assets\Samples\MarcoDSI.png</PackagePath>
-      <Modified>2020-05-13T15:11:54.686</Modified>
+      <Modified>2020-05-12T16:28:55.132</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\green_tick.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\green_tick.png">
       <PackagePath>Assets\Samples\green_tick.png</PackagePath>
-      <Modified>2020-05-13T15:11:54.654</Modified>
+      <Modified>2020-05-13T17:15:54.836</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\PaqueteAmarillo.png">
+      <PackagePath>Assets\Samples\PaqueteAmarillo.png</PackagePath>
+      <Modified>2020-05-14T09:48:53.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\PaqueteAzul.png">
+      <PackagePath>Assets\Samples\PaqueteAzul.png</PackagePath>
+      <Modified>2020-05-14T09:48:53.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\PaqueteRojo.png">
+      <PackagePath>Assets\Samples\PaqueteRojo.png</PackagePath>
+      <Modified>2020-05-14T09:48:53.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\PaqueteVerdel.png">
+      <PackagePath>Assets\Samples\PaqueteVerdel.png</PackagePath>
+      <Modified>2020-05-14T09:48:53.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-05-07T13:44:57.931</Modified>
+      <Modified>2020-05-12T09:30:01.390</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-07T13:44:58.022</Modified>
+      <Modified>2020-05-12T09:30:01.476</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-07T13:44:58.022</Modified>
+      <Modified>2020-05-12T09:30:01.477</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-07T13:44:58.022</Modified>
+      <Modified>2020-05-12T09:30:01.477</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-07T13:44:58.023</Modified>
+      <Modified>2020-05-12T09:30:01.478</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-07T13:44:58.023</Modified>
+      <Modified>2020-05-12T09:30:01.478</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-07T13:44:58.024</Modified>
+      <Modified>2020-05-12T09:30:01.481</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\T.png">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\T.png">
       <PackagePath>Assets\T.png</PackagePath>
       <Modified>2020-05-13T17:38:09.308</Modified>
     </AppxPackagedFile>
@@ -178,145 +206,149 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\1.jpg">
       <PackagePath>Assets\Samples\1.jpg</PackagePath>
-      <Modified>2020-05-07T13:44:57.956</Modified>
+      <Modified>2020-05-12T09:30:01.414</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\10.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\10.jpg">
       <PackagePath>Assets\Samples\10.jpg</PackagePath>
-      <Modified>2020-05-07T13:44:57.958</Modified>
+      <Modified>2020-05-12T09:30:01.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\11.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\11.jpg">
       <PackagePath>Assets\Samples\11.jpg</PackagePath>
-      <Modified>2020-05-07T13:44:57.961</Modified>
+      <Modified>2020-05-12T09:30:01.420</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\12.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\12.jpg">
       <PackagePath>Assets\Samples\12.jpg</PackagePath>
-      <Modified>2020-05-07T13:44:57.964</Modified>
+      <Modified>2020-05-12T09:30:01.422</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\13.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\13.jpg">
       <PackagePath>Assets\Samples\13.jpg</PackagePath>
-      <Modified>2020-05-07T13:44:57.968</Modified>
+      <Modified>2020-05-12T09:30:01.425</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\14.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\14.jpg">
       <PackagePath>Assets\Samples\14.jpg</PackagePath>
-      <Modified>2020-05-07T13:44:57.970</Modified>
+      <Modified>2020-05-12T09:30:01.427</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\15.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\15.jpg">
       <PackagePath>Assets\Samples\15.jpg</PackagePath>
-      <Modified>2020-05-07T13:44:57.974</Modified>
+      <Modified>2020-05-12T09:30:01.431</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\16.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\16.jpg">
       <PackagePath>Assets\Samples\16.jpg</PackagePath>
-      <Modified>2020-05-07T13:44:57.978</Modified>
+      <Modified>2020-05-12T09:30:01.435</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\17.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\17.jpg">
       <PackagePath>Assets\Samples\17.jpg</PackagePath>
-      <Modified>2020-05-07T13:44:57.981</Modified>
+      <Modified>2020-05-12T09:30:01.438</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\18.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\18.jpg">
       <PackagePath>Assets\Samples\18.jpg</PackagePath>
-      <Modified>2020-05-07T13:44:57.986</Modified>
+      <Modified>2020-05-12T09:30:01.441</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\19.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\19.jpg">
       <PackagePath>Assets\Samples\19.jpg</PackagePath>
-      <Modified>2020-05-07T13:44:57.988</Modified>
+      <Modified>2020-05-12T09:30:01.443</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\2.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\2.jpg">
       <PackagePath>Assets\Samples\2.jpg</PackagePath>
-      <Modified>2020-05-07T13:44:57.991</Modified>
+      <Modified>2020-05-12T09:30:01.446</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\20.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\20.jpg">
       <PackagePath>Assets\Samples\20.jpg</PackagePath>
-      <Modified>2020-05-07T13:44:57.994</Modified>
+      <Modified>2020-05-12T09:30:01.449</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\3.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\3.jpg">
       <PackagePath>Assets\Samples\3.jpg</PackagePath>
-      <Modified>2020-05-07T13:44:57.996</Modified>
+      <Modified>2020-05-12T09:30:01.452</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\4.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\4.jpg">
       <PackagePath>Assets\Samples\4.jpg</PackagePath>
-      <Modified>2020-05-07T13:44:57.999</Modified>
+      <Modified>2020-05-12T09:30:01.455</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\5.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\5.jpg">
       <PackagePath>Assets\Samples\5.jpg</PackagePath>
-      <Modified>2020-05-07T13:44:58.002</Modified>
+      <Modified>2020-05-12T09:30:01.457</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\6.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\6.jpg">
       <PackagePath>Assets\Samples\6.jpg</PackagePath>
-      <Modified>2020-05-07T13:44:58.004</Modified>
+      <Modified>2020-05-12T09:30:01.460</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\7.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\7.jpg">
       <PackagePath>Assets\Samples\7.jpg</PackagePath>
-      <Modified>2020-05-07T13:44:58.007</Modified>
+      <Modified>2020-05-12T09:30:01.463</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\8.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\8.jpg">
       <PackagePath>Assets\Samples\8.jpg</PackagePath>
-      <Modified>2020-05-07T13:44:58.009</Modified>
+      <Modified>2020-05-12T09:30:01.465</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\9.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\9.jpg">
       <PackagePath>Assets\Samples\9.jpg</PackagePath>
-      <Modified>2020-05-07T13:44:58.013</Modified>
+      <Modified>2020-05-12T09:30:01.468</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\CuadradoAmarillo.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\CuadradoAmarillo.jpg">
       <PackagePath>Assets\Samples\CuadradoAmarillo.jpg</PackagePath>
-      <Modified>2020-05-07T13:50:47.912</Modified>
+      <Modified>2020-05-12T09:30:01.468</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella1.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\Samples\Estrella1.jpg">
       <PackagePath>Assets\Samples\Estrella1.jpg</PackagePath>
-      <Modified>2020-05-13T15:11:54.655</Modified>
+      <Modified>2020-05-12T16:28:55.117</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Fondo.jpg">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Assets\viento.jpg">
+      <PackagePath>Assets\viento.jpg</PackagePath>
+      <Modified>2020-05-14T09:49:17.276</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Fondo.jpg">
       <PackagePath>Fondo.jpg</PackagePath>
       <Modified>2020-05-13T17:38:09.328</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-05-07T13:44:58.033</Modified>
+      <Modified>2020-05-12T09:30:01.493</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Grupo12ProyectoFinal.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Grupo12ProyectoFinal.xr.xml">
       <PackagePath>Grupo12ProyectoFinal.xr.xml</PackagePath>
-      <Modified>2020-05-13T17:34:45.626</Modified>
+      <Modified>2020-05-14T12:01:17.846</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
       <Modified>2020-05-14T02:15:15.924</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\FinJuego.xbf">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\FinJuego.xbf">
       <PackagePath>FinJuego.xbf</PackagePath>
       <Modified>2020-05-14T02:15:15.925</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Pausa.xbf">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Pausa.xbf">
       <PackagePath>Pausa.xbf</PackagePath>
       <Modified>2020-05-14T02:15:15.897</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\HUD.xbf">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\HUD.xbf">
       <PackagePath>HUD.xbf</PackagePath>
       <Modified>2020-05-14T02:15:15.925</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Controls.xbf">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Controls.xbf">
       <PackagePath>Controls.xbf</PackagePath>
       <Modified>2020-05-14T02:15:15.925</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
       <Modified>2020-05-14T02:15:15.925</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Options.xbf">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Options.xbf">
       <PackagePath>Options.xbf</PackagePath>
       <Modified>2020-05-14T02:15:15.925</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Sel_Dron.xbf">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Sel_Dron.xbf">
       <PackagePath>Sel_Dron.xbf</PackagePath>
       <Modified>2020-05-14T02:15:15.924</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-18T16:33:42.000</Modified>
+      <Modified>2019-03-18T15:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <Modified>2020-05-14T02:15:16.802</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\cosas agus\universidad\UCM\Segundo\DSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Core\Grupo12ProyectoFinal.exe">
+    <AppxPackagedFile Include="C:\Users\Aida\Documents\2 año\DSI\PROYECTODSI\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Core\Grupo12ProyectoFinal.exe">
       <PackagePath>Grupo12ProyectoFinal.exe</PackagePath>
       <Modified>2020-05-14T02:15:18.929</Modified>
     </AppxPackagedFile>
