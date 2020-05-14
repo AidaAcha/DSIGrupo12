@@ -26,7 +26,7 @@
         </DataTemplate>
         <Style x:Name="PanelStyle"
                TargetType="StackPanel">
-            <Setter Property="Background" Value="LightGray"></Setter>
+            <Setter Property="Background" Value="Transparent"></Setter>
             <Setter Property = "BorderThickness" Value="2" ></Setter>
             <Setter Property = "CornerRadius" Value="50" ></Setter>
         </Style>
@@ -85,12 +85,8 @@
             <Image x:Name="simboloViento" Source="Assets/viento.jpg" Grid.Column="1" Margin="849,125,51,125" Grid.Row="2" Grid.ColumnSpan="2"/>
             <Image x:Name="dirViento" Stretch="Fill" VerticalAlignment="Top" HorizontalAlignment="Left"/>
         </StackPanel>
-        <Canvas x:Name="canvas"  XYFocusKeyboardNavigation="Enabled" 
-                XYFocusDownNavigationStrategy="RectilinearDistance" XYFocusUpNavigationStrategy="RectilinearDistance" 
-                XYFocusLeftNavigationStrategy="RectilinearDistance" XYFocusRightNavigationStrategy="RectilinearDistance" 
-                TabFocusNavigation="Once" AllowFocusOnInteraction="True" KeyDown="CanvasKeyDown" Grid.ColumnSpan="3" Grid.RowSpan="3"/>
+        
         <Image x:Name="dronImagen" Source="Assets/Dron_1.png" Grid.Column="2" Grid.Row="2" Margin="354,223,-210,35" RenderTransformOrigin="0.531,0.291" />
-        <Image x:Name="paqueteSel" Source=" " Grid.Row="2"/>
         <Image x:Name="recargar" Source="Assets/450_1000.png" Grid.ColumnSpan="2" Margin="96,154,804,221" Grid.Row="1"/>
         <Image x:Name="marcador" Source="Assets/marcador.png" Grid.Column="1" Margin="584,0,178,439" Grid.Row="1"/>
         

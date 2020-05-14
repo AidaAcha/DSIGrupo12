@@ -59,22 +59,22 @@ namespace Grupo12ProyectoFinal
             
 
             VMDron VMItem = new VMDron(mWrapper.Dron);
-            VMPaquete VMDest = new VMPaquete(mWrapper.Paquete);
+          //  VMPaquete VMDest = new VMPaquete(mWrapper.Paquete);
             ListaDrones.Add(mWrapper.Dron);
             ListaDestinos.Add(mWrapper.Paquete);
             canvas.Children.Add(VMItem.CCImg);
-            canvas.Children.Add(VMDest.CCImg);
+            //canvas.Children.Add(VMDest.CCImg);
             canvas.Children.Last().SetValue(Canvas.LeftProperty, VMItem.X );
             canvas.Children.Last().SetValue(Canvas.TopProperty, VMItem.Y );
-            canvas.Children.Last().SetValue(Canvas.LeftProperty, VMDest.X -100);
-            canvas.Children.Last().SetValue(Canvas.TopProperty, VMDest.Y -100);
+           // canvas.Children.Last().SetValue(Canvas.LeftProperty, VMDest.X -100);
+           // canvas.Children.Last().SetValue(Canvas.TopProperty, VMDest.Y -100);
 
             if (ListaDestinos != null)
                 foreach (Paquete paquete in ModelPaquete.GetAllPaquetes())
                 {
                     VMPaquete VMDestino = new VMPaquete(paquete);
                     ListaDestinos.Add(VMDestino);
-                    VMDestino.CCImg.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                    VMDestino.CCImg.Visibility = Windows.UI.Xaml.Visibility.Visible;
                     canvas.Children.Add(VMDestino.CCImg);
                     canvas.Children.Last().SetValue(Canvas.LeftProperty, VMDestino.X - 25);
                     canvas.Children.Last().SetValue(Canvas.TopProperty, VMDestino.Y - 25);
@@ -126,10 +126,10 @@ namespace Grupo12ProyectoFinal
                         }
                         break;
                 }
-                canvas.Children[ind].SetValue(Canvas.LeftProperty, ListaDrones[ind].X);
-                canvas.Children[ind].SetValue(Canvas.TopProperty, ListaDrones[ind].Y);
+                canvas.Children[0].SetValue(Canvas.LeftProperty, ListaDrones[0].X);
+                canvas.Children[0].SetValue(Canvas.TopProperty, ListaDrones[0].Y);
 
-                if(ListaDrones[0].Y > 300 && ListaDrones[0].Y < 400 && ListaDrones[0].X < 400 && ListaDrones[0].X > 300)
+                if(ListaDrones[0].Y > 300 && ListaDrones[0].Y < 400 && ListaDrones[0].X < 300 && ListaDrones[0].X > 200)
                 {
                     this.Frame.Navigate(typeof(Sel_Dron));
                 }
