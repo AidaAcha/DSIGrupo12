@@ -51,7 +51,7 @@ namespace Grupo12ProyectoFinal
             mWrapper_ = mWrapper;
             if (mWrapper != null)
             { 
-                dronImagen.Source = mWrapper.Dron.Img.Source;
+                //dronImagen.Source = mWrapper.Dron.Img.Source;
                 paqueteSel.Source = mWrapper.Paquete.Img.Source;
             }
 
@@ -60,7 +60,10 @@ namespace Grupo12ProyectoFinal
             canvas.Children.Add(VMItem.CCImg);
             canvas.Children.Last().SetValue(Canvas.LeftProperty, VMItem.X );
             canvas.Children.Last().SetValue(Canvas.TopProperty, VMItem.Y );
-
+            // FocusManager.GettingFocus
+            // canvas.Children.Last().GettingFocus();
+           // canvas.Children.Last().foc
+           
             /*
              * ListaDrones.Add(mWrapper.Dron);
             canvas.Children.Add(mWrapper.Dron.CCImg);
@@ -69,7 +72,6 @@ namespace Grupo12ProyectoFinal
              */
             base.OnNavigatedFrom(e);
         }
-
         private void sliderAlt_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
         {
 
@@ -119,6 +121,9 @@ namespace Grupo12ProyectoFinal
             }
         }
 
-      
+        private void Canvas_GettingFocus(UIElement sender, GettingFocusEventArgs args)
+        {
+
+        }
     }
 }

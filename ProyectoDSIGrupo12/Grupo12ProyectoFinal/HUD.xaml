@@ -45,9 +45,10 @@
         </Grid.RowDefinitions>
 
         <Image x:Name="fondoImage"
-                       Source="Assets/Madrid.png"
-                       Stretch="UniformToFill"
-                       Margin="-23,0,0,6" Grid.ColumnSpan="4" Grid.RowSpan="3"/>
+               Source="Assets/Madrid.png"
+               Stretch="UniformToFill"
+               Margin="-23,0,0,6" Grid.ColumnSpan="4" Grid.RowSpan="3"
+         />
 
         <Image x:Name="bateria" Source="Assets/carga-movil .png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
@@ -57,7 +58,21 @@
         <Image x:Name="tiempo" Source="Assets/reloj.png" Stretch="Uniform"  Grid.Column="2" Margin="29,-69,28,431" Grid.RowSpan="2"/>
         <TextBlock x:Name="minTiempo" Text=" " HorizontalAlignment="Left"/>
         <TextBlock x:Name="segTiempo" Text=" " HorizontalAlignment="Right"/>
-        <Image x:Name="paquete" Source=" " Grid.Row="1"/>
+        <!--<Image x:Name="paquete" Source=" " Grid.Row="1"/>-->
+        <Image x:Name="paqueteSel" Source=" " Grid.Row="2"/>
+
+
+        <Canvas x:Name="canvas"  XYFocusKeyboardNavigation="Enabled" 
+                XYFocusDownNavigationStrategy="RectilinearDistance" 
+                XYFocusUpNavigationStrategy="RectilinearDistance" 
+                XYFocusLeftNavigationStrategy="RectilinearDistance"
+                XYFocusRightNavigationStrategy="RectilinearDistance" 
+                TabFocusNavigation="Once" 
+                AllowFocusOnInteraction="True" 
+                KeyDown="CanvasKeyDown" 
+                Grid.ColumnSpan="3" 
+                Grid.RowSpan="3"
+        />
 
         <StackPanel x:Name="panelAlt" Grid.Column="3" Grid.Row="2" Style="{StaticResource PanelStyle}">
             <Slider x:Name="sliderAlt" FontStretch="Expanded" Grid.Column="3" ValueChanged="sliderAlt_ValueChanged" Height="424"   RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Grid.Row="1" Margin="201,0,-352,18" Width="301" >
@@ -70,11 +85,7 @@
 
             <Image x:Name="dirViento" Stretch="Fill" VerticalAlignment="Top" HorizontalAlignment="Left"/>
         </StackPanel>
-        <Canvas x:Name="canvas"  XYFocusKeyboardNavigation="Enabled" 
-                XYFocusDownNavigationStrategy="RectilinearDistance" XYFocusUpNavigationStrategy="RectilinearDistance" 
-                XYFocusLeftNavigationStrategy="RectilinearDistance" XYFocusRightNavigationStrategy="RectilinearDistance" 
-                TabFocusNavigation="Once" AllowFocusOnInteraction="True" KeyDown="CanvasKeyDown" Grid.ColumnSpan="3" Grid.RowSpan="3"/>
-        <Image x:Name="dronImagen" Source="Assets/Dron_1.png" Grid.Column="1" Grid.Row="1" Margin="372,192,372,191" RenderTransformOrigin="0.531,0.291" />
-        <Image x:Name="paqueteSel" Source=" " Grid.Row="2"/>
+        <!--<Image x:Name="dronImagen" Source="Assets/Dron_1.png" Grid.Column="1" Grid.Row="1" Margin="372,192,372,191" RenderTransformOrigin="0.531,0.291" />-->
+
     </Grid>
 </Page>
