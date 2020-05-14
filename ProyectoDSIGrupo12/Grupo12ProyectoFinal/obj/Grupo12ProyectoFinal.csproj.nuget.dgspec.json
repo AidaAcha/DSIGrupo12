@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\OneDrive\\Escritorio\\UCM\\DSI\\Poyecto\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\Grupo12ProyectoFinal.csproj": {}
+    "C:\\Users\\Aida\\Documents\\2 año\\DSI\\PROYECTODSI\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\Grupo12ProyectoFinal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\OneDrive\\Escritorio\\UCM\\DSI\\Poyecto\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\Grupo12ProyectoFinal.csproj": {
+    "C:\\Users\\Aida\\Documents\\2 año\\DSI\\PROYECTODSI\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\Grupo12ProyectoFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Escritorio\\UCM\\DSI\\Poyecto\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\Grupo12ProyectoFinal.csproj",
+        "projectUniqueName": "C:\\Users\\Aida\\Documents\\2 año\\DSI\\PROYECTODSI\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\Grupo12ProyectoFinal.csproj",
         "projectName": "Grupo12ProyectoFinal",
-        "projectPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\UCM\\DSI\\Poyecto\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\Grupo12ProyectoFinal.csproj",
-        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\UCM\\DSI\\Poyecto\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\obj\\",
+        "projectPath": "C:\\Users\\Aida\\Documents\\2 año\\DSI\\PROYECTODSI\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\Grupo12ProyectoFinal.csproj",
+        "packagesPath": "C:\\Users\\Aida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aida\\Documents\\2 año\\DSI\\PROYECTODSI\\DSIGrupo12\\ProyectoDSIGrupo12\\Grupo12ProyectoFinal\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aida\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
