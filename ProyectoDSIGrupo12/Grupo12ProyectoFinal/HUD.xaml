@@ -57,6 +57,15 @@
         <!--<Image x:Name="paquete" Source=" " Grid.Row="1"/>-->
 
 
+       
+        
+        <Image x:Name="dronImagen" Source="Assets/Dron_1.png" Grid.Column="2" Grid.Row="2" Margin="354,223,-210,35" RenderTransformOrigin="0.531,0.291" />
+        <Image x:Name="paqueteSel" Source=" " Grid.Row="2"/>
+        <Rectangle Fill="White" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Height="109" Width="119"/>
+        <Image x:Name="recargar" Source="Assets/450_1000.png" Margin="0,180,300,195" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Rectangle Fill="BlanchedAlmond" Stretch="Fill"/>
+        <Image x:Name="vida" Source="Assets/Samples/PaqueteVerdel.png" Stretch="Fill" Margin="117,26,10,10"/>
+        <Image x:Name="bateria" Source="Assets/carga-movil .png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <Canvas x:Name="canvas"  XYFocusKeyboardNavigation="Enabled" 
                 XYFocusDownNavigationStrategy="RectilinearDistance" 
                 XYFocusUpNavigationStrategy="RectilinearDistance" 
@@ -80,15 +89,6 @@
             <Image x:Name="simboloViento" Source="Assets/viento.jpg" Grid.Column="1" Margin="849,125,51,125" Grid.Row="2" Grid.ColumnSpan="2"/>
             <Image x:Name="dirViento" Stretch="Fill" VerticalAlignment="Top" HorizontalAlignment="Left"/>
         </StackPanel>
-        
-        <Image x:Name="dronImagen" Source="Assets/Dron_1.png" Grid.Column="2" Grid.Row="2" Margin="354,223,-210,35" RenderTransformOrigin="0.531,0.291" />
-        <Image x:Name="paqueteSel" Source=" " Grid.Row="2"/>
-        <Rectangle Fill="White" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="109" Width="119"/>
-        <Image x:Name="recargar" Source="Assets/450_1000.png" Margin="300,180,300,195" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Rectangle Fill="BlanchedAlmond" Stretch="Fill"/>
-        <Image x:Name="vida" Source="Assets/Samples/PaqueteVerdel.png" Stretch="Fill" Margin="117,26,10,10"/>
-        <Image x:Name="bateria" Source="Assets/carga-movil .png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-
 
 
 
