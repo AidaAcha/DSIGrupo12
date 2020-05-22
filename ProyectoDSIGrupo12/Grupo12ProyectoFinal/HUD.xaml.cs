@@ -56,8 +56,6 @@ namespace Grupo12ProyectoFinal
                 paqueteSel.Source = mWrapper.Paquete.Img.Source;
             }
 
-            
-
             VMDron VMItem = new VMDron(mWrapper.Dron);
           //  VMPaquete VMDest = new VMPaquete(mWrapper.Paquete);
             ListaDrones.Add(mWrapper.Dron);
@@ -79,6 +77,18 @@ namespace Grupo12ProyectoFinal
                     canvas.Children.Last().SetValue(Canvas.LeftProperty, VMDestino.X - 25);
                     canvas.Children.Last().SetValue(Canvas.TopProperty, VMDestino.Y - 25);
                 }
+
+            if (ListaDestinos != null)
+            {
+                int i = mWrapper.Paquete.Id;
+                
+                    if ((ListaDrones[0].X > ListaDestinos[i].X - 20 || ListaDrones[0].X < ListaDestinos[i].X + 20) &&
+                        (ListaDrones[0].Y < ListaDestinos[i].Y + 20 || ListaDrones[0].Y > ListaDestinos[i].Y - 20))
+                    {
+                        ListaDestinos[i].CCImg.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                    }
+
+            }
 
             /*
              * ListaDrones.Add(mWrapper.Dron);
@@ -130,6 +140,9 @@ namespace Grupo12ProyectoFinal
                             this.Frame.Navigate(typeof(Pausa), mWrapper_);
                         }
                         break;
+                    /*case VirtualKey.Up:
+                        ListaDrones[0].
+                        break;*/
                         //prueba
                     case VirtualKey.O:
                         Console.WriteLine("X: " + ListaDrones [0].X);
@@ -148,7 +161,26 @@ namespace Grupo12ProyectoFinal
                 if (ListaDrones[0].Y >230 && ListaDrones[0].Y < 400 && ListaDrones[0].X >0 && ListaDrones[0].X < 250)
                 {
                     this.Frame.Navigate(typeof(Sel_Dron));
-                }
+                }/*
+                //desaparecer drones
+                else
+                {
+                    if(ListaDestinos != null)
+                    {
+                        int i = 0;
+                        while (i < ListaDestinos.Count)
+                        {
+                            if((ListaDrones[0].X > ListaDestinos[i].X - 20 || ListaDrones[0].X < ListaDestinos[i].X + 20) && 
+                                (ListaDrones[0].Y < ListaDestinos[i].Y + 20 || ListaDrones[0].Y > ListaDestinos[i].Y - 20))
+                            {
+                                ListaDestinos[i].CCImg.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                            }
+                            i++;
+                        }
+                        
+                    }
+                    
+                }*/
             }
         }
     }

@@ -45,7 +45,7 @@
         </Grid.RowDefinitions>
 
         <Image x:Name="fondoImage"
-                       Source="Assets\mapa2.png"
+                       Source="Assets\mapa2opacidad.png"
                        Stretch="UniformToFill"
                        Margin="-23,0,0,6" Grid.ColumnSpan="4" Grid.RowSpan="3" Opacity="50"/>
 

@@ -130,6 +130,7 @@ namespace Grupo12ProyectoFinal
     {
         public VMDron Dron;
         public VMPaquete Paquete;
+        public int [] destinos;
         public int Time;
         public int Objectives;
         public int TotalObjectives;
@@ -144,6 +145,7 @@ namespace Grupo12ProyectoFinal
             TotalObjectives = totalObj;
             x_ = x;
             y_ = y;
+            destinos = new int[totalObj];
         }
     }
 }

@@ -161,6 +161,7 @@
     <Content Include="Assets\Madrid.png" />
     <Content Include="Assets\mapa1.jpg" />
     <Content Include="Assets\mapa2.png" />
+    <Content Include="Assets\mapa2opacidad.png" />
     <Content Include="Assets\marcador.png" />
     <Content Include="Assets\reloj.png" />
     <Content Include="Assets\Samples\1.jpg" />
