@@ -131,9 +131,9 @@ namespace Grupo12ProyectoFinal
                             this.Frame.Navigate(typeof(Pausa), mWrapper_);
                         }
                         break;
-                    /*case VirtualKey.Up:
-                        ListaDrones[0].
-                        break;*/
+                    case VirtualKey.Up:
+                       // ListaDrones[0].CCImg.Scale += ;
+                        break;
                         //prueba
                     case VirtualKey.O:
                         Console.WriteLine("X: " + ListaDrones [0].X);
