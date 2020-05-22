@@ -38,6 +38,7 @@ namespace Grupo12ProyectoFinal
     {
         public int time = 100;
         public int objetivos = 0;
+        public VMPaquete paqueteSelec;
         public VMWrapper mWrapper_;
         public ObservableCollection<VMDron> ListaDrones { get; } = new ObservableCollection<VMDron>();
         public ObservableCollection<VMPaquete> ListaDestinos { get; } = new ObservableCollection<VMPaquete>();
@@ -59,7 +60,7 @@ namespace Grupo12ProyectoFinal
             VMDron VMItem = new VMDron(mWrapper.Dron);
           //  VMPaquete VMDest = new VMPaquete(mWrapper.Paquete);
             ListaDrones.Add(mWrapper.Dron);
-            ListaDestinos.Add(mWrapper.Paquete);
+            paqueteSelec = mWrapper.Paquete;
             canvas.Children.Add(VMItem.CCImg);
             //canvas.Children.Add(VMDest.CCImg);
             canvas.Children.Last().SetValue(Canvas.LeftProperty, VMItem.X );
@@ -78,17 +79,7 @@ namespace Grupo12ProyectoFinal
                     canvas.Children.Last().SetValue(Canvas.TopProperty, VMDestino.Y - 25);
                 }
 
-            if (ListaDestinos != null)
-            {
-                int i = mWrapper.Paquete.Id;
-                
-                    if ((ListaDrones[0].X > ListaDestinos[i].X - 20 || ListaDrones[0].X < ListaDestinos[i].X + 20) &&
-                        (ListaDrones[0].Y < ListaDestinos[i].Y + 20 || ListaDrones[0].Y > ListaDestinos[i].Y - 20))
-                    {
-                        ListaDestinos[i].CCImg.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
-                    }
-
-            }
+            
 
             /*
              * ListaDrones.Add(mWrapper.Dron);
@@ -161,26 +152,27 @@ namespace Grupo12ProyectoFinal
                 if (ListaDrones[0].Y >230 && ListaDrones[0].Y < 400 && ListaDrones[0].X >0 && ListaDrones[0].X < 250)
                 {
                     this.Frame.Navigate(typeof(Sel_Dron));
-                }/*
+                }
                 //desaparecer drones
                 else
                 {
-                    if(ListaDestinos != null)
-                    {
-                        int i = 0;
-                        while (i < ListaDestinos.Count)
+                    int i = paqueteSelec.Id;
+                    //int n = canvas.Children.F(ListaDrones[0].CCImg);
+                    if (ListaDestinos != null /*&& ListaDestinos[i] == paqueteSelec*/)
+                     {
+
+                        if (ListaDrones[0].X > ListaDestinos[i].X - 50 && ListaDrones[0].X < ListaDestinos[i].X + 50 &&
+                            ListaDrones[0].Y < ListaDestinos[i].Y + 50 && ListaDrones[0].Y > ListaDestinos[i].Y - 50)
                         {
-                            if((ListaDrones[0].X > ListaDestinos[i].X - 20 || ListaDrones[0].X < ListaDestinos[i].X + 20) && 
-                                (ListaDrones[0].Y < ListaDestinos[i].Y + 20 || ListaDrones[0].Y > ListaDestinos[i].Y - 20))
-                            {
-                                ListaDestinos[i].CCImg.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
-                            }
-                            i++;
+                           // bool a = ListaDestinos.Remove(paqueteSelec);
+                           UIElement u = ListaDestinos[i].CCImg;
+                           canvas.Children.Remove(u);
+                           paqueteSel.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                           //canvas.Children.RemoveAt(i + 1);
                         }
-                        
                     }
                     
-                }*/
+                }
             }
         }
     }

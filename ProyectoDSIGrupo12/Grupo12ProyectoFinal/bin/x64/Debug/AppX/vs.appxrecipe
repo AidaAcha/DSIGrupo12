@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-22T10:42:28.654</Modified>
+      <Modified>2020-05-22T12:58:13.366</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Grupo12ProyectoFinal.exe">
       <PackagePath>entrypoint\Grupo12ProyectoFinal.exe</PackagePath>
-      <Modified>2020-05-22T10:42:28.293</Modified>
+      <Modified>2020-05-22T12:58:12.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -322,35 +322,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-05-22T10:42:28.110</Modified>
+      <Modified>2020-05-22T12:57:36.418</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\FinJuego.xbf">
       <PackagePath>FinJuego.xbf</PackagePath>
-      <Modified>2020-05-22T10:42:28.110</Modified>
+      <Modified>2020-05-22T12:57:36.418</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Pausa.xbf">
       <PackagePath>Pausa.xbf</PackagePath>
-      <Modified>2020-05-22T10:42:28.096</Modified>
+      <Modified>2020-05-22T12:57:36.404</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\HUD.xbf">
       <PackagePath>HUD.xbf</PackagePath>
-      <Modified>2020-05-22T10:42:28.111</Modified>
+      <Modified>2020-05-22T12:57:36.418</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Controls.xbf">
       <PackagePath>Controls.xbf</PackagePath>
-      <Modified>2020-05-22T10:42:28.111</Modified>
+      <Modified>2020-05-22T12:57:36.418</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-05-22T10:42:28.111</Modified>
+      <Modified>2020-05-22T12:57:36.418</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Options.xbf">
       <PackagePath>Options.xbf</PackagePath>
-      <Modified>2020-05-22T10:42:28.111</Modified>
+      <Modified>2020-05-22T12:57:36.418</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Sel_Dron.xbf">
       <PackagePath>Sel_Dron.xbf</PackagePath>
-      <Modified>2020-05-22T10:42:28.110</Modified>
+      <Modified>2020-05-22T12:57:36.418</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -362,7 +362,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Aida\Documents\Desarrollo de videojuegos\2º año\DSI\PROYECTO\DSIGrupo12\ProyectoDSIGrupo12\Grupo12ProyectoFinal\bin\x64\Debug\Core\Grupo12ProyectoFinal.exe">
       <PackagePath>Grupo12ProyectoFinal.exe</PackagePath>
-      <Modified>2020-05-22T10:42:28.650</Modified>
+      <Modified>2020-05-22T12:58:13.363</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
