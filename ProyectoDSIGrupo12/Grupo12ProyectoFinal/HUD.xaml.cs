@@ -176,10 +176,10 @@ namespace Grupo12ProyectoFinal
                             ListaDrones[0].Y < ListaDestinos[i].Y + 50 && ListaDrones[0].Y > ListaDestinos[i].Y - 50)
                         {
                             // bool a = ListaDestinos.Remove(paqueteSelec);
-                            mWrapper_.Objectives++;
                             UIElement u = ListaDestinos[i].CCImg;
-                           canvas.Children.Remove(u);
-                           paqueteSel.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                           if(canvas.Children.Remove(u))
+                                mWrapper_.Objectives++;
+                            paqueteSel.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
                            //canvas.Children.RemoveAt(i + 1);
                         }
                     }
