@@ -72,7 +72,7 @@ namespace Grupo12ProyectoFinal
 
             VMDron VMItem = new VMDron(mWrapper.Dron);
           //  VMPaquete VMDest = new VMPaquete(mWrapper.Paquete);
-            ListaDrones.Add(mWrapper.Dron);
+            ListaDrones.Add(VMItem);
             paqueteSelec = mWrapper.Paquete;
             canvas.Children.Add(VMItem.CCImg);
             //canvas.Children.Add(VMDest.CCImg);
@@ -144,21 +144,16 @@ namespace Grupo12ProyectoFinal
                     case VirtualKey.Up:
                        // ListaDrones[0].CCImg.Scale += ;
                         break;
-                        //prueba
-                    case VirtualKey.O:
-                        Console.WriteLine("X: " + ListaDrones [0].X);
-                        Console.WriteLine("Y: " + ListaDrones[0].Y);
-                        break;
+                    
                 }
                 //limites
                 if (ListaDrones[0].X < 0) ListaDrones[0].X = 0;
                 else if (ListaDrones[0].X > 1400) ListaDrones[0].X = 1400;
                 if (ListaDrones[0].Y < 0) ListaDrones[0].Y = 0;
                 else if (ListaDrones[0].Y > 950) ListaDrones[0].Y = 950;
-                canvas.Children[0].SetValue(Canvas.LeftProperty, ListaDrones[0].X);
-                canvas.Children[0].SetValue(Canvas.TopProperty, ListaDrones[0].Y);
-                int x = ListaDrones[0].X;
-                int y = ListaDrones[0].Y;
+                canvas.Children[2].SetValue(Canvas.LeftProperty, ListaDrones[0].X);
+                canvas.Children[2].SetValue(Canvas.TopProperty, ListaDrones[0].Y);
+                
                 if (ListaDrones[0].Y >230 && ListaDrones[0].Y < 400 && ListaDrones[0].X >0 && ListaDrones[0].X < 250)
                 {
                     this.Frame.Navigate(typeof(Sel_Dron));
