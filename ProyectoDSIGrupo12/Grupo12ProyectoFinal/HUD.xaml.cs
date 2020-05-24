@@ -64,6 +64,8 @@ namespace Grupo12ProyectoFinal
         {
             VMWrapper mWrapper = e.Parameter as VMWrapper;
             mWrapper_ = mWrapper;
+            mWrapper_.Time = time_;
+            mWrapper_.Objectives = 0;
             if (mWrapper != null)
             { 
                 //dronImagen.Source = mWrapper.Dron.Img.Source;
@@ -91,6 +93,8 @@ namespace Grupo12ProyectoFinal
                     canvas.Children.Last().SetValue(Canvas.LeftProperty, VMDestino.X - 25);
                     canvas.Children.Last().SetValue(Canvas.TopProperty, VMDestino.Y - 25);
                 }
+            dispatcherTimer.Start();
+
             /*
              * ListaDrones.Add(mWrapper.Dron);
             canvas.Children.Add(mWrapper.Dron.CCImg);
@@ -138,6 +142,7 @@ namespace Grupo12ProyectoFinal
                         {
                             mWrapper_.x_ = ListaDrones[0].X;
                             mWrapper_.y_ = ListaDrones[0].Y;
+                            dispatcherTimer.Stop();
                             this.Frame.Navigate(typeof(Pausa), mWrapper_);
                         }
                         break;
@@ -156,6 +161,7 @@ namespace Grupo12ProyectoFinal
                 
                 if (ListaDrones[0].Y >230 && ListaDrones[0].Y < 400 && ListaDrones[0].X >0 && ListaDrones[0].X < 250)
                 {
+                    dispatcherTimer.Stop();
                     this.Frame.Navigate(typeof(Sel_Dron));
                 }
                 //desaparecer drones
@@ -169,8 +175,9 @@ namespace Grupo12ProyectoFinal
                         if (ListaDrones[0].X > ListaDestinos[i].X - 50 && ListaDrones[0].X < ListaDestinos[i].X + 50 &&
                             ListaDrones[0].Y < ListaDestinos[i].Y + 50 && ListaDrones[0].Y > ListaDestinos[i].Y - 50)
                         {
-                           // bool a = ListaDestinos.Remove(paqueteSelec);
-                           UIElement u = ListaDestinos[i].CCImg;
+                            // bool a = ListaDestinos.Remove(paqueteSelec);
+                            mWrapper_.Objectives++;
+                            UIElement u = ListaDestinos[i].CCImg;
                            canvas.Children.Remove(u);
                            paqueteSel.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
                            //canvas.Children.RemoveAt(i + 1);
@@ -214,14 +221,13 @@ namespace Grupo12ProyectoFinal
             dispatcherTimer.Tick += dispatcherTimer_Tick;
             dispatcherTimer.Interval = new TimeSpan(0, 0, 1);   //1second interval
 
-            dispatcherTimer.Start();
         }
 
         void dispatcherTimer_Tick(object sender, object e)
         {
             numTiempo.Text = (--time_).ToString();
             VidaRect.Width = Math.Max(0, VidaRect.Width - health_decrease);
-            
+            mWrapper_.Time = time_;
             //vida_ = vida_;
             //Thickness preu = vida.Margin;
             //vida.Margin =new Thickness(vida.Margin.Left + 10, vida.Margin.Top, vida.Margin.Right, vida.Margin.Bottom);
@@ -230,7 +236,7 @@ namespace Grupo12ProyectoFinal
             if(time_ == 0 || VidaRect.Width == 0)
             {
                 dispatcherTimer.Stop();
-                this.Frame.Navigate(typeof(FinJuego));
+                this.Frame.Navigate(typeof(FinJuego), mWrapper_);
             }
             else if(!dangerLife && VidaRect.Width < 50)
             {

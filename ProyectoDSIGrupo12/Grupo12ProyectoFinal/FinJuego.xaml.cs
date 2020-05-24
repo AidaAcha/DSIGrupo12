@@ -85,7 +85,7 @@ namespace Grupo12ProyectoFinal
                 {
                     NavInfoText.Text = "¡Se acabó el tiempo!";
                 }
-                NewPoints.Text = mWrapper.Time.ToString() + "  " + mWrapper.Objectives.ToString() + " / " + mWrapper.TotalObjectives.ToString();
+                NewPoints.Text = mWrapper.Time.ToString() + " segundos " + mWrapper.Objectives.ToString() + " / " + mWrapper.TotalObjectives.ToString();
             }
             base.OnNavigatedTo(e);
             GameTimerSetup();
