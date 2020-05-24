@@ -25,6 +25,8 @@ using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Input;
 using Windows.System;
+using System.Timers;
+using Windows.UI;
 
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
@@ -36,16 +38,27 @@ namespace Grupo12ProyectoFinal
     /// </summary>
     public sealed partial class HUD : Page
     {
-        public int time = 100;
+        public const int TIME_LIMIT = 60; 
+        public int time_;
+        public int health_decrease = 5;
         public int objetivos = 0;
         public VMPaquete paqueteSelec;
         public VMWrapper mWrapper_;
         public ObservableCollection<VMDron> ListaDrones { get; } = new ObservableCollection<VMDron>();
         public ObservableCollection<VMPaquete> ListaDestinos { get; } = new ObservableCollection<VMPaquete>();
+        //private Timer timer;
+        bool dangerLife = false;
+
+        DispatcherTimer dispatcherTimer;
+
         public HUD()
         {
             this.InitializeComponent();
+            //SetTimer();
+            DispatcherTimerSetup();
         }
+
+        
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
@@ -78,9 +91,6 @@ namespace Grupo12ProyectoFinal
                     canvas.Children.Last().SetValue(Canvas.LeftProperty, VMDestino.X - 25);
                     canvas.Children.Last().SetValue(Canvas.TopProperty, VMDestino.Y - 25);
                 }
-
-            
-
             /*
              * ListaDrones.Add(mWrapper.Dron);
             canvas.Children.Add(mWrapper.Dron.CCImg);
@@ -173,6 +183,66 @@ namespace Grupo12ProyectoFinal
                     }
                     
                 }
+            }
+        }
+
+        //private void SetTimer()
+        //{
+        //    time = TIME_LIMIT;
+        //    // Create a timer with a one second interval.
+        //    timer = new Timer(1000);
+        //    // Hook up the Elapsed event for the timer. 
+        //    timer.Elapsed += EverySecondEvent;
+        //    timer.AutoReset = true;
+        //    timer.Enabled = true;
+        //}
+
+        //private void EverySecondEvent(object sender, ElapsedEventArgs e)
+        //{
+        //    //(time--).ToString();
+        //    //if(time == 0)   //fin del juego
+        //    //{
+        //        timer.Stop();
+        //        this.Frame.Navigate(typeof(FinJuego));
+        //    //}
+        //    //label1.Text = (int.Parse(label1.Text) - 1).ToString(); //lowering the value - explained above
+        //    //if (int.Parse(label1.Text) == 0)  //if the countdown reaches '0', we stop it
+        //    //    timer1.Stop();
+        //}
+
+        public void DispatcherTimerSetup()
+        {
+            time_ = TIME_LIMIT;
+            numTiempo.Text = (time_).ToString();
+
+            dispatcherTimer = new DispatcherTimer();
+            dispatcherTimer.Tick += dispatcherTimer_Tick;
+            dispatcherTimer.Interval = new TimeSpan(0, 0, 1);   //1second interval
+
+            dispatcherTimer.Start();
+        }
+
+        void dispatcherTimer_Tick(object sender, object e)
+        {
+            numTiempo.Text = (--time_).ToString();
+            VidaRect.Width = Math.Max(0, VidaRect.Width - health_decrease);
+            
+            //vida_ = vida_;
+            //Thickness preu = vida.Margin;
+            //vida.Margin =new Thickness(vida.Margin.Left + 10, vida.Margin.Top, vida.Margin.Right, vida.Margin.Bottom);
+            //vida.Margin.Right;
+            //Bajamos la vida de forma artificial
+            if(time_ == 0 || VidaRect.Width == 0)
+            {
+                dispatcherTimer.Stop();
+                this.Frame.Navigate(typeof(FinJuego));
+            }
+            else if(!dangerLife && VidaRect.Width < 50)
+            {
+                SolidColorBrush colorB = new SolidColorBrush();
+                colorB.Color = Color.FromArgb(255, 255, 0, 0);
+                VidaRect.Fill = colorB;
+                dangerLife = true;
             }
         }
     }

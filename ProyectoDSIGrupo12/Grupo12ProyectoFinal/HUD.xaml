@@ -51,7 +51,7 @@
 
 
         <Ellipse Grid.Column="2"  Height="100" Margin="0,9,0,0" Stroke="Black"  Width="244" Opacity="500" Fill="BlueViolet" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <TextBlock x:Name="numTiempo" Text="60" Foreground="White" FontSize="70" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="numTiempo" Text=" " Foreground="White" FontSize="70" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <TextBlock x:Name="minTiempo" Text=" " HorizontalAlignment="Left"/>
         <TextBlock x:Name="segTiempo" Text=" " HorizontalAlignment="Right"/>
         <!--<Image x:Name="paquete" Source=" " Grid.Row="1"/>-->
@@ -71,8 +71,8 @@
 
 
         </StackPanel>
-        <Image x:Name="vida" Source="Assets/Samples/PaqueteVerdel.png" Stretch="Fill" Margin="117,26,10,10"/>
-        <Image x:Name="bateria" Source="Assets/carga-movil .png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <!--<Image x:Name="vida" Source="Assets/Samples/PaqueteVerdel.png" Stretch="Fill" Margin="85,24,10,10"/>-->
         <Canvas x:Name="canvas"  XYFocusKeyboardNavigation="Enabled" 
                 XYFocusDownNavigationStrategy="RectilinearDistance" 
                 XYFocusUpNavigationStrategy="RectilinearDistance" 
@@ -82,11 +82,16 @@
                 AllowFocusOnInteraction="True" 
                 KeyDown="CanvasKeyDown" 
                 Grid.ColumnSpan="3" 
-                Grid.RowSpan="3"
-        />
+                Grid.RowSpan="3">
+            
+            <Rectangle x:Name="VidaRect" Width="186" Height="52" Fill="LimeGreen" 
+                Canvas.Top="25" Canvas.Left="55" />
+            <Image x:Name="bateria" Source="Assets/carga-movil .png"  Stretch="Fill" Height="89" Width="258"/>
+
+        </Canvas>
 
         <StackPanel x:Name="panelAlt" Grid.Column="3" Grid.Row="2" Style="{StaticResource PanelStyle}">
-            <Slider x:Name="sliderAlt" FontStretch="Expanded" Grid.Column="3" ValueChanged="sliderAlt_ValueChanged" Height="424"   RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Grid.Row="1" Margin="201,0,-352,18" Width="301" >
+            <Slider x:Name="sliderAlt" FontStretch="Expanded" Grid.Column="3" ValueChanged="sliderAlt_ValueChanged" Height="424"   RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Grid.Row="1" Margin="201,0,-352,18" Width="301"  AllowFocusOnInteraction="False">
                 <Slider.RenderTransform>
                     <CompositeTransform Rotation="270.52" SkewY="-0.065" TranslateX="0.096" TranslateY="0.001" ScaleX="1" ScaleY="1" SkewX="0"/>
                 </Slider.RenderTransform>
