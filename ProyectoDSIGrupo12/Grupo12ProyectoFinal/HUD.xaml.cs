@@ -41,6 +41,7 @@ namespace Grupo12ProyectoFinal
         public const int TIME_LIMIT = 60; 
         public int time_;
         public int health_decrease = 5;
+        public int totalObjectivos = 4;
         public int objetivos = 0;
         public VMPaquete paqueteSelec;
         public VMWrapper mWrapper_;
@@ -66,6 +67,7 @@ namespace Grupo12ProyectoFinal
             mWrapper_ = mWrapper;
             mWrapper_.Time = time_;
             mWrapper_.Objectives = 0;
+            mWrapper_.TotalObjectives = totalObjectivos;
             if (mWrapper != null)
             { 
                 //dronImagen.Source = mWrapper.Dron.Img.Source;
@@ -145,6 +147,14 @@ namespace Grupo12ProyectoFinal
                             dispatcherTimer.Stop();
                             this.Frame.Navigate(typeof(Pausa), mWrapper_);
                         }
+                        break;
+                    case VirtualKey.P:
+                        {
+                            if (dispatcherTimer.IsEnabled)
+                                dispatcherTimer.Stop();
+                            else
+                                dispatcherTimer.Start();
+                        } 
                         break;
                     case VirtualKey.Up:
                        // ListaDrones[0].CCImg.Scale += ;

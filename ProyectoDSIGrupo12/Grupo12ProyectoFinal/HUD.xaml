@@ -91,13 +91,13 @@
         </Canvas>
 
         <StackPanel x:Name="panelAlt" Grid.Column="3" Grid.Row="2" Style="{StaticResource PanelStyle}">
-            <Slider x:Name="sliderAlt" FontStretch="Expanded" Grid.Column="3" ValueChanged="sliderAlt_ValueChanged" Height="424"   RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Grid.Row="1" Margin="201,0,-352,18" Width="301"  AllowFocusOnInteraction="False">
+            <Slider x:Name="sliderAlt" FontStretch="Expanded" Grid.Column="3" ValueChanged="sliderAlt_ValueChanged" Height="424"   RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Grid.Row="1" Margin="201,0,-352,18" Width="301">
                 <Slider.RenderTransform>
                     <CompositeTransform Rotation="270.52" SkewY="-0.065" TranslateX="0.096" TranslateY="0.001" ScaleX="1" ScaleY="1" SkewX="0"/>
                 </Slider.RenderTransform>
             </Slider>
-            <TextBlock x:Name="velViento" Text="654" FontStretch="Normal" 
-                      FontSize="70" HorizontalAlignment="Left" Margin="20, -250, 0, 0" Height="84" Width="165"/>
+            <TextBlock x:Name="velViento" Text="60km/h" FontStretch="Normal" 
+                      FontSize="70" HorizontalAlignment="Left" Margin="0, -250, 0, 0" Height="84" Width="165"/>
             <Image x:Name="simboloViento" Source="Assets/viento.jpg" Grid.Column="1" Margin="849,125,51,125" Grid.Row="2" Grid.ColumnSpan="2"/>
             <Image x:Name="dirViento" Stretch="Fill" VerticalAlignment="Top" HorizontalAlignment="Left"/>
         </StackPanel>

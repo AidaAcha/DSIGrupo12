@@ -83,7 +83,7 @@ namespace Grupo12ProyectoFinal
                 }
                 else
                 {
-                    NavInfoText.Text = "¡Se acabó el tiempo!";
+                    NavInfoText.Text = "¡No lo has conseguido!";
                 }
                 NewPoints.Text = mWrapper.Time.ToString() + " segundos " + mWrapper.Objectives.ToString() + " / " + mWrapper.TotalObjectives.ToString();
             }
