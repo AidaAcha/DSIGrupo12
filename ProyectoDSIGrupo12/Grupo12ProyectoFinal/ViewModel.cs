@@ -24,7 +24,6 @@ namespace Grupo12ProyectoFinal
             Nombre = dron.Nombre;
             Imagen = dron.Imagen;
             
-            Explicacion = dron.Explicacion;
             Estado = dron.Estado;
             X = dron.X;
             Y = dron.Y;
@@ -87,7 +86,6 @@ namespace Grupo12ProyectoFinal
             Id = paquete.Id;
             Nombre = paquete.Nombre;
             Imagen = paquete.Imagen;
-            Explicacion = paquete.Explicacion;
             Estado = paquete.Estado;
             Forma = paquete.Forma;
             X = paquete.X;
